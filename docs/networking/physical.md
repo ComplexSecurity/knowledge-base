@@ -1,0 +1,3 @@
+The Physical Layer defines how bits are passed over a medium. They can be passed electronically, mechanically, optically or by radio signals. It consists of various network components such as power plugs, connectors, receivers, cable types, etc. 
+
+The physical layer sends data bits from one device(s) to another device(s). It also defines the types of encoding (that is how the 0’s and 1’s are encoded in a signal). This layer is responsible for the communication of the unstructured raw data streams over a physical medium.

@@ -1,0 +1,3 @@
+A network protocol stack, often referred to as a protocol suite, is a set of network communication protocols layered atop one another to handle the complexities of data transmission across computer networks. Each layer in the stack has a specific function and communicates with the layers above and below it.
+
+The most commonly used and referenced stack is the [OSI Model](osimodel.md). Another model that is commonly used is the [TCP/IP]() model

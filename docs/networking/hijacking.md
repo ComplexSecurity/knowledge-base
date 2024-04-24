@@ -1,0 +1,1 @@
+In DNS hijacking, the attacker redirects queries to a different domain name server. This can be done either with malware or with the unauthorized modification of a [DNS](dns.md) server. Although the result is similar to that of DNS spoofing, this is a fundamentally different attack because it targets the DNS record of the website on the nameserver, rather than a resolver’s cache.
