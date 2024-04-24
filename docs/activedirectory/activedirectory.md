@@ -1,0 +1,7 @@
+Active Directory (AD) is a directory service for use in a Windows Server environment. It is a distributed, hierarchical database structure that shares infrastructure information for locating, securing, managing, and organizing computer and network resources including files, users, groups, peripherals and network devices.
+
+Active Directory is Microsoft’s own directory service for use in Windows domain networks. It provides authentication and authorization functions, as well as providing a framework for other such services. The directory itself is an [[Lightweight Directory Access Protocol|LDAP]] database that contains networked objects. Active Directory uses the Windows Server operating system.
+
+When people talk about Active Directory, they typically mean Active Directory Domain Services, which provides full-scale, integrated authentication and authorization services.
+
+Before Windows 2000, Microsoft’s authentication and authorization model required breaking down a network into domains, and then linking those domains with a complicated, and sometimes, unpredictable system of one- and two-way trusts. Active Directory was introduced in Windows 2000 as a way to provide directory services to larger more complex environments.

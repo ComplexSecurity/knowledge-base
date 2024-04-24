@@ -1,0 +1,9 @@
+[[Active Directory]] Domain Services (AD DS) is a core feature in Windows Server operating systems that provides a variety of network services, including a directory service, to manage users, computers, and other resources within a domain-based network. It's the most commonly used directory service for Windows domains and is central to the Windows Server operating system's identity and access capabilities.
+
+AD DS stores information about objects on the network and makes this information easy for administrators and users to find and use. Objects can include users, computers, printers, and shared folders. It allows network administrators to manage domain resources centrally, including creating and managing user accounts, assigning and enforcing security policies, and deploying programs to many computers simultaneously.
+
+AD DS provides a mechanism for authenticating and authorizing all users and computers in a Windows domain network. It uses the [[Kerberos Authentication|Kerberos protocol]] for secure authentication. Administrators use Group Policy to implement specific configurations for users and computers within the domain. These policies are pushed down to each object within the domain.
+
+OUs help organize objects within a domain and can be used to manage administrative tasks like delegation of permissions or application of group policies. The global catalog is a distributed data repository that contains information about every object within the Active Directory forest. It allows users and administrators to find directory information regardless of which domain in the forest actually contains the data.
+
+AD DS supports [[Lightweight Directory Access Protocol|LDAP]], a protocol used to access and manage directory information.

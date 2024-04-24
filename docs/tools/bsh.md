@@ -1,0 +1,5 @@
+The b374k shell is a [[PHP]] [[web shell]] or backdoor script widely used by attackers to gain unauthorized access to web servers. It's a piece of malicious code or script that can be uploaded to a vulnerable web server to give the attacker a variety of controls over the server. Web shells like b374k are typically used by cybercriminals and are a common tool in the arsenal of hackers engaging in web server exploitation.
+
+It allows the execution of shell commands directly from the web interface, giving attackers the same level of access as the server's legitimate user. It provides functionalities to upload, delete, download, and edit files on the server, effectively giving attackers control over the server's file system.
+
+It can be used to manage databases, allowing attackers to execute [[Structured Query Language|SQL]] queries, view database data, and even modify or delete databases. b374k includes features to bypass certain security measures, making detection and prevention more challenging.

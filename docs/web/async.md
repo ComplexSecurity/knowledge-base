@@ -1,0 +1,11 @@
+Asynchronous HTTP refers to a method of [[HTTP Protocol|HTTP]] communication where a request does not require an immediate response from the server, and the client is not blocked while waiting for the server's response. Instead, the client can continue processing other tasks and handle the response whenever it arrives. This approach is particularly useful for improving the efficiency and responsiveness of web applications.
+
+In asynchronous HTTP, the client sends a request and then continues with other processing without waiting for the server's response. The response is handled separately, often through a callback mechanism or an event-driven approach. Asynchronous HTTP is widely used in modern web applications, especially in scenarios involving long-running server processes or when the server needs to wait for external resources. It enhances the user experience by making applications more responsive.
+
+[[AJAX]] is a popular technique that uses asynchronous HTTP requests for dynamic content loading on web pages. With AJAX, parts of a web page can be updated without requiring a full page reload. The HTTP/2 protocol introduces the concept of server push, which can be seen as a form of asynchronous communication, where the server can send resources to the client proactively.
+
+Various programming frameworks and libraries support asynchronous HTTP. In [[Java]], for instance, the `java.net.http.HttpClient` introduced in Java 11 provides native support for asynchronous requests. Asynchronous communication allows servers to handle more concurrent requests efficiently, as threads are not tied up waiting for responses, leading to better scalability.
+
+Responses to asynchronous requests are typically handled using callbacks, promises, or similar constructs in the programming language being used. For real-time communication, technologies like [[WebSockets]] and [[Server-sent Events (SSE)|SSE]] complement asynchronous HTTP by providing persistent, two-way communication channels between the client and server.
+
+Implementing asynchronous HTTP communication can introduce complexity in handling the order of responses, error handling, and managing callbacks or promises. In [[REST APIs|RESTful]] web services, asynchronous HTTP can be used to handle requests that would otherwise lead to long waiting times for the client.

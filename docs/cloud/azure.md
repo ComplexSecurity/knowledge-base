@@ -1,0 +1,3 @@
+Microsoft Azure is a cloud computing service offered by Microsoft. There are over 600 services that fall under the Azure umbrella, but broadly speaking, it is a web-based platform on which applications and services can be built, tested, managed, and deployed.
+
+A wide range of Microsoft’s software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) products are hosted on Azure. Azure offers three core areas of functionality; Virtual Machines, cloud services, and app services.

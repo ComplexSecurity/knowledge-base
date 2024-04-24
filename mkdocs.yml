@@ -62,26 +62,26 @@ extra:
 
 nav:
   - Home: https://kenharris.io
-  - Cheatsheets:
-      - "Start Here":
-          - "Start Here": cheatsheets.md
-      - "Cheatsheets":
-          - "Active Directory Pentesting Cheatsheet": cheatsheets/active-directory-pentesting-cheatsheet.md
-          - "Bash Scripting": cheatsheets/bash-scripting.md
-          - "Chrome URLs/Flags": cheatsheets/chrome-urls-flags.md
-          - "Default Credentials": cheatsheets/default-credentials.md
-          - "Exchange Versions": cheatsheets/exchange-versions.md
-          - "Github Dorks": cheatsheets/github-dorks.md
-          - "Google Dorks": cheatsheets/google-dorks.md
-          - "Headers & Files": cheatsheets/headers-files.md
-          - "List of TLDs": cheatsheets/list-of-tlds.md
-          - "Miscellaneous": cheatsheets/miscellaneous.md
-          - "Netmasks & Subnetting": cheatsheets/networking-subnetting.md
-          - "PrivEsc Mindmap": cheatsheets/privesc-mindmap.md
-          - "RegEx": cheatsheets/regex.md
-          - "Windows Security Log References": cheatsheets/windows-security-log-references.md
-          - "XSS": cheatsheets/xss.md
-          - "XML External Entity Injection": cheatsheets/xml-xxe.md
+  # - Cheatsheets:
+  #    - "Start Here":
+   #       - "Start Here": cheatsheets.md
+    #  - "Cheatsheets":
+     #     - "Active Directory Pentesting Cheatsheet": cheatsheets/active-directory-pentesting-cheatsheet.md
+      #    - "Bash Scripting": cheatsheets/bash-scripting.md
+       #   - "Chrome URLs/Flags": cheatsheets/chrome-urls-flags.md
+        #  - "Default Credentials": cheatsheets/default-credentials.md
+         # - "Exchange Versions": cheatsheets/exchange-versions.md
+          #- "Github Dorks": cheatsheets/github-dorks.md
+        #  - "Google Dorks": cheatsheets/google-dorks.md
+        #  - "Headers & Files": cheatsheets/headers-files.md
+        #  - "List of TLDs": cheatsheets/list-of-tlds.md
+        #  - "Miscellaneous": cheatsheets/miscellaneous.md
+        #  - "Netmasks & Subnetting": cheatsheets/networking-subnetting.md
+        #  - "PrivEsc Mindmap": cheatsheets/privesc-mindmap.md
+        #  - "RegEx": cheatsheets/regex.md
+        #  - "Windows Security Log References": cheatsheets/windows-security-log-references.md
+        #  - "XSS": cheatsheets/xss.md
+        #  - "XML External Entity Injection": cheatsheets/xml-xxe.md
   - CVEs:
       - "Start Here":
           - "Start Here": cves.md
@@ -122,140 +122,140 @@ nav:
           - "CVE-2022-0847": cves/CVE-2022-0847.md
           - "CVE-2022-21882": cves/CVE-2022-21882.md
           - "CVE-2022-30190": cves/CVE-2022-30190.md
-  - Commands:
-      - "Start Here":
-          - "Start Here": commands.md
-      - "MacOS Commands":
-          - "Caffeinate": macos/caffeinate.md
-          - "Ditto": macos/ditto.md
-          - "Firmwarepasswd": macos/firmwarepasswd.md
-          - "ipconfig": macos/ipconfig.md
-          - "networkquality": macos/networkquality.md
-          - "powermetrics": macos/powermetrics.md
-          - "scutil": macos/scutil.md
-          - "security": macos/security.md
-          - "sha2": macos/sha2.md
-          - "softwareupdate": macos/softwareupdate.md
-          - "spctl": macos/spctl.md
-          - "system_profiler": macos/system_profiler.md
-          - "tweaks": macos/tweaks.md
-      - "Unix Commands":
-          - "apropos": unix/apropos.md
-          - "apt": unix/apt.md
-          - "awk": unix/awk.md
-          - "base64": unix/base64.md
-          - "biosdecode": unix/biosdecode.md
-          - "blkid": unix/blkid.md
-          - "cal": unix/cal.md
-          - "cat": unix/cat.md
-          - "chage": unix/chage.md
-          - "chmod": unix/chmod.md
-          - "chsh": unix/chsh.md
-          - "comm": unix/comm.md
-          - "crontab": unix/crontab.md
-          - "cut": unix/cut.md
-          - "date": unix/date.md
-          - "dd": unix/dd.md
-          - "delv": unix/delv.md
-          - "df": unix/df.md
-          - "diff": unix/diff.md
-          - "dig": unix/dig.md
-          - "dmesg": unix/dmesg.md
-          - "faketime": unix/faketime.md
-          - "fdisk": unix/fdisk.md
-          - "file": unix/file.md
-          - "find": unix/find.md
-          - "fls": unix/fls.md
-          - "free": unix/free.md
-          - "ftp": unix/ftp.md
-          - "ghostscript": unix/ghostscript.md
-          - "gpg": unix/gpg.md
-          - "grep": unix/grep.md
-          - "groupadd": unix/groupadd.md
-          - "groupdel": unix/groupdel.md
-          - "hdparm": unix/hdparm.md
-          - "head": unix/head.md
-          - "history": unix/history.md
-          - "host": unix/host.md
-          - "ifconfig": unix/ifconfig.md
-          - "iotop": unix/iotop.md
-          - "ip": unix/ip.md
-          - "iwconfig": unix/iwconfig.md
-          - "journalctl": unix/journalctl.md
-          - "kill": unix/kill.md
-          - "ln": unix/ln.md
-          - "locate": unix/locate.md
-          - "ls": unix/ls.md
-          - "lsb_release": unix/lsb_release.md
-          - "lsblk": unix/lsblk.md
-          - "lshw": unix/lshw.md
-          - "lsmod": unix/lsmod.md
-          - "lspci": unix/lspci.md
-          - "lsusb": unix/lsusb.md
-          - "lvextend": unix/lvextend.md
-          - "md5sum": unix/md5sum.md
-          - "mkdir": unix/mkdir.md
-          - "mkpasswd": unix/mkpasswd.md
-          - "modprobe": unix/modprobe.md
-          - "mount": unix/mount.md
-          - "mtr": unix/mtr.md
-          - "nc": unix/nc.md
-          - "ncdu": unix/ncdu.md
-          - "netplan": unix/netplan.md
-          - "netstat": unix/netstat.md
-          - "network-manager": unix/network-manager.md
-          - "nm connection editor": unix/nm connection editor.md
-          - "nmcli": unix/nmcli.md
-          - "nslookup": unix/nslookup.md
-          - "ntp": unix/ntp.md
-          - "passwd": unix/passwd.md
-          - "pdbedit": unix/pdbedit.md
-          - "ps": unix/ps.md
-          - "rev": unix/rev.md
-          - "scp": unix/scp.md
-          - "script": unix/script.md
-          - "sed": unix/sed.md
-          - "sha1sum": unix/sha1sum.md
-          - "sha256sum": unix/sha256sum.md
-          - "shuf": unix/shuf.md
-          - "sort": unix/sort.md
-          - "split": unix/split.md
-          - "ss": unix/ss.md
-          - "strings": unix/strings.md
-          - "sudo": unix/sudo.md
-          - "sudoedit": unix/sudoedit.md
-          - "systemctl": unix/systemctl.md
-          - "tail": unix/tail.md
-          - "tar": unix/tar.md
-          - "tee": unix/tee.md
-          - "tftp": unix/tftp.md
-          - "timedatectl": unix/timedatectl.md
-          - "touch": unix/touch.md
-          - "tr": unix/tr.md
-          - "uname": unix/uname.md
-          - "upower": unix/upower.md
-          - "vimdiff": unix/vimdiff.md
-          - "watch": unix/watch.md
-          - "wc": unix/wc.md
-          - "wget": unix/wget.md
-          - "xargs": unix/xargs.md
-          - "xxd": unix/xxd.md
-      - "Windows Commands":
-          - "azureAD": windows/azureAD.md
-          - "cmd": windows/cmd.md
-          - "godmode": windows/godmode.md
-          - "ipconfig": windows/ipconfig.md
-          - "nbtstat": windows/nbtstat.md
-          - "net group": windows/net group.md
-          - "net user": windows/net user.md
-          - "net view": windows/net view.md
-          - "netsh": windows/netsh.md
-          - "nltest": windows/nltest.md
-          - "nslookup": windows/nslookup.md
-          - "powershell": windows/powershell.md
-          - "regedit": windows/regedit.md
-          - "route": windows/route.md
-          - "schtasks": windows/schtasks.md
+  # - Commands:
+  #     - "Start Here":
+  #         - "Start Here": commands.md
+  #     - "MacOS Commands":
+  #         - "Caffeinate": macos/caffeinate.md
+  #         - "Ditto": macos/ditto.md
+  #         - "Firmwarepasswd": macos/firmwarepasswd.md
+  #         - "ipconfig": macos/ipconfig.md
+  #         - "networkquality": macos/networkquality.md
+  #         - "powermetrics": macos/powermetrics.md
+  #         - "scutil": macos/scutil.md
+  #         - "security": macos/security.md
+  #         - "sha2": macos/sha2.md
+  #         - "softwareupdate": macos/softwareupdate.md
+  #         - "spctl": macos/spctl.md
+  #         - "system_profiler": macos/system_profiler.md
+  #         - "tweaks": macos/tweaks.md
+  #     - "Unix Commands":
+  #         - "apropos": unix/apropos.md
+  #         - "apt": unix/apt.md
+  #         - "awk": unix/awk.md
+  #         - "base64": unix/base64.md
+  #         - "biosdecode": unix/biosdecode.md
+  #         - "blkid": unix/blkid.md
+  #         - "cal": unix/cal.md
+  #         - "cat": unix/cat.md
+  #         - "chage": unix/chage.md
+  #         - "chmod": unix/chmod.md
+  #         - "chsh": unix/chsh.md
+  #         - "comm": unix/comm.md
+  #         - "crontab": unix/crontab.md
+  #         - "cut": unix/cut.md
+  #         - "date": unix/date.md
+  #         - "dd": unix/dd.md
+  #         - "delv": unix/delv.md
+  #         - "df": unix/df.md
+  #         - "diff": unix/diff.md
+  #         - "dig": unix/dig.md
+  #         - "dmesg": unix/dmesg.md
+  #         - "faketime": unix/faketime.md
+  #         - "fdisk": unix/fdisk.md
+  #         - "file": unix/file.md
+  #         - "find": unix/find.md
+  #         - "fls": unix/fls.md
+  #         - "free": unix/free.md
+  #         - "ftp": unix/ftp.md
+  #         - "ghostscript": unix/ghostscript.md
+  #         - "gpg": unix/gpg.md
+  #         - "grep": unix/grep.md
+  #         - "groupadd": unix/groupadd.md
+  #         - "groupdel": unix/groupdel.md
+  #         - "hdparm": unix/hdparm.md
+  #         - "head": unix/head.md
+  #         - "history": unix/history.md
+  #         - "host": unix/host.md
+  #         - "ifconfig": unix/ifconfig.md
+  #         - "iotop": unix/iotop.md
+  #         - "ip": unix/ip.md
+  #         - "iwconfig": unix/iwconfig.md
+  #         - "journalctl": unix/journalctl.md
+  #         - "kill": unix/kill.md
+  #         - "ln": unix/ln.md
+  #         - "locate": unix/locate.md
+  #         - "ls": unix/ls.md
+  #         - "lsb_release": unix/lsb_release.md
+  #         - "lsblk": unix/lsblk.md
+  #         - "lshw": unix/lshw.md
+  #         - "lsmod": unix/lsmod.md
+  #         - "lspci": unix/lspci.md
+  #         - "lsusb": unix/lsusb.md
+  #         - "lvextend": unix/lvextend.md
+  #         - "md5sum": unix/md5sum.md
+  #         - "mkdir": unix/mkdir.md
+  #         - "mkpasswd": unix/mkpasswd.md
+  #         - "modprobe": unix/modprobe.md
+  #         - "mount": unix/mount.md
+  #         - "mtr": unix/mtr.md
+  #         - "nc": unix/nc.md
+  #         - "ncdu": unix/ncdu.md
+  #         - "netplan": unix/netplan.md
+  #         - "netstat": unix/netstat.md
+  #         - "network-manager": unix/network-manager.md
+  #         - "nm connection editor": unix/nm connection editor.md
+  #         - "nmcli": unix/nmcli.md
+  #         - "nslookup": unix/nslookup.md
+  #         - "ntp": unix/ntp.md
+  #         - "passwd": unix/passwd.md
+  #         - "pdbedit": unix/pdbedit.md
+  #         - "ps": unix/ps.md
+  #         - "rev": unix/rev.md
+  #         - "scp": unix/scp.md
+  #         - "script": unix/script.md
+  #         - "sed": unix/sed.md
+  #         - "sha1sum": unix/sha1sum.md
+  #         - "sha256sum": unix/sha256sum.md
+  #         - "shuf": unix/shuf.md
+  #         - "sort": unix/sort.md
+  #         - "split": unix/split.md
+  #         - "ss": unix/ss.md
+  #         - "strings": unix/strings.md
+  #         - "sudo": unix/sudo.md
+  #         - "sudoedit": unix/sudoedit.md
+  #         - "systemctl": unix/systemctl.md
+  #         - "tail": unix/tail.md
+  #         - "tar": unix/tar.md
+  #         - "tee": unix/tee.md
+  #         - "tftp": unix/tftp.md
+  #         - "timedatectl": unix/timedatectl.md
+  #         - "touch": unix/touch.md
+  #         - "tr": unix/tr.md
+  #         - "uname": unix/uname.md
+  #         - "upower": unix/upower.md
+  #         - "vimdiff": unix/vimdiff.md
+  #         - "watch": unix/watch.md
+  #         - "wc": unix/wc.md
+  #         - "wget": unix/wget.md
+  #         - "xargs": unix/xargs.md
+  #         - "xxd": unix/xxd.md
+  #     - "Windows Commands":
+  #         - "azureAD": windows/azureAD.md
+  #         - "cmd": windows/cmd.md
+  #         - "godmode": windows/godmode.md
+  #         - "ipconfig": windows/ipconfig.md
+  #         - "nbtstat": windows/nbtstat.md
+  #         - "net group": windows/net group.md
+  #         - "net user": windows/net user.md
+  #         - "net view": windows/net view.md
+  #         - "netsh": windows/netsh.md
+  #         - "nltest": windows/nltest.md
+  #         - "nslookup": windows/nslookup.md
+  #         - "powershell": windows/powershell.md
+  #         - "regedit": windows/regedit.md
+  #         - "route": windows/route.md
+  #         - "schtasks": windows/schtasks.md
   - Networking:
       - "Start Here":
           - "Start Here": networking.md
@@ -298,3 +298,163 @@ nav:
         - "Transport Layer": networking/transport.md
         - "Wide Area Network (WAN)": networking/wans.md
         - "Wireless LANs (WLANs)": networking/wlans.md
+  - Programming:
+      - "Start Here":
+          - "Start Here": programming.md
+      - "Programming":
+        - "@Html.Partial()": programming/htmlpartial.md
+        - "add()": programming/add.md
+        - "addslashes": programming/addslashes.md
+        - "after()": programming/after.md
+        - "append()": programming/append.md
+        - "Assembly": programming/assembly.md
+        - "Automatic Reference Counting (ARC)": programming/arc.md
+        - "basename()": programming/basename.md
+        - "before()": programming/before.md
+        - "btoa()": programming/btoa.md
+  - Frameworks:
+      - "Start Here":
+          - "Start Here": frameworks.md
+      - "Frameworks":
+        - "ActiveX": frameworks/activex.md
+        - "AngularJS": frameworks/angularjs.md
+        - "Apache Camel": frameworks/camel.md
+        - "Apache CXF": frameworks/apache-cxf.md
+        - "Apache Struts": frameworks/struts.md
+        - "Apache Struts 2": frameworks/struts2.md
+        - "ASP.NET": frameworks/aspnet.md
+        - "Bootstrap": frameworks/bootstrap.md
+        - "Bulma": frameworks/bulma.md
+  - Linux:
+      - "Start Here":
+          - "Start Here": linux.md
+      - "Linux":
+        - "$IFS Linux Environment Variable": linux/ifsvar.md
+        - "Absolute Paths": linux/absolutepaths.md
+        - "BASH": linux/bash.md
+  - Terms:
+      - "Start Here":
+          - "Start Here": terms.md
+      - "Terms":
+          - "ACID": terms/acid.md
+          - "APIs": terms/apis.md
+  - AD:
+      - "Start Here":
+          - "Start Here": ad.md
+      - "Terms":
+          - "Active Directory": activedirectory/activedirectory.md       
+          - "Active Directory Domain Services (AD DS)": activedirectory/adds.md
+          - "Active Directory Federation Services (AD FS)": activedirectory/adfs.md
+          - "Authentication Request (AS-REQ)": activedirectory/asreq.md
+          - "Authentication Service": activedirectory/as.md
+          - "Authentication Service Response": activedirectory/asresponse.md
+          - "Backup Domain Controller": activedirectory/bdc.md
+  - Protocols:
+      - "Start Here":
+          - "Start Here": protocols.md
+      - "Terms":
+          - "ActiveSync": protocols/activesync.md 
+          - "Advanced Message Queuing Protocol (AMQP)": protocols/amqp.md
+          - "AJP": protocols/ajp.md
+          - "Binary Protocol": protocols/binary.md
+  - Crypto:
+      - "Start Here":
+          - "Start Here": cryptography.md
+      - "Cryptography":
+          - "Advanced Encryption Standard (AES)": cryptography/aes.md     
+          - "AES-GCM": cryptography/aesgcm.md
+          - "Asymmetric Encryption": cryptography/asym.md
+          - "Bcrypt": cryptography/bcrypt.md
+          - "Blowfish": cryptography/blowfish.md
+  - Tools:
+      - "Start Here":
+          - "Start Here": tools.md
+      - "Tools":
+          - "Aircrack-ng": tools/aircrack-ng.md      
+          - "Aquatone": tools/aquatone.md   
+          - "Autoruns": tools/autoruns.md          
+          - "b374k Shell": tools/bsh.md
+          - "Bashfuscator": tools/bashfu.md
+          - "Between": tools/between.md
+          - "BgInfo": tools/bginfo.md
+          - "Burp Collaborator": tools/collab.md
+          - "Burp Comparer": tools/compare.md
+          - "Burp Extender": tools/extend.md
+          - "Burp Intruder": tools/intrude.md
+          - "Burp Proxy": tools/proxy.md
+          - "Burp Repeater": tools/repeater.md
+          - "Burp Scanner": tools/scanner.md
+          - "Burp Suite": tools/burpsuite.md
+  - Web:
+      - "Start Here":
+          - "Start Here": tools.md
+      - "Web":
+          - "AJAX": web/ajax.md   
+          - "Apache": web/apache.md   
+          - "Asynchronous HTTP": web/async.md  
+          - "Authorization Header": web/authhead.md       
+          - "Basic HTTP Authentication": web/basic.md  
+          - "Bearer Token Authentication": web/bear.md   
+  - Databases:
+      - "Start Here":
+          - "Start Here": databases.md
+      - "Databases":
+          - "Altibase": databases/altibase.md  
+          - "Amazon Redshift": databases/redshift.md
+          - "Apache Cassandra": databases/cassandra.md
+          - "Apache Derby": databases/derby.md
+          - "Apache Ignite": databases/ignite.md
+  - Mobile:
+      - "Start Here":
+          - "Start Here": mobile.md
+      - "Mobile":
+          - "Android": mobile/android.md 
+          - "Android Software Development Kit (SDK)": mobile/asdk.md 
+  - Misc:
+      - "Start Here":
+          - "Start Here": misc.md
+      - "Misc":
+          - "Ansible": misc/ansible.md 
+          - "Ant": misc/ant.md
+          - "Apache ActiveMQ": misc/activemq.md
+          - "Apache Maven": misc/maven.md
+          - "Apache Qpid": misc/qpid.md
+          - "Apache Tomcat": misc/tomcat.md
+          - "AppExchange": misc/appexchange.md
+          - "ASCII": misc/ascii.md
+          - "AWeber": misc/weber.md
+          - "Base64": misc/base64.md
+          - "Binary JSON": misc/binj.md
+          - "Bluetooth": misc/bt.md
+          - "Bluetooth Low Energy (BLE)": misc/ble.md
+          - "Bug Bounty Program": misc/bbp.md
+  - Security:
+      - "Start Here":
+          - "Start Here": security.md
+      - "Security":
+          - "ARP Poisoning": security/arppoison.md 
+          - "AS-REP Roasting": security/asreproasting.md
+          - "Asynchronous SQL Injection": security/async-sqli.md
+          - "Authentication": security/auth.md
+          - "Authentication, Authorization and Accounting (AAA)": security/aaa.md
+          - "Authorization": security/authz.md
+          - "Authy": security/authy.md
+          - "Bind Shell": security/bindshell.md
+          - "Blacklists": security/blacklists.md
+          - "Blind SSRF": security/blindssrf.md
+          - "Blind Boolean Injection": security/blindinj.md
+          - "Blind Injections": security/blinds.md
+          - "Blind XSS": security/blindxss.md
+          - "Broken Access Control": security/bac.md
+          - "Broken Authentication": security/ba.md
+          - "Brute Force Attack": security/brute.md
+          - "Brute XSS": security/bxss.md
+          - "Buffer Overflows": security/buffer.md
+          - "Business Logic Vulnerabilities": security/blv.md
+  - Cloud:
+      - "Start Here":
+          - "Start Here": cloud.md
+      - "Cloud":
+          - "AWS": cloud/aws.md
+          - "AWS WAF": cloud/aws-waf.md
+          - "Azure": cloud/azure.md

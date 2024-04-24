@@ -1,0 +1,3 @@
+In basic terms, Bash is a command line interpreter that typically runs in a text window where user can interpret commands to carry out various actions. The combination of these commands as a series within a file is known as a Shell Script. Bash can read and execute the commands from a Shell Script.
+
+Bash is the default login shell for most Linux distributions and Apple's mac OS. It is also accessible for Windows 10 with a version and default user shell in Solaris 11.

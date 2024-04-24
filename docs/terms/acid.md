@@ -1,0 +1,8 @@
+# ACID
+
+ACID is an acronym that stands for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee that database transactions are processed reliably. In the context of database systems, ACID refers to a standard for ensuring the integrity of data despite errors, power failures, and other mishaps.
+
+1. **Atomicity**: This property ensures that each transaction is treated as a single "unit", which either succeeds completely or fails completely. If any part of a transaction fails, the entire transaction fails and the database state is left unchanged. Essentially, it's an "all or nothing" approach.
+2. **Consistency**: Consistency ensures that a transaction brings the database from one valid state to another. Any data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof.
+3. **Isolation**: This property ensures that the concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially. This means that transactions should not interfere with each other and intermediate transaction results should be invisible to other concurrently executed transactions.
+4. **Durability**: Durability guarantees that once a transaction has been committed, it will remain so, even in the event of a power loss, crashes, or errors. In other words, it ensures that completed transactions are saved to the database permanently and are not lost.

@@ -1,0 +1,3 @@
+Bulma is a free class-based framework for [[CSS]]. It allows developers to implement CSS on web pages more efficiently than plain CSS. First released in 2016, Bulma has gained traction among front-end developers, enough to compete with other well-known CSS frameworks like [[Bootstrap]].
+
+Bulma is built on [[Flexbox]], a CSS layout model that automatically adjusts the width of a page element based on the width of its container. Flexbox requires developers to write both [[HTML]] and CSS to create elements that adhere to this model. With Bulma, Flexbox behavior and most other things can be handled with HTML classes.

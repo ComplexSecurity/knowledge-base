@@ -1,0 +1,6 @@
+Burp Comparer is a tool provided as part of the [[Burp Suite]], which is a popular integrated platform for performing security testing of web applications. Burp Comparer is specifically designed to help users compare and analyze different types of data encountered during testing.
+
+Burp Comparer allows you to compare two pieces of data, which can be useful in various testing scenarios. For instance, you can compare server responses, requests, or other data captured during your testing process. The tool displays data side-by-side or in a combined view, making it easier to spot differences. This is particularly helpful for understanding how small changes in requests can lead to different responses from the server.
+
+It can compare textual data (like [[HTML]], [[JavaScript Object Notation|JSON]], [[Extensible Markup Language|XML]]) and binary data (like images or binary files). This flexibility is useful in a wide range of testing scenarios. Differences between the two data sets are highlighted, allowing for quick identification of disparities. This feature is essential for tasks like pinpointing the cause of vulnerabilities or understanding behavior changes in applications.
+
