@@ -1,0 +1,9 @@
+CIFS (Common Internet File System) is a network file-sharing protocol. It is an enhanced version of the Microsoft-developed SMB ([[Server Message Block]]) protocol, used for providing shared access to files, printers, serial ports, and miscellaneous communications between nodes on a network. CIFS is typically used in Windows operating systems for network file and printer sharing.
+
+CIFS allows multiple clients on a network to access and manipulate files stored on a server, as well as share printers. It enables the browsing of networked resources, such as files and printers, across a network. CIFS is often considered a version of the SMB protocol. It extends SMB with additional features for Internet compatibility.
+
+CIFS includes support for various authentication methods, allowing it to manage access to resources in a networked environment. While most associated with Windows, CIFS clients are available for most Unix-like operating systems, enabling cross-platform file and resource sharing.
+
+CIFS was widely used in Windows-based networks for sharing files and printers between machines. CIFS is considered a somewhat legacy protocol, with modern iterations of SMB (like [[SMB 2]] and [[SMB 3]]) providing enhancements in terms of performance, security, and additional features. However, the term "CIFS" is still sometimes used interchangeably with "SMB," especially in the context of SMB 1.0/CIFS.
+
+Over the years, various security vulnerabilities have been identified in CIFS implementations, including susceptibility to [[Man-in-the-Middle (MitM) attack|man-in-the-middle attacks]] and unauthorized access. Newer versions of SMB (like SMB 3) offer significant improvements over CIFS in terms of security and performance. It's generally recommended to use the most recent version of SMB that is compatible with your networked devices.

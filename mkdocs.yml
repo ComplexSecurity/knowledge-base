@@ -64,24 +64,24 @@ nav:
   - Home: https://kenharris.io
   # - Cheatsheets:
   #    - "Start Here":
-   #       - "Start Here": cheatsheets.md
-    #  - "Cheatsheets":
-     #     - "Active Directory Pentesting Cheatsheet": cheatsheets/active-directory-pentesting-cheatsheet.md
-      #    - "Bash Scripting": cheatsheets/bash-scripting.md
-       #   - "Chrome URLs/Flags": cheatsheets/chrome-urls-flags.md
-        #  - "Default Credentials": cheatsheets/default-credentials.md
-         # - "Exchange Versions": cheatsheets/exchange-versions.md
-          #- "Github Dorks": cheatsheets/github-dorks.md
-        #  - "Google Dorks": cheatsheets/google-dorks.md
-        #  - "Headers & Files": cheatsheets/headers-files.md
-        #  - "List of TLDs": cheatsheets/list-of-tlds.md
-        #  - "Miscellaneous": cheatsheets/miscellaneous.md
-        #  - "Netmasks & Subnetting": cheatsheets/networking-subnetting.md
-        #  - "PrivEsc Mindmap": cheatsheets/privesc-mindmap.md
-        #  - "RegEx": cheatsheets/regex.md
-        #  - "Windows Security Log References": cheatsheets/windows-security-log-references.md
-        #  - "XSS": cheatsheets/xss.md
-        #  - "XML External Entity Injection": cheatsheets/xml-xxe.md
+  #       - "Start Here": cheatsheets.md
+  #  - "Cheatsheets":
+  #     - "Active Directory Pentesting Cheatsheet": cheatsheets/active-directory-pentesting-cheatsheet.md
+  #    - "Bash Scripting": cheatsheets/bash-scripting.md
+  #   - "Chrome URLs/Flags": cheatsheets/chrome-urls-flags.md
+  #  - "Default Credentials": cheatsheets/default-credentials.md
+  # - "Exchange Versions": cheatsheets/exchange-versions.md
+  #- "Github Dorks": cheatsheets/github-dorks.md
+  #  - "Google Dorks": cheatsheets/google-dorks.md
+  #  - "Headers & Files": cheatsheets/headers-files.md
+  #  - "List of TLDs": cheatsheets/list-of-tlds.md
+  #  - "Miscellaneous": cheatsheets/miscellaneous.md
+  #  - "Netmasks & Subnetting": cheatsheets/networking-subnetting.md
+  #  - "PrivEsc Mindmap": cheatsheets/privesc-mindmap.md
+  #  - "RegEx": cheatsheets/regex.md
+  #  - "Windows Security Log References": cheatsheets/windows-security-log-references.md
+  #  - "XSS": cheatsheets/xss.md
+  #  - "XML External Entity Injection": cheatsheets/xml-xxe.md
   - CVEs:
       - "Start Here":
           - "Start Here": cves.md
@@ -260,119 +260,187 @@ nav:
       - "Start Here":
           - "Start Here": networking.md
       - "Networking":
-        - "Address Resolution Protocol (ARP)": networking/arp.md
-        - "Application Layer": networking/application.md
-        - "Caching Server": networking/caching.md
-        - "Cloudflare": networking/cloudflare.md    
-        - "Data Center Bridging": networking/datacenterbridging.md
-        - "Data Link Layer": networking/datalink.md
-        - "Default Ports": networking/defaultports.md
-        - "DNS A Records": networking/a.md
-        - "DNS AAAA Records": networking/aaaa.md
-        - "DNS CNAME Records": networking/cname.md
-        - "DNS Hijacking": networking/hijacking.md
-        - "DNS MX Records": networking/mx.md
-        - "DNS NS Records": networking/ns.md
-        - "DNS PTR Records": networking/ptr.md
-        - "DNS SOA Records": networking/soa.md
-        - "DNS Tunneling": networking/tunneling.md
-        - "DNS TXT Records": networking/txt.md
-        - "DNS Zone Transfers": networking/zonetransfers.md
-        - "DNS": networking/dns.md
-        - "Dynamic Host Configuration Protocol (DHCP)": networking/dhcp.md
-        - "FCoE (Fibre Channel over Ethernet)": networking/fcoe.md
-        - "InfiniBand": networking/infiniband.md
-        - "Local Area Networks (LANs)": networking/lans.md
-        - "MAC Address": networking/mac.md
-        - "Network Address Translation (NAT)": networking/nat.md
-        - "Network Layer": networking/network.md
-        - "Network Protocol Stack": networking/networkstack.md
-        - "OSI Model": networking/osimodel.md
-        - "Packet": networking/packet.md
-        - "Personal Area Networks (PANs)": networking/pans.md
-        - "Physical Layer": networking/physical.md
-        - "Presentation Layer": networking/presentation.md
-        - "RDMA Over Converged Ethernet (RoCE)": networking/roce.md
-        - "Routers": networking/routers.md
-        - "Session Layer": networking/session.md
-        - "Transport Layer": networking/transport.md
-        - "Wide Area Network (WAN)": networking/wans.md
-        - "Wireless LANs (WLANs)": networking/wlans.md
+          - "Address Resolution Protocol (ARP)": networking/arp.md
+          - "Application Layer": networking/application.md
+          - "Caching Server": networking/caching.md
+          - "Cloudflare": networking/cloudflare.md
+          - "Data Center Bridging": networking/datacenterbridging.md
+          - "Data Link Layer": networking/datalink.md
+          - "Default Ports": networking/defaultports.md
+          - "DNS A Records": networking/a.md
+          - "DNS AAAA Records": networking/aaaa.md
+          - "DNS CNAME Records": networking/cname.md
+          - "DNS MX Records": networking/mx.md
+          - "DNS NS Records": networking/ns.md
+          - "DNS PTR Records": networking/ptr.md
+          - "DNS SOA Records": networking/soa.md
+          - "DNS Tunneling": networking/tunneling.md
+          - "DNS TXT Records": networking/txt.md
+          - "DNS Zone Transfers": networking/zonetransfers.md
+          - "DNS": networking/dns.md
+          - "Dynamic Host Configuration Protocol (DHCP)": networking/dhcp.md
+          - "FCoE (Fibre Channel over Ethernet)": networking/fcoe.md
+          - "InfiniBand": networking/infiniband.md
+          - "Local Area Networks (LANs)": networking/lans.md
+          - "MAC Address": networking/mac.md
+          - "Network Address Translation (NAT)": networking/nat.md
+          - "Network Layer": networking/network.md
+          - "Network Protocol Stack": networking/networkstack.md
+          - "OSI Model": networking/osimodel.md
+          - "Packet": networking/packet.md
+          - "Personal Area Networks (PANs)": networking/pans.md
+          - "Physical Layer": networking/physical.md
+          - "Presentation Layer": networking/presentation.md
+          - "RDMA Over Converged Ethernet (RoCE)": networking/roce.md
+          - "Routers": networking/routers.md
+          - "Session Layer": networking/session.md
+          - "Transport Layer": networking/transport.md
+          - "Wide Area Network (WAN)": networking/wans.md
+          - "Wireless LANs (WLANs)": networking/wlans.md
+          - "Data Center Bridging": networking/dcb.md
   - Programming:
       - "Start Here":
           - "Start Here": programming.md
       - "Programming":
-        - "@Html.Partial()": programming/htmlpartial.md
-        - "add()": programming/add.md
-        - "addslashes": programming/addslashes.md
-        - "after()": programming/after.md
-        - "append()": programming/append.md
-        - "Assembly": programming/assembly.md
-        - "Automatic Reference Counting (ARC)": programming/arc.md
-        - "basename()": programming/basename.md
-        - "before()": programming/before.md
-        - "btoa()": programming/btoa.md
+          - "@Html.Partial()": programming/htmlpartial.md
+          - "add()": programming/add.md
+          - "addslashes": programming/addslashes.md
+          - "after()": programming/after.md
+          - "append()": programming/append.md
+          - "Assembly": programming/assembly.md
+          - "Automatic Reference Counting (ARC)": programming/arc.md
+          - "basename()": programming/basename.md
+          - "before()": programming/before.md
+          - "btoa()": programming/btoa.md
+          - "C": programming/c.md
+          - "C++": programming/cpp.md
+          - "call_user_func_array()": programming/callfunc.md
+          - "Compression Filters": programming/compfil.md
+          - "Conversion Filters": programming/cfill.md
+          - "C#": programming/csharp.md
+          - "CSS": programming/css.md
+          - "Data Wrapper": programming/wrap.md
+          - "Doctrine": programming/doctrine.md
+          - "Doctrine Query Language (DQL)": programming/dql.md
+          - "document.domain": programming/ddomain.md
+          - "document.write()": programming/dwrite.md
+          - "document.writeln()": programming/dwln.md
+          - "DOM.innerHTML": programming/ihtml.md
+          - "DOM.outerHTML": programming/ohtml.md
+          - "DOMPurify": programming/purify.md
+          - "Encryption Filters": programming/encf.md
+          - "escapeshellarg()": programming/shellarg.md
+          - "exec": programming/exec.md
+          - "Expect Wrapper": programming/expect.md
+          - "Expression Language (EL)": programming/el.md
+          - "Extensible Markup Language (XML)": programming/xml.md
   - Frameworks:
       - "Start Here":
           - "Start Here": frameworks.md
       - "Frameworks":
-        - "ActiveX": frameworks/activex.md
-        - "AngularJS": frameworks/angularjs.md
-        - "Apache Camel": frameworks/camel.md
-        - "Apache CXF": frameworks/apache-cxf.md
-        - "Apache Struts": frameworks/struts.md
-        - "Apache Struts 2": frameworks/struts2.md
-        - "ASP.NET": frameworks/aspnet.md
-        - "Bootstrap": frameworks/bootstrap.md
-        - "Bulma": frameworks/bulma.md
+          - "ActiveX": frameworks/activex.md
+          - "AngularJS": frameworks/angularjs.md
+          - "Apache Camel": frameworks/camel.md
+          - "Apache CXF": frameworks/apache-cxf.md
+          - "Apache Struts": frameworks/struts.md
+          - "Apache Struts 2": frameworks/struts2.md
+          - "ASP.NET": frameworks/aspnet.md
+          - "Bootstrap": frameworks/bootstrap.md
+          - "Bulma": frameworks/bulma.md
+          - "Django": frameworks/dj.md
+          - ".NET Framework": frameworks/dotnetf.md
+          - "DotNetNuke": frameworks/netnuke.md
+          - "Dropwizard": frameworks/dropwz.md
+          - "EAP (Extensible Authentication Protocol)": frameworks/eap.md
+          - "Ember.js": frameworks/ember.md
+          - "Empire": frameworks/empire.md
+          - "Express": frameworks/express.md
   - Linux:
       - "Start Here":
           - "Start Here": linux.md
       - "Linux":
-        - "$IFS Linux Environment Variable": linux/ifsvar.md
-        - "Absolute Paths": linux/absolutepaths.md
-        - "BASH": linux/bash.md
+          - "$IFS Linux Environment Variable": linux/ifsvar.md
+          - "Absolute Paths": linux/absolutepaths.md
+          - "BASH": linux/bash.md
   - Terms:
       - "Start Here":
           - "Start Here": terms.md
       - "Terms":
           - "ACID": terms/acid.md
           - "APIs": terms/apis.md
+          - "Client": terms/client.md
+          - "Client-Server Architecture": terms/csa.md
+          - "Containers": terms/containers.md
+          - "CRUD API": terms/crud.md
+          - "CRM": terms/crm.md
+          - "Deserialization": terms/des.md
+          - "Distributed Control Systems (DCS)": terms/dcs.md
+          - "DLLs": terms/dlls.md
+          - "Edge Computing": terms/edge.md
   - AD:
       - "Start Here":
           - "Start Here": ad.md
       - "Terms":
-          - "Active Directory": activedirectory/activedirectory.md       
+          - "Active Directory": activedirectory/activedirectory.md
           - "Active Directory Domain Services (AD DS)": activedirectory/adds.md
           - "Active Directory Federation Services (AD FS)": activedirectory/adfs.md
           - "Authentication Request (AS-REQ)": activedirectory/asreq.md
           - "Authentication Service": activedirectory/as.md
           - "Authentication Service Response": activedirectory/asresponse.md
           - "Backup Domain Controller": activedirectory/bdc.md
+          - "Domain Controller": activedirectory/dc.md
   - Protocols:
       - "Start Here":
           - "Start Here": protocols.md
       - "Terms":
-          - "ActiveSync": protocols/activesync.md 
+          - "ActiveSync": protocols/activesync.md
           - "Advanced Message Queuing Protocol (AMQP)": protocols/amqp.md
           - "AJP": protocols/ajp.md
           - "Binary Protocol": protocols/binary.md
+          - "CHAP (Challenge Handshake Authentication Protocol)": protocols/chap.md
+          - "CIFS": protocols/cifs.md
+          - "DISCO": protocols/disco.md
   - Crypto:
       - "Start Here":
           - "Start Here": cryptography.md
       - "Cryptography":
-          - "Advanced Encryption Standard (AES)": cryptography/aes.md     
+          - "Advanced Encryption Standard (AES)": cryptography/aes.md
           - "AES-GCM": cryptography/aesgcm.md
           - "Asymmetric Encryption": cryptography/asym.md
           - "Bcrypt": cryptography/bcrypt.md
           - "Blowfish": cryptography/blowfish.md
+          - "Caesar Cipher": cryptography/caeser.md
+          - "CFB (Cipher Feedback)": cryptography/cfb.md
+          - "ChaCha20": cryptography/chacha.md
+          - "Cipher Block Chaining (CBC)": cryptography/cbc.md
+          - "CMAC (Cipher-Based MAC)": cryptography/cmac.md
+          - "Commercial National Security Algorithm (CNSA) Suite": cryptography/cnsa.md
+          - "Counter (CTR)": cryptography/ctr.md
+          - "Curve448": cryptography/448.md
+          - "Curve25519": cryptography/25519.md
+          - "Data Encryption Standard (DES)": cryptography/des.md
+          - "Diffie-Hellman": cryptography/dh.md
+          - "Diffie-Hellman Ephemeral": cryptography/dhe.md
+          - "Digital Signature Algorithm (DSA)": cryptography/dsa.md
+          - "Discrete Logarithm Problem": cryptography/dlp.md
+          - "Double Ratchet Algorithm": cryptography/dra.md
+          - "DPAPI (Data Protection API)": cryptography/dpapi.md
+          - "Ed448": cryptography/ed.md
+          - "Ed25519": cryptography/ed2.md
+          - "EdDSA (Edwards-Curve Digital Signature Algorithm)": cryptography/eddsa.md
+          - "Electronic Codebook (ECB)": cryptography/ebc.md
+          - "ElGamal": cryptography/egl.md
+          - "Elliptic Curve Cryptography (ECC)": cryptography/ecc.md
+          - "Elliptic Curve Diffie-Hellman (ECDH)": cryptography/ecdh.md
+          - "Elliptic Curve Digital Signature Algorithm (ECDSA)": cryptography/ecdsa.md
+          - "Elliptic Curve Discrete Logarithm Problem (ECDLP)": cryptography/ecdlp.md
   - Tools:
       - "Start Here":
           - "Start Here": tools.md
       - "Tools":
-          - "Aircrack-ng": tools/aircrack-ng.md      
-          - "Aquatone": tools/aquatone.md   
-          - "Autoruns": tools/autoruns.md          
+          - "Aircrack-ng": tools/aircrack-ng.md
+          - "Aquatone": tools/aquatone.md
+          - "Autoruns": tools/autoruns.md
           - "b374k Shell": tools/bsh.md
           - "Bashfuscator": tools/bashfu.md
           - "Between": tools/between.md
@@ -385,36 +453,89 @@ nav:
           - "Burp Repeater": tools/repeater.md
           - "Burp Scanner": tools/scanner.md
           - "Burp Suite": tools/burpsuite.md
+          - "CeWL": tools/cewl.md
+          - "CrackMapExec": tools/cme.md
+          - "Cupp": tools/cupp.md
+          - "cURL": tools/curl.md
+          - "DevTools": tools/devtools.md
+          - "Dig": tools/dig.md
+          - "Dirbuster": tools/dirbuster.md
+          - "DOSfuscation": tools/dos.md
   - Web:
       - "Start Here":
           - "Start Here": tools.md
       - "Web":
-          - "AJAX": web/ajax.md   
-          - "Apache": web/apache.md   
-          - "Asynchronous HTTP": web/async.md  
-          - "Authorization Header": web/authhead.md       
-          - "Basic HTTP Authentication": web/basic.md  
-          - "Bearer Token Authentication": web/bear.md   
+          - "AJAX": web/ajax.md
+          - "Apache": web/apache.md
+          - "Asynchronous HTTP": web/async.md
+          - "Authorization Header": web/authhead.md
+          - "Basic HTTP Authentication": web/basic.md
+          - "Bearer Token Authentication": web/bear.md
+          - "Caching": web/caching.md
+          - "Caching Server": web/cacheserver.md
+          - "Certificate Authorities (CAs)": web/cas.md
+          - "Certificate Signing Requests (CSRs)": web/csrs.md
+          - "CGI": web/cgi.md
+          - "Cloudflare": web/cloudflare.md
+          - "Connect HTTP Method": web/connmeth.md
+          - "Content Delivery Application (CDA)": web/cda.md
+          - "Content Delivery Network (CDN)": web/cdn.md
+          - "Content Management Application (CMA)": web/cma.md
+          - "Content Management System (CMS)": web/cms.md
+          - "Content Security Policy (CSP)": web/csp.md
+          - "Cookies": web/cookies.md
+          - "Cross-Domain iFrame": web/cdiff.md
+          - "Cross-Origin Resource Sharing (CORS)": web/cors.md
+          - "Cross-Site Request Forgery (CSRF)": web/csrf.md
+          - "Cross-Site Scripting": web/xss.md
+          - "Delete HTTP Method": web/del.md
+          - "Digest Authentication": web/da.md
+          - "DOCTYPE": web/doctype.md
+          - "Document Object Model": web/dom.md
+          - "Document Type Definition (DTD)": web/dtd.md
+          - "DOM Sink": web/domsink.md
+          - "DOM Source": web/domsource.md
+          - "Drupal": web/drupal.md
+          - "Edge-Side Includes Injections": web/esii.md
+          - "Entity Reference Loops": web/erl.md
+          - "Error-Based Injection": web/errorsql.md
+          - "Extensible Stylesheet Language Transformations Server-Side Injection (XSLT)": web/xslt.md
+          - "External XML Entities": web/xxe.md
+      - "Templating Engines":
+          - "EJS (Embedded JavaScript)": web/ejs.md
+          - "ERB": web/erb.md
   - Databases:
       - "Start Here":
           - "Start Here": databases.md
       - "Databases":
-          - "Altibase": databases/altibase.md  
+          - "Altibase": databases/altibase.md
           - "Amazon Redshift": databases/redshift.md
           - "Apache Cassandra": databases/cassandra.md
           - "Apache Derby": databases/derby.md
           - "Apache Ignite": databases/ignite.md
+          - "CockroachDB": databases/cock.md
+          - "CouchDB": databases/couch.md
+          - "CrateDB": databases/crate.md
+          - "Cubrid": databases/cub.md
+          - "Data Manipulation Language (DML)": databases/dml.md
+          - "Data Query Language (DQL)": databases/dql.md
+          - "Database Management Systems (DBMS)": databases/dms.md
+          - "Databases": databases/db.md
+          - "Direct Manipulation Language (DML)": databases/directml.md
+          - "Document-Based Databases": databases/dbd.md
+          - "Drizzle": databases/drizz.md
+          - "eXtremeDB": databases/extreme.md
   - Mobile:
       - "Start Here":
           - "Start Here": mobile.md
       - "Mobile":
-          - "Android": mobile/android.md 
-          - "Android Software Development Kit (SDK)": mobile/asdk.md 
+          - "Android": mobile/android.md
+          - "Android Software Development Kit (SDK)": mobile/asdk.md
   - Misc:
       - "Start Here":
           - "Start Here": misc.md
       - "Misc":
-          - "Ansible": misc/ansible.md 
+          - "Ansible": misc/ansible.md
           - "Ant": misc/ant.md
           - "Apache ActiveMQ": misc/activemq.md
           - "Apache Maven": misc/maven.md
@@ -428,11 +549,23 @@ nav:
           - "Bluetooth": misc/bt.md
           - "Bluetooth Low Energy (BLE)": misc/ble.md
           - "Bug Bounty Program": misc/bbp.md
+          - "CDI": misc/cdi.md
+          - "Constant Contact": misc/cc.md
+          - "Docker": misc/docker.md
+          - "Docker Compose": misc/dockercompose.md
+          - ".NET": misc/dotnet.md
+          - "Doxygen": misc/dox.md
+          - "ElasticSearch" misc/elastic.md
+          - "Enterprise Integration Patterns (EIP)": misc/eip.md
+          - "Enterprise JavaBeans (EJBs)": misc/ejb.md
+          - "Enterprise Resource Planning Applications": misc/erpapps.md
+          - "Enterprise Service Bus (ESB)": misc/esb.md
+          - "Exim": misc/exim.md
   - Security:
       - "Start Here":
           - "Start Here": security.md
       - "Security":
-          - "ARP Poisoning": security/arppoison.md 
+          - "ARP Poisoning": security/arppoison.md
           - "AS-REP Roasting": security/asreproasting.md
           - "Asynchronous SQL Injection": security/async-sqli.md
           - "Authentication": security/auth.md
@@ -451,6 +584,40 @@ nav:
           - "Brute XSS": security/bxss.md
           - "Buffer Overflows": security/buffer.md
           - "Business Logic Vulnerabilities": security/blv.md
+          - "CAPTCHA": security/captcha.md
+          - "Challenge-Response Protocol": security/challenge.md
+          - "Channel Binding Tokens (CBTs)": security/cbts.md
+          - "Clear Text": security/clear.md
+          - "Clickjacking": security/clickjacking.md
+          - "Code Injection": security/cinj.md
+          - "Code Reviews": security/reviews.md
+          - "Collision Attacks": security/coll.md
+          - "Command and Control (C2)": security/c2.md
+          - "Command Injection": security/commin.md
+          - "Common Vulnerabilities and Exposure (CVE)": security/cve.md
+          - "Common Vulnerability Scoring System (CVSS)": security/cvss.md
+          - "Common Weaknesses Enumeration (CWE)": security/cwe.md
+          - "Credential Stuffing": security/stuff.md
+          - "Cross-Site Port Attack (XSPA)": security/xspa.md
+          - "Cross-Site Tracing (XST)": security/xst.md
+          - "Dark Web": security/dark.md
+          - "Data Exfiltration": security/exfil.md
+          - "Decompression Bomb": security/dbomb.md
+          - "Deep Web": security/deep.md
+          - "Denial of Service (DoS) Attacks": security/dos.md
+          - "Deobfuscation": security/deob.md
+          - "Dictionary Attacks": security/dict.md
+          - "Directory Fuzzing": security/fuzzing.md
+          - "Directory Traversal": security/dirtrav.md
+          - "DLL Hijacking": security/dll.md
+          - "DLL Injection": security/dlli.md
+          - "DNS Hijacking": security/hijacking.md
+          - "DNS Spoofing": security/dspoof.md
+          - "Dom-Based XSS": security/dxss.md
+          - "Dynamic Analysis": security/dyn.md
+          - "Environment Variable Injection": security/varinj.md
+          - "EPA (Extended Protection for Authentication)": security/epa.md
+          - "EternalBlue": security/blue.md
   - Cloud:
       - "Start Here":
           - "Start Here": cloud.md
@@ -458,3 +625,4 @@ nav:
           - "AWS": cloud/aws.md
           - "AWS WAF": cloud/aws-waf.md
           - "Azure": cloud/azure.md
+          - "Cloud Computing": cloud/cc.md

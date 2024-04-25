@@ -1,0 +1,5 @@
+CGI is an interface which tells the webserver how to pass data to and from an application. More specifically, it describes how request information is passed in environment variables (such as request type, remote IP address), how the request body is passed in via standard input, and how the response is passed out via standard output.
+
+Most if not all, webservers can be configured to execute a program as a '**CGI**'. This means that the webserver, upon receiving a request, will forward the data to a specific program, setting some environment variables and marshalling the parameters via standard input and standard output so the program can know where and what to look for.
+
+The main benefit is that you can run ANY executable code from the web, given that both the webserver and the program know how CGI works. That's why you could write web programs in C or [[Bash]] with a regular CGI-enabled webserver. That, and that most programming environments can easily use standard input, standard output and environment variables.

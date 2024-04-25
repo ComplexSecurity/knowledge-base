@@ -1,0 +1,5 @@
+Directory traversal, also known as path traversal, is a security vulnerability in software applications. It occurs when insufficient security validation/sanitization of user-supplied input file names allows attackers to access or manipulate files outside of the intended directory. This vulnerability can allow attackers to access restricted directories and read, modify, or delete sensitive files on a web server.
+
+Directory traversal exploits occur due to inadequate validation of user-supplied input. This vulnerability is often found in web applications that use input to construct file paths for file operations like open, read, or write.
+
+Attackers manipulate file paths by using ".." (dot-dot-slash) sequences, which are interpreted as "go up one directory," along with other techniques to navigate the file system. An attacker might use input like `../../../../etc/passwd` to traverse up to the root directory and then access a critical file like `passwd` (which stores user credential data on Unix-based systems).
