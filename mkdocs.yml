@@ -433,6 +433,7 @@ nav:
           - "Elliptic Curve Diffie-Hellman (ECDH)": cryptography/ecdh.md
           - "Elliptic Curve Digital Signature Algorithm (ECDSA)": cryptography/ecdsa.md
           - "Elliptic Curve Discrete Logarithm Problem (ECDLP)": cryptography/ecdlp.md
+          - "Feistel Network": cryptography/fes.md
   - Tools:
       - "Start Here":
           - "Start Here": tools.md
