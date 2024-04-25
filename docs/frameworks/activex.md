@@ -4,7 +4,7 @@ ActiveX controls are precoded software similar to web browser plug-ins. For exam
 
 ActiveX controls extend a browser's functionality, allowing the browser to perform tasks it otherwise could not execute innately. It's particularly useful for playing videos and other multimedia content, skipping the step of opening a separate media player.
 
-!!! caution
+!!! danger
     ActiveX is still utilized in Internet Explorer 11, but is not supported by Microsoft's latest browser, Edge.23 Browsers such as Mozilla Firefox, Google Chrome, Apple's Safari, and Opera use other types of browser plug-ins, such as JavaScript, or similar cross-platform languages.
 
 ActiveX remains useful to Microsoft users and is included with Windows 10. This is because ActiveX still allows standalone software to receive updates, interface across programs, and enhance functionality. For example, ActiveX allows users to create more interactive documents in Word or create fillable forms in Excel.
