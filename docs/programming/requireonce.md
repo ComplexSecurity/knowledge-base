@@ -26,8 +26,8 @@ $myObject = new MyClass();
 ?>
 ```
 
->[!info] 
->In this example, `MyClass.php` is included only once, regardless of how many times `require_once 'MyClass.php';` is called. This prevents errors that would occur if the class `MyClass` were defined multiple times.
+!!! info
+    In this example, `MyClass.php` is included only once, regardless of how many times `require_once 'MyClass.php';` is called. This prevents errors that would occur if the class `MyClass` were defined multiple times.
 
 `require_once()` in PHP can be vulnerable to security risks, particularly if it's used with improperly validated or sanitized user input. The primary vulnerability associated with `require_once()` is [[Local File Inclusion]] (LFI), similar to the vulnerabilities in [[include()]], [[include_once()]], and [[require()]].
 

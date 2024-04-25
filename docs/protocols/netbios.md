@@ -14,6 +14,6 @@ With the evolution of networking, particularly with the adoption of [[TCP-IP|TCP
 
 Even though pure NetBIOS is rarely used now, its functionality was extended over TCP/IP networks, known as [[NetBIOS over TCP-IP (NBT)|NetBIOS over TCP/IP (NBT)]]. NetBIOS is known for its security weaknesses, making networks vulnerable to various attacks like name resolution poisoning and unauthorized access. Modern networks generally avoid using NetBIOS or tightly control its usage.
 
->[!important]
->While largely obsolete, NetBIOS might still be found in some legacy systems or specific network configurations for compatibility reasons.
+!!! important
+    While largely obsolete, NetBIOS might still be found in some legacy systems or specific network configurations for compatibility reasons.
 

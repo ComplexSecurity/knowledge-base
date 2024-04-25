@@ -10,5 +10,5 @@ To successfully execute a stored XSS attack, a perpetrator has to locate a vuln
 
 ![Stored XSS](../assets/images/stored-xss-example.png)
 
->[!info]
->The most frequent targets are websites that allow users to share content, including blogs, social networks, video sharing platforms and message boards. Every time the infected page is viewed, the malicious script is transmitted to the victim’s browser.
+!!! info
+    The most frequent targets are websites that allow users to share content, including blogs, social networks, video sharing platforms and message boards. Every time the infected page is viewed, the malicious script is transmitted to the victim’s browser.

@@ -30,7 +30,7 @@ int main() {
 }
 ```
 
->[!info]
->This simple example demonstrates a class definition, method implementation, and object creation in Objective-C.
+!!! info
+    This simple example demonstrates a class definition, method implementation, and object creation in Objective-C.
 
 

@@ -13,6 +13,6 @@ fetch('https://api.example.com/data')
   .catch(error => console.error('Error:', error));
 ```
 
->[!info]
->This code fetches data from the provided URL and prints it to the console. The response is first converted to [[JavaScript Object Notation|JSON]], which is a common use case.
+!!! info
+  This code fetches data from the provided URL and prints it to the console. The response is first converted to [[JavaScript Object Notation|JSON]], which is a common use case.
 

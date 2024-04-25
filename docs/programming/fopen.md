@@ -66,8 +66,8 @@ if ($handle === false) {
 }
 ```
 
->[!caution]
->In this example, the script uses a query parameter (file) to open a file. An attacker could manipulate the query string to access sensitive files. For instance, using a URL like:
+!!! danger
+    In this example, the script uses a query parameter (file) to open a file. An attacker could manipulate the query string to access sensitive files. For instance, using a URL like:
 
 ```bash
 http://example.com/script.php?file=../../etc/passwd

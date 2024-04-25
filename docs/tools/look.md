@@ -8,6 +8,6 @@ An example of how `lookupsid` might be used in a penetration testing scenario. T
 python lookupsid.py <DOMAIN>/<USERNAME>:<PASSWORD>@<TARGET_IP>
 ```
 
->[!info]
->`lookupsid` will then attempt to connect to the target machine and enumerate SIDs. The output typically includes a list of user names and their corresponding SIDs, along with any groups and their SIDs.
+!!! info
+    `lookupsid` will then attempt to connect to the target machine and enumerate SIDs. The output typically includes a list of user names and their corresponding SIDs, along with any groups and their SIDs.
 

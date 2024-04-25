@@ -6,6 +6,6 @@ For example, to authorize as demo:p@55w0rd the client would send:
 Authorization: Basic ZGVtbzpwQDU1dzByZA==
 ```
 
-> [!WARNING]
-> Because base64 is easily decoded, Basic authentication should only be used together with other security mechanisms such as HTTPS/SSL.
+!!! warning
+    Because base64 is easily decoded, Basic authentication should only be used together with other security mechanisms such as HTTPS/SSL.
 

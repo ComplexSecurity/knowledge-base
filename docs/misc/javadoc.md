@@ -28,8 +28,8 @@ public class Example {
 ```
 
 
->[!info]
->The `Example` class and its method `add` have JavaDoc comments describing their purpose, parameters, and return values.
+!!! info
+    The `Example` class and its method `add` have JavaDoc comments describing their purpose, parameters, and return values.
 
 JavaDoc is typically run from the command line or through an IDE. The JavaDoc tool processes the source files and generates [[HTML]] files that can be hosted or distributed for reference.
 

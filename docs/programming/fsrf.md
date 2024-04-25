@@ -68,8 +68,8 @@ http.createServer((req, res) => {
 }).listen(3000);
 ```
 
->[!caution]
->In this example, the server reads a file based on the user's input from the URL and returns its content. An attacker could exploit this by manipulating the URL to access sensitive files. For instance:
+!!! danger
+    In this example, the server reads a file based on the user's input from the URL and returns its content. An attacker could exploit this by manipulating the URL to access sensitive files. For instance:
 
 ```bash
 http://localhost:3000/../../etc/passwd

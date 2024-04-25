@@ -10,7 +10,7 @@ Relative paths are commonly used in programming and web development to link file
 
 Absolute paths provide a complete path from the root directory to the target file or directory and remain constant, regardless of the current working directory. Relative paths, being dependent on the current directory, are more flexible but can sometimes lead to confusion if the current directory context is not clear.
 
->[!info]
->For example, if you are in the directory `/home/username/Documents`, and you want to refer to a file located at `/home/username/Pictures/image.jpg`, the relative path from your current directory would be `../Pictures/image.jpg`. This path means: go up one level to `/home/username/` (using `..`) and then down into `Pictures/image.jpg`.
+!!! info
+    For example, if you are in the directory `/home/username/Documents`, and you want to refer to a file located at `/home/username/Pictures/image.jpg`, the relative path from your current directory would be `../Pictures/image.jpg`. This path means: go up one level to `/home/username/` (using `..`) and then down into `Pictures/image.jpg`.
 
 

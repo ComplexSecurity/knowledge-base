@@ -31,8 +31,8 @@ fclose($stream);
 echo $content;  // Outputs: Hello, World!
 ```
 
-> [!info]
-> A simple string 'Hello, World!' is [[base64]]-encoded and used to create a data URI. This URI is then opened as a stream, and the content is read back from the stream.
+!!! info
+    A simple string 'Hello, World!' is [[base64]]-encoded and used to create a data URI. This URI is then opened as a stream, and the content is read back from the stream.
 
 The `data` wrapper itself in PHP is not inherently vulnerable; however, like any tool, its security depends on how it's used.
 

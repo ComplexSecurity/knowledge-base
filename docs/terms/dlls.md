@@ -15,5 +15,5 @@ Some examples include:
 - **DLL Hijacking**: A penetration tester discovers that a third-party application does not specify the full path for a DLL it loads. The tester places a malicious DLL with the expected name in a directory that is searched before the legitimate DLL directory, leading to the execution of the tester’s code.
 - **DLL Injection**: During a red team exercise, a tester injects a DLL into a process running with higher privileges. This DLL opens a backdoor, allowing the tester to access restricted areas of the network.
 
-> [!info]
-> To defend against DLL-related attacks, it's important to use safe coding practices, regularly update applications and systems, monitor process behavior for unusual activity, and implement application whitelisting.
+!!! info
+    To defend against DLL-related attacks, it's important to use safe coding practices, regularly update applications and systems, monitor process behavior for unusual activity, and implement application whitelisting.

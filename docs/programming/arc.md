@@ -26,8 +26,8 @@ var example: MyClass? = MyClass(property: "Example")
 example = nil // ARC decrements the reference count, triggering deinitialization
 ```
 
->[!info]
->In this Swift example, when `example` is set to `nil`, ARC deallocates the `MyClass` instance, and its `deinit` block is called.
+!!! info
+    In this Swift example, when `example` is set to `nil`, ARC deallocates the `MyClass` instance, and its `deinit` block is called.
 
 ARC introduces the concept of strong and weak references to help manage memory, especially in situations where retaining cycles (two objects keeping each other alive) might occur. When dealing with Core Foundation objects in Objective-C, developers still need to manage memory manually, even with ARC enabled.
 

@@ -57,6 +57,6 @@ app.get('/', (req, res) => {
 app.listen(3000);
 ```
 
->[!info]
->In this example, `res.render('index', { pageTitle: 'Home', user: 'John Doe' })` will render the `index.pug` file, injecting the `pageTitle` and `user` values into it.
+!!! info
+  In this example, `res.render('index', { pageTitle: 'Home', user: 'John Doe' })` will render the `index.pug` file, injecting the `pageTitle` and `user` values into it.
 

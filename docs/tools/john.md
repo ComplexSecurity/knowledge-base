@@ -40,5 +40,5 @@ If you know the type of hash algorithm used (e.g., MD5, SHA-256), you can specif
 john --format=md5crypt hashes.txt
 ```
 
->[!info]
->This command tells John the Ripper to specifically use the MD5 hash algorithm when attempting to crack the hashes in `hashes.txt`.
+!!! info
+    This command tells John the Ripper to specifically use the MD5 hash algorithm when attempting to crack the hashes in `hashes.txt`.

@@ -4,8 +4,8 @@ MVVM stands for Model-View-ViewModel. It's a software architectural pattern prim
 2. **View**: This is the user interface of the application. It displays the data (provided by the ViewModel) and delegates user inputs to the ViewModel. The View is usually a passive interface, waiting to be given instructions on what to display, rather than asking for data. It focuses purely on the visual elements, such as buttons, text fields, and graphics.
 3. **ViewModel**: Acting as an intermediary between the Model and the View, the ViewModel handles most of the view's logic. It receives user inputs from the View, processes them (which may involve querying or updating the Model), and then provides feedback to the View. The ViewModel transforms data from the Model in such a way that the data becomes easily manageable and presentable for the View.
 
->[!info]
->In essence, MVVM enhances the separation of the graphical user interface (the View) from the development of the business logic or back-end logic (the Model). This is particularly useful in web and mobile app development environments where the separation allows for more efficient development and testing processes, and better maintainability.
+!!! info
+    In essence, MVVM enhances the separation of the graphical user interface (the View) from the development of the business logic or back-end logic (the Model). This is particularly useful in web and mobile app development environments where the separation allows for more efficient development and testing processes, and better maintainability.
 
 Some of the key benefits of MVVM include:
 

@@ -10,7 +10,7 @@ HOTP is considered secure because it uses strong cryptographic hash functions. T
 
 Both the server and the client need to keep track of the counter state, which can be a disadvantage if the counter values on the server and the client become unsynchronized.
 
->[!info]
->HOTP is commonly used in hardware tokens (like key fobs) for [[Multi-Factor Authentication (MFA)|two-factor authentication]]. When a user presses a button on the token, it displays a new OTP generated using the HOTP algorithm.
+!!! info
+    HOTP is commonly used in hardware tokens (like key fobs) for [[Multi-Factor Authentication (MFA)|two-factor authentication]]. When a user presses a button on the token, it displays a new OTP generated using the HOTP algorithm.
 
 HOTP is similar to [[Time-based One-Time Password (TOTP)|TOTP (Time-based One-Time Password)]] but, unlike TOTP, which generates OTPs based on a moving time window, HOTP generates OTPs based on a counter value. Each approach has its own advantages and is suited to different application requirements.

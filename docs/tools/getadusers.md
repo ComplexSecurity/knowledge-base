@@ -8,8 +8,8 @@ Impacket's `GetADUsers` is a script from the [[Impacket]] suite, a collection of
 python GetADUsers.py <DOMAIN>/<USERNAME>:<PASSWORD>
 ```
 
->[!info]
->The script connects to the domain controller and lists user accounts along with selected attributes. You can also use various flags and options to customize the output, such as filtering for users with certain attributes or who have not changed their passwords in a long time.
+!!! info
+    The script connects to the domain controller and lists user accounts along with selected attributes. You can also use various flags and options to customize the output, such as filtering for users with certain attributes or who have not changed their passwords in a long time.
 
 
 

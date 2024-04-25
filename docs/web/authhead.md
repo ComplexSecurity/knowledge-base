@@ -20,8 +20,8 @@ An example may be:
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 
->[!info]
->Here, "dXNlcm5hbWU6cGFzc3dvcmQ=" is a base64-encoded string of "username:password".
+!!! info
+    Here, "dXNlcm5hbWU6cGFzc3dvcmQ=" is a base64-encoded string of "username:password".
 
 A bearer token in OAuth 2.0 may appear to be:
 
@@ -29,8 +29,8 @@ A bearer token in OAuth 2.0 may appear to be:
 Authorization: Bearer mF_9.B5f-4.1JqM
 ```
 
->[!info]
->The "mF_9.B5f-4.1JqM" is a token granted by the authorization server.
+!!! info
+    The "mF_9.B5f-4.1JqM" is a token granted by the authorization server.
 
 Since the Authorization header often contains sensitive information, it's crucial to transmit it over secure channels (such as [[HTTPS Protocol|HTTPS]]) to prevent eavesdropping. Tokens or credentials in the Authorization header should be securely stored and managed to prevent unauthorized access.
 

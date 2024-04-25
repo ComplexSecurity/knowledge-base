@@ -14,8 +14,8 @@ fclose($file);
 echo $content;
 ```
 
->[!info]
->A file within a PHAR archive (`myapp.phar`) is being accessed, read, and its content is displayed. The internal path (`internal/path/to/file.php`) refers to the file's location within the PHAR archive.
+!!! info
+    A file within a PHAR archive (`myapp.phar`) is being accessed, read, and its content is displayed. The internal path (`internal/path/to/file.php`) refers to the file's location within the PHAR archive.
 
 PHAR files can contain executable PHP code, so there are security implications to consider:
 

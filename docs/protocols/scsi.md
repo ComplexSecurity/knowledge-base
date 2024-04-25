@@ -10,6 +10,6 @@ SAS is a successor to the parallel SCSI interface, providing higher speeds, redu
 
 In consumer products and some business applications, SCSI has largely been replaced by technologies like SATA (Serial ATA), which is simpler and less expensive. However, SCSI remains significant in enterprise and high-performance computing.
 
->[!info]
->While SCSI and ATA (Advanced Technology Attachment) both serve to connect storage devices to computers, SCSI is often considered more robust and feature-rich, supporting a wider range of device types and more devices in a single chain, higher speeds, and more complex command sets. This distinction has historically made SCSI a preference in enterprise and industrial settings.
+!!! info
+    While SCSI and ATA (Advanced Technology Attachment) both serve to connect storage devices to computers, SCSI is often considered more robust and feature-rich, supporting a wider range of device types and more devices in a single chain, higher speeds, and more complex command sets. This distinction has historically made SCSI a preference in enterprise and industrial settings.
 

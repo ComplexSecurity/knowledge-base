@@ -46,8 +46,8 @@ echo $content;
 ?>
 ```
 
->[!caution]
->In this example, an attacker could manipulate the query string in the URL to access sensitive files. For instance:
+!!! danger
+    In this example, an attacker could manipulate the query string in the URL to access sensitive files. For instance:
 
 ```bash
 http://example.com/script.php?file=../../etc/passwd

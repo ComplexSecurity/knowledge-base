@@ -23,8 +23,8 @@ This means that the response will be generated within the user's session, and in
 
 The same-origin policy generally controls the access that [[JavaScript]] code has to content that is loaded cross-domain. Cross-origin loading of page resources is generally permitted. For example, the SOP allows embedding of images via the <img> tag, media via the \<video\> tag and JavaScript includes with the \<script\> tag. 
 
-> [!note] 
-> However, while these external resources can be loaded by the page, any JavaScript on the page won't be able to read the contents of these resources.
+!!! note
+    However, while these external resources can be loaded by the page, any JavaScript on the page won't be able to read the contents of these resources.
 
 There are various exceptions to the same-origin policy:
 

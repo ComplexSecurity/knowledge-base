@@ -12,8 +12,8 @@ Some popular tools for performing it include:
 python ntlmrelayx.py -t smb://<TARGET_IP> -smb2support
 ```
 
->[!info]
->This command relays intercepted SMB authentication requests to the specified target IP address.
+!!! info
+    This command relays intercepted SMB authentication requests to the specified target IP address.
 
 [[Responder]]:
 

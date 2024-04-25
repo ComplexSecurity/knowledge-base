@@ -12,6 +12,6 @@ An example of how `GetUserSPNs`:
 python GetUserSPNs.py <DOMAIN>/<USERNAME>:<PASSWORD> -request
 ```
 
->[!info]
->The output of this script will typically include the Kerberos tickets for the service accounts, which can be saved and subjected to offline cracking attempts.
+!!! info
+    The output of this script will typically include the Kerberos tickets for the service accounts, which can be saved and subjected to offline cracking attempts.
 

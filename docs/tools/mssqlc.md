@@ -11,8 +11,8 @@ python mssqlclient.py <USERNAME>:<PASSWORD>@<TARGET_IP> -windows-auth
 - `<TARGET_IP>` is the IP address of the target MSSQL server.
 - The `-windows-auth` flag is used for Windows (NTLM) authentication; omit this flag for standard SQL Server authentication.
 
->[!info]
->Once connected, you will be presented with an [[Structured Query Language|SQL]] command prompt where you can execute SQL queries and commands.
+!!! info
+    Once connected, you will be presented with an [[Structured Query Language|SQL]] command prompt where you can execute SQL queries and commands.
 
 For example, to list the databases, you might use:
 

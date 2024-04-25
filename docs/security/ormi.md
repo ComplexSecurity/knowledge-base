@@ -18,6 +18,6 @@ user_input = request.form['user_input']
 query = session.query(User).filter("username = '{}'".format(user_input))
 ```
 
-> [!info]
-> If `user_input` is not properly sanitized, it could be exploited to manipulate the query.
+!!! info
+    If `user_input` is not properly sanitized, it could be exploited to manipulate the query.
 

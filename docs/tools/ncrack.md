@@ -17,7 +17,7 @@ ncrack -p 22 --user admin -P password-file.txt target-host
 - `-P password-file.txt`: Specifies a file containing a list of potential passwords to try.
 - `target-host`: Specifies the target host or IP address.
 
->[!info]
->Ncrack will attempt to log in to the SSH service on the target host using the "admin" username and each password from the provided password file (`password-file.txt`). It will report back if it successfully finds the correct password or if the attack is unsuccessful.
+!!! info
+    Ncrack will attempt to log in to the SSH service on the target host using the "admin" username and each password from the provided password file (`password-file.txt`). It will report back if it successfully finds the correct password or if the attack is unsuccessful.
 
 

@@ -63,8 +63,8 @@ if ($lines === false) {
 }
 ```
 
->[!caution]
->In this example, the script takes a file path from a query parameter (`filePath`) and reads its contents. An attacker could exploit this by manipulating the query string to access sensitive files. For instance, using a URL like:
+!!! danger
+    In this example, the script takes a file path from a query parameter (`filePath`) and reads its contents. An attacker could exploit this by manipulating the query string to access sensitive files. For instance, using a URL like:
 
 ```bash
 http://example.com/script.php?filePath=../../etc/passwd
