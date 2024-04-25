@@ -555,7 +555,7 @@ nav:
           - "Docker Compose": misc/dockercompose.md
           - ".NET": misc/dotnet.md
           - "Doxygen": misc/dox.md
-          - "ElasticSearch" misc/elastic.md
+          - "ElasticSearch": misc/elastic.md
           - "Enterprise Integration Patterns (EIP)": misc/eip.md
           - "Enterprise JavaBeans (EJBs)": misc/ejb.md
           - "Enterprise Resource Planning Applications": misc/erpapps.md
