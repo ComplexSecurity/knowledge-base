@@ -1,0 +1,3 @@
+An HTTP GET request is a way your web browser asks for information from a website. IT is used to request data from a specific resource, typically a [[Server]]. When you enter a URL, your browser makes a GET request to the server hosting the resource.
+
+The request is essentially asking the server to send the data associated with that URL back to the browser. If you request a web page, the server responds by sending the [[HTML]], [[CSS]] and [[JavaScript]] files needed to display that page.

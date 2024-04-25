@@ -1,0 +1,3 @@
+The "index.html" file is an [[HTML]] file that serves as the home page for a website. It is often the first file that visitors to a website will see. Usually, it is automatically opened when visitors enter the domain without specifying a specific file.
+
+The index.html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index.html is the name used for the homepage of the website.

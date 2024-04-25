@@ -1,0 +1,7 @@
+**Microsoft Remote Procedure Call**, also known as a function call or a subroutine call, is a protocol that uses the [[client]]-[[server]] model in order to allow one program to request service from a program on another computer without having to understand the details of that computer's network. 
+
+Depending on the host configuration, the RPC endpoint mapper can be accessed through [[Transmission Control Protocol|TCP]] and [[User Datagram Protocol|UDP]] port 135, via [[Server Message Block|SMB]] with a null or authenticated session (TCP 139 and 445), and as a web service listening on TCP port 593.
+
+The MSRPC process begins on the client side, with the client application calling a local stub procedure instead of code implementing the procedure. The client stub code retrieves the required parameters from the client address space and delivers them to the client runtime library, which then translates the parameters into a standard Network Data Representation format to transmit to the server.
+
+The client stub then calls functions in the RPC client runtime library to send the request and parameters to the server. If the server is located remotely, the runtime library specifies an appropriate transport protocol and engine and passes the RPC to the network stack for transport to the server.

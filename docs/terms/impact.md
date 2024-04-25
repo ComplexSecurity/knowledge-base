@@ -1,0 +1,1 @@
+In cybersecurity, "impact" refers to the consequences or effects of a cyber incident or breach on an organization, individual, system, or network. The impact of a cybersecurity event can vary widely based on several factors, including the nature of the incident, the sensitivity of the affected data, and the preparedness of the organization. 

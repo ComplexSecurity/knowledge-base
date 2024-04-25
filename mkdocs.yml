@@ -60,7 +60,7 @@ extra:
   generator: false
 
 nav:
-  - Home: https://kenharris.io
+  - Home: https://complexsecurity.io
   # - Cheatsheets:
   #    - "Start Here":
   #       - "Start Here": cheatsheets.md
@@ -297,6 +297,11 @@ nav:
           - "Wide Area Network (WAN)": networking/wans.md
           - "Wireless LANs (WLANs)": networking/wlans.md
           - "Data Center Bridging": networking/dcb.md
+          - "Handshake": networking/shake.md
+          - "ICMP": networking/icmp.md
+          - "IP Address": networking/ipa.md
+          - "iSCSI": networking/iscsi.md
+          - "iWARP": networking/iwarp.md
   - Programming:
       - "Start Here":
           - "Start Here": programming.md
@@ -333,6 +338,38 @@ nav:
           - "Expect Wrapper": programming/expect.md
           - "Expression Language (EL)": programming/el.md
           - "Extensible Markup Language (XML)": programming/xml.md
+          - "fetch()": programming/fetch.md
+          - "file_get_contents()": programming/fgc.md
+          - "file()": programming/file.md
+          - "filter_var()": programming/filtervar.md
+          - "fopen()": programming/fopen.md
+          - "fprintf": programming/fprintf.md
+          - "fread()": programming/fread.md
+          - "fs.readFile()": programming/fsrf.md
+          - "fs.sendFile()": programming/fssf.md
+          - "F#": programming/fsharp.md
+          - "fwrite()": programming/fwrite.md
+          - "Go": programming/go.md
+          - "html-entities": programming/htmli.md
+          - "html()": programming/htmlfunc.md
+          - "htmlentities": programming/htmlent.md
+          - "htmlspecialchars": programming/hsc.md
+          - "include_once()": programming/ionce.md
+          - "include()": programming/include.md
+          - "Input Wrapper": programming/inwrap.md
+          - "insertAfter()": programming/insertafter.md
+          - "insertBefore()": programming/insertbefore.md
+          - "Java": programming/java.md
+          - "Java ME (Micro Edition)": programming/javame.md
+          - "JavaScript": programming/js.md
+          - "jQuery": programming/jquery.md
+          - "libxml_disable_entity_loader": programming/libx.md
+          - "LibXSLT": programming/libxslt.md
+          - "LoadLibrary": programming/loadl.md
+          - "Mcrypt": programming/mcrypt.md
+          - "mt_rand()": programming/mtrand.md
+          - "MySQL Improved": programming/mysqli.md
+          - "mysqli_real_escape_string()": programming/mres.md
   - Frameworks:
       - "Start Here":
           - "Start Here": frameworks.md
@@ -354,6 +391,14 @@ nav:
           - "Ember.js": frameworks/ember.md
           - "Empire": frameworks/empire.md
           - "Express": frameworks/express.md
+          - "Flask": frameworks/flask.md
+          - "Foundation": frameworks/found.md
+          - "Hadoop": frameworks/hadoop.md
+          - "Java Persistence API (JPA)": frameworks/jpa.md
+          - "JAXB (Java Architecture for XML Binding)": frameworks/jaxb.md
+          - "Jersey": frameworks/jersey.md
+          - "JUnit": frameworks/junit.md
+          - "Laravel": frameworks/laravel.md
   - Linux:
       - "Start Here":
           - "Start Here": linux.md
@@ -361,6 +406,8 @@ nav:
           - "$IFS Linux Environment Variable": linux/ifsvar.md
           - "Absolute Paths": linux/absolutepaths.md
           - "BASH": linux/bash.md
+          - "Grep": linux/grep.md
+          - "Linux Environment Variables": linux/env.md
   - Terms:
       - "Start Here":
           - "Start Here": terms.md
@@ -376,6 +423,12 @@ nav:
           - "Distributed Control Systems (DCS)": terms/dcs.md
           - "DLLs": terms/dlls.md
           - "Edge Computing": terms/edge.md
+          - "Hostname": terms/hostname.md
+          - "Hypervisors": terms/hypervisors.md
+          - "Impact": terms/impact.md
+          - "Industrial IoT (IIoT)": terms/iiot.md
+          - "IoT": terms/iot.md
+          - "Likelihood": terms/likelihood.md
   - AD:
       - "Start Here":
           - "Start Here": ad.md
@@ -388,6 +441,13 @@ nav:
           - "Authentication Service Response": activedirectory/asresponse.md
           - "Backup Domain Controller": activedirectory/bdc.md
           - "Domain Controller": activedirectory/dc.md
+          - "Golden Ticket": activedirectory/gticket.md
+          - "Kerberoasting": activedirectory/roasting.md
+          - "Kerberos Authentication": activedirectory/kerb.md
+          - "Kerberos Key Distribution Center (KDC)": activedirectory/kdc.md
+          - "Kerberos Ticket Granting Ticket (TGT)": activedirectory/tgt.md
+          - "Kerberos Tickets": activedirectory/tickets.md
+          - "Microsoft Azure Active Directory (Entra ID)": activedirectory/aad.md
   - Protocols:
       - "Start Here":
           - "Start Here": protocols.md
@@ -399,6 +459,26 @@ nav:
           - "CHAP (Challenge Handshake Authentication Protocol)": protocols/chap.md
           - "CIFS": protocols/cifs.md
           - "DISCO": protocols/disco.md
+          - "File Transfer Protocol": protocols/ftp.md
+          - "File Transfer Protocol Secure": protocols/ftps.md
+          - "Internet Key Exchange (IKE)": protocols/ike.md
+          - "Internet Message Access Protocol": protocols/imap.md
+          - "Internet Message Access Protocol Secure (IMAPS)": protocols/imaps.md
+          - "Internet Protocol (IP)": protocols/ip.md
+          - "IPSec": protocols/ipsec.md
+          - "Lightweight Directory Access Protocol": protocols/ldapp.md
+          - "LLMNR": protocols/llmnr.md
+          - "MDNS": protocols/mdns.md
+          - "MQTT": protocols/mqtt.md
+          - "NBT-NS": protocols/nbtns.md
+          - "Near Field Communication (NFC)": protocols/nfc.md
+          - "NetBIOS": protocols/netbios.md
+          - "NetBIOS Message Block (NMB)": protocols/nmb.md
+          - "NetBIOS Name Server (NBNS)": protocols/nbns.md
+          - "NetBIOS over TCP-IP (NBT)": protocols/nbt.md
+          - "Network File Share (NFS)": protocols/nfs.md
+          - "Network Time Protocol (NTP)": protocols/ntp.md
+          - "NFS over RDMA": protocols/nor.md
   - Crypto:
       - "Start Here":
           - "Start Here": cryptography.md
@@ -434,6 +514,11 @@ nav:
           - "Elliptic Curve Digital Signature Algorithm (ECDSA)": cryptography/ecdsa.md
           - "Elliptic Curve Discrete Logarithm Problem (ECDLP)": cryptography/ecdlp.md
           - "Feistel Network": cryptography/fes.md
+          - "Galois Counter Mode (GCM)": cryptography/gcm.md
+          - "GMAC (Galois Counter Mode MAC)": cryptography/gmac.md
+          - "HMAC (Hash-Based Message Authentication Code)": cryptography/hmac.md
+          - "HMAC-Based One-Time Password (HOTP)": cryptography/hmaco.md
+          - "MD5": cryptography/md5.md
   - Tools:
       - "Start Here":
           - "Start Here": tools.md
@@ -461,6 +546,35 @@ nav:
           - "Dig": tools/dig.md
           - "Dirbuster": tools/dirbuster.md
           - "DOSfuscation": tools/dos.md
+          - "Tools": tools/ffuf.md
+          - "GetADUsers": tools/getadusers.md
+          - "GetNPUsers": tools/getnpusers.md
+          - "GetUserSPNs": tools/getuspn.md
+          - "Gobuster": tools/gobuster.md
+          - "Hashcat": tools/hashcat.md
+          - "Hydra": tools/hydra.md
+          - "identYwaf": tools/waf.md
+          - "Impacket": tools/impacket.md
+          - "Incognito": tools/incog.md
+          - "John the Ripper": tools/john.md
+          - "LFIFreak": tools/freak.md
+          - "LFISuite": tools/suite.md
+          - "Liffy": tools/liffy.md
+          - "lookupsid": tools/look.md
+          - "Medusa": tools/medusa.md
+          - "Metasploit Framework": tools/msf.md
+          - "Meterpreter": tools/meterpreter.md
+          - "Microsoft PsExec": tools/mpsexec.md
+          - "Mimikatz": tools/mimi.md
+          - "Msfvenom": tools/msfvenom.md
+          - "mssqlclient": tools/mssqlc.md
+          - "Ncrack": tools/ncrack.md
+          - "Nessus": tools/nessus.md
+          - "Netcat": tools/netcat.md
+          - "Netcraft": tools/netcraft.md
+          - "Nmap": tools/nmap.md
+          - "NSLookup": tools/nslookup.md
+          - "ntlmrelayx": tools/ntlmrelayx.md
   - Web:
       - "Start Here":
           - "Start Here": web.md
@@ -501,9 +615,49 @@ nav:
           - "Error-Based Injection": web/errorsql.md
           - "Extensible Stylesheet Language Transformations Server-Side Injection (XSLT)": web/xslt.md
           - "External XML Entities": web/xxe.md
+          - "File Uploads": web/fup.md
+          - "Flexbox": web/fbox.md
+          - "Form-Based Authentication": web/fba.md
+          - "Fully Qualified Domain Name (FQDN)": web/fqdn.md
+          - "Function Injection": web/funcinject.md
+          - "Get HTTP Method": web/get.md
+          - "Header Injection": web/header.md
+          - "HTML": web/html.md
+          - "HTML Encoding": web/htmlencoding.md
+          - "HTML Injection": web/htmli.md
+          - "HTTP Downgrade Attack": web/httpdown.md
+          - "HTTP Headers": web/headers.md
+          - "HTTP Parameter Pollution (HPP)": web/hpp.md
+          - "HTTP Protocol": web/http.md
+          - "HTTP Response Codes": web/respcodes.md
+          - "HTTP Strict Transport Security": web/hsts.md
+          - "HTTP Verb Tampering": web/verbtam.md
+          - "HTTP Verbs": web/verbs.md
+          - "HTTP1.0": web/http1.md
+          - "HTTP1.1": web/http11.md
+          - "HTTP2": web/http2.md
+          - "HttpOnly Flag": web/httponly.md
+          - "HTTPS Protocol": web/https.md
+          - "iFrame": web/iframe.md
+          - "Index HTML File": web/index.md
+          - "JavaScript Minification": web/mini.md
+          - "JSON Web Tokens": web/jwt.md
+          - "Key Exchange": web/exchange.md
+          - "Load Balancer": web/loadb.md
+          - "Local File Inclusion": web/lfi.md
+          - "LocalStorage": web/lstore.md
+          - "Microsoft IIS": web/iis.md
+          - "Negotiate Authentication": web/neg.md
+          - "Nginx": web/nginx.md
       - "Templating Engines":
           - "EJS (Embedded JavaScript)": web/ejs.md
           - "ERB": web/erb.md
+          - "Handlebars": web/hbars.md
+          - "Jinja2": web/jinja2.md
+          - "Mako": web/mako.md
+          - "Mustache": web/must.md
+      - "Content Management Systems":
+          - "Joomla": web/joomla.md
   - Databases:
       - "Start Here":
           - "Start Here": databases.md
@@ -525,6 +679,26 @@ nav:
           - "Document-Based Databases": databases/dbd.md
           - "Drizzle": databases/drizz.md
           - "eXtremeDB": databases/extreme.md
+          - "File Based Database Management System": databases/fdbms.md
+          - "Firebird": databases/firebird.md
+          - "FrontBase": databases/frontbase.md
+          - "Graph-Based Database Management Systems": databases/graph.md
+          - "Greenplum": databases/green.md
+          - "H2": databases/h2.md
+          - "HSQLDB": databases/hsqldb.md
+          - "Informix": databases/informix.md
+          - "InterSystems Cache": databases/inter.md
+          - "IRIS": databases/iris.md
+          - "Key-Value Store Database Management Systems": databases/keyval.md
+          - "MariaDB": databases/maria.md
+          - "MemSQL": databases/mem.md
+          - "Microsoft Access": databases/access.md
+          - "Microsoft SQL Server": databases/sqls.md
+          - "MimerSQL": databases/mimer.md
+          - "MonetDB": databases/monet.md
+          - "MongoDB": databases/mongo.md
+          - "MySQL": databases/mysql.md
+          - "Non-Relational Database": databases/non.md
   - Mobile:
       - "Start Here":
           - "Start Here": mobile.md
@@ -561,6 +735,86 @@ nav:
           - "Enterprise Resource Planning Applications": misc/erpapps.md
           - "Enterprise Service Bus (ESB)": misc/esb.md
           - "Exim": misc/exim.md
+          - "Generic Security Services Application Programming Interface (GSSAPI)": misc/gssapi.md
+          - "GlassFish": misc/fish.md
+          - "Google Identity Platform": misc/gip.md
+          - "Google Workspace": misc/gw.md
+          - "Google's Protocol Buffers (protobuf)": misc/proto.md
+          - "Gradle": misc/gradle.md
+          - "GraphQL": misc/graphql.md
+          - "gRPC": misc/grpc.md
+          - "Head-of-Line Blocking": misc/blocking.md
+          - "Hexadecimal": misc/hex.md
+          - "Hibernate": misc/hib.md
+          - "Hosts": misc/hosts.md
+          - "HPACK": misc/hpack.md
+          - "HQL (Hibernate Query Language)": misc/hql.md
+          - "Huffman Coding": misc/huff.md
+          - "Human-Machine Interface (HMI)": misc/hmi.md
+          - "Hyper-V": misc/hyperv.md
+          - "Hyper-V Manager": misc/hvmanager.md
+          - "IBM DB2": misc/db2.md
+          - "IBM MQ": misc/mq.md
+          - "IBM WebSphere": misc/webs.md
+          - "Industrial Control Systems (ICS)": misc/ics.md
+          - "Integrated Windows Authentication (IWA)": misc/iwa.md
+          - "Jackson": misc/jack.md
+          - "Jakarta EE": misc/jak.md
+          - "Java Application Descriptor (JAD)": misc/jad.md
+          - "Java Archive (JAR)": misc/jar.md
+          - "Java Community Process (JCP)": misc/jcp.md
+          - "Java Development Kit (JDK)": misc/jdk.md
+          - "Java Enterprise Edition (Java EE)": misc/jee.md
+          - "Java Messaging Service (JMS)": misc/jms.md
+          - "Java Runtime Environment (JRE)": misc/jre.md
+          - "Java SE (Standard Edition)": misc/jse.md
+          - "Java Servlets": misc/servlets.md
+          - "Java Transaction API (JTA)": misc/jta.md
+          - "Java Virtual Machine (JVM)": misc/jvm.md
+          - "Javadoc": misc/javadoc.md
+          - "JavaScript Object Notation (JSON)": misc/json.md
+          - "JavaServer Pages (JSP)": misc/jsp.md
+          - "JAX-RS (Java API for RESTful Web Services)": misc/jaxrs.md
+          - "JAX-WS (for SOAP Web Services)": misc/jaxws.md
+          - "JBoss Application Server": misc/jboss.md
+          - "JBoss BPM (Business Process Management)": misc/jbpm.md
+          - "JBoss EAP (Enterprise Application Platform)": misc/jeap.md
+          - "JBoss ESB (Enterprise Service Bus)": misc/jesb.md
+          - "JBoss Modular Service Container (MSC)": misc/msc.md
+          - "JDBC": misc/jdbc.md
+          - "JDBI": misc/jdbi.md
+          - "JDO": misc/jdo.md
+          - "JDOQL": misc/jdoql.md
+          - "Jetty": misc/jetty.md
+          - "JMS": misc/jms2.md
+          - "JMX": misc/jmx.md
+          - "JNDI": misc/jndi.md
+          - "JPQL": misc/jpql.md
+          - "JSF": misc/jsf.md
+          - "JSON-P": misc/jsonp.md
+          - "JSON-RPC": misc/jsonrpc.md
+          - "Kubernetes": misc/kube.md
+          - "LaTeX": misc/latex.md
+          - "Logical Operators": misc/logic.md
+          - "LSA (Local Security Authority)": misc/lsa.md
+          - "LSASS (Local Security Authority Subsytem Service)": misc/lsass.md
+          - "Magic Bytes": misc/magic.md
+          - "Mail Transport Agent (MTA)": misc/mta.md
+          - "Mail User Agent (MUA)": misc/mua.md
+          - "Mailchimp": misc/chimp.md
+          - "Message Authentication Code (MAC)": misc/mac.md
+          - "Metrics": misc/metrics.md
+          - "Microsoft 365": misc/m365.md
+          - "Microsoft Azure Service Bus": misc/masb.md
+          - "Microsoft Exchange Server": misc/mes.md
+          - "Microsoft Remote Procedure Call": misc/mrpc.md
+          - "MIME-Type": misc/mime.md
+          - "Model-View-Controller (MVC)": misc/mvc.md
+          - "MonsterInsights": misc/monster.md
+          - "MTOM": misc/mtom.md
+          - "MVVM": misc/mvvm.md
+          - "NodeJS": misc/node.md
+          - "npm": misc/npm.md
   - Security:
       - "Start Here":
           - "Start Here": security.md
@@ -618,6 +872,34 @@ nav:
           - "Environment Variable Injection": security/varinj.md
           - "EPA (Extended Protection for Authentication)": security/epa.md
           - "EternalBlue": security/blue.md
+          - "Firewall": security/firewall.md
+          - "Format String Vulnerabilities": security/format.md
+          - "Google Authenticator": security/gauth.md
+          - "Hardening-Patch": security/hard.md
+          - "Hybrid Attacks": security/hybrid.md
+          - "Identity and Access Management (IAM)": security/iam.md
+          - "IMAP Injection": security/imapinj.md
+          - "Improper Error Handling": security/ish.md
+          - "In-Band Injections": security/inband.md
+          - "Information Gathering": security/info.md
+          - "Inline Queries": security/inline.md
+          - "Input Sanitization": security/inputsan.md
+          - "Insecure Direct Object Reference (IDOR)": security/idor.md
+          - "Intrusion Detection Systems": security/ids.md
+          - "Intrusion Prevention Systems": security/ips.md
+          - "Keylogging": security/key.md
+          - "LanMan": security/lanman.md
+          - "Lateral Movement": security/lat.md
+          - "LDAP Injection": security/ldap.md
+          - "Log Poisoning": security/logp.md
+          - "Man-in-the-Middle (MitM) Attack": security/mitm.md
+          - "ModSecurity": security/modsec.md
+          - "Multi-Factor Authentication (MFA)": security/mfa.md
+          - "Network Access Control (NAC)": security/nac.md
+          - "NoSQL Injection": security/nosqli.md
+          - "NTLM": security/ntlm.md
+          - "NTLM Relay Attack": security/ntlmattack.md
+          - "Null Byte Injection": security/nbi.md
   - Cloud:
       - "Start Here":
           - "Start Here": cloud.md
@@ -626,3 +908,4 @@ nav:
           - "AWS WAF": cloud/aws-waf.md
           - "Azure": cloud/azure.md
           - "Cloud Computing": cloud/cc.md
+          - "GCP": cloud/gcp.md

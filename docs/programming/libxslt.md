@@ -1,0 +1,9 @@
+Libxslt is the [[C]] library for [[XSLT (Extensible Stylesheet Language Transformations)]] processing developed by the GNOME project. It is part of the larger libxml2 library, which is a widely-used [[Extensible Markup Language]] C parser and toolkit. Libxslt provides functionality for applying XSLT stylesheets to XML documents, transforming them into different structures or formats.
+
+Libxslt allows developers to perform XSLT transformations on XML documents using XSLT stylesheets. XSLT is a language for defining the transformation rules to convert one XML document into another.
+
+Libxslt includes an implementation of [[XPath]], which is used within XSLT stylesheets to navigate and query XML documents. XPath is a powerful language for addressing parts of an XML document. Libxslt adheres to the XSLT 1.0 and XPath 1.0 specifications, making it suitable for processing documents that conform to these standards.
+
+Libxslt is designed to be portable and can be compiled and run on various platforms, including Unix-like systems, Windows, and others. Libxslt provides mechanisms for incorporating custom extensions into XSLT stylesheets, allowing developers to extend the functionality of the transformation process.
+
+The library is optimized for performance, and it supports features like streaming and incremental processing to efficiently handle large XML documents. Libxslt is often used in conjunction with the libxml2 library, which provides XML parsing and manipulation capabilities. Together, they form a powerful toolkit for working with XML and XSLT in C-based applications.

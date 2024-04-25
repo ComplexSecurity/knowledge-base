@@ -1,0 +1,12 @@
+  
+JBoss EAP (Enterprise Application Platform) is an open-source, subscription-based platform developed by Red Hat. It provides a runtime environment for building, deploying, and managing enterprise [[Java]] applications. JBoss EAP is designed to support the development and deployment of [[Java Enterprise Edition (Java EE)|Java EE (Enterprise Edition)]] applications, and it offers a range of features to enhance the performance, scalability, and reliability of enterprise applications.
+
+JBoss EAP is fully compatible with Java EE specifications. It supports the development of Java EE applications, which adhere to standardized APIs and frameworks for building enterprise-level software.
+
+JBoss EAP serves as a web and Java EE application server, providing the necessary runtime environment for deploying Java applications. It supports [[Java Servlets|servlets]], [[JSP|JSP (JavaServer Pages)]], [[Enterprise JavaBeans (EJBs)|EJB (Enterprise JavaBeans)]], [[Java Messaging Service (JMS)|JMS (Java Message Service)]], and other Java EE technologies.
+
+JBoss EAP features a modular architecture that allows developers to deploy applications in a modular and efficient manner. Applications can be deployed as independent modules, and the server can dynamically load and unload modules as needed. JBoss EAP includes features for achieving high availability and scalability. It supports clustering, allowing multiple instances of the application server to work together to distribute the workload and provide fault tolerance.
+
+JBoss EAP provides a web-based management console that allows administrators to configure, monitor, and manage the application server. This console simplifies the administration tasks related to deployment, resource configuration, and monitoring. The platform includes robust security features to protect applications and data. This includes support for authentication, authorization, role-based access control, and integration with enterprise security solutions.
+
+JBoss EAP is part of the Red Hat Middleware portfolio, and it integrates with other Red Hat middleware products. This integration allows organizations to build comprehensive and integrated solutions using Red Hat technologies. JBoss EAP undergoes certification for compatibility with Java EE specifications. This ensures that applications developed and deployed on the platform adhere to Java EE standards, promoting portability and interoperability.

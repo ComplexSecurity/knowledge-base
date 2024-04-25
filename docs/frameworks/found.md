@@ -1,0 +1,5 @@
+The Foundation framework is a front-end framework that integrates the classic Web design languages [[HTML]] and Cascading Style Sheets ([[CSS]]) with other tools and controls to provide a responsive environment for design. 
+
+Essentially, Foundation is built on two languages called [[Sass]] (Syntactically Awesome Style Sheets) and [[SCSS]] (Sassy CSS). These languages are based on [[CSS]], but offer different types of accessibility. The idea is that developers can use Foundation and other Sass/SCSS tools to do things more quickly or efficiently than if they were only using CS nbS as a Web design language.
+
+Foundation also includes rapid prototyping features, tools for responsive design for mobile projects, and a modular structure, as well as “mixins,” which is not offered by CSS. In general, Foundation offers an alternative way to construct Web projects in a complex design environment where developers have to address the needs of mobile device users and conventional computer users.

@@ -1,0 +1,11 @@
+The Kerberos Ticket Granting Ticket (TGT) is a crucial component in the [[Kerberos authentication]] protocol, used in many secure network environments. The TGT is central to the Kerberos method of authentication and plays a key role in the process of granting users access to network resources.
+
+When a user first logs into the network, they provide their credentials (username and password) to the Kerberos [[Authentication Service (AS)]]. The AS verifies these credentials against the user database. Upon successful authentication, the AS issues a TGT to the user. This TGT is encrypted using a secret key known only to the AS and the [[Ticket Granting Service (TGS)]].
+
+The TGT serves as proof that the user has been authenticated. It contains the user's identity and a timestamp indicating its validity period. The user cannot decrypt the TGT themselves, as it is encrypted with the TGS's secret key. When the user requires access to a specific network service, they request a service ticket from the TGS. This request includes the TGT and the name of the service they want to access.
+
+The TGS decrypts the TGT, validates it, and if the user is permitted to access the service, issues a service ticket for that service. This service ticket is then used by the user to access the desired network service.
+
+The TGT is securely stored on the user's machine and is encrypted throughout its lifecycle to prevent tampering and unauthorized access. TGTs have a limited validity period, after which they expire and can no longer be used to request service tickets. This reduces the risk of long-term abuse if a TGT is compromised. Users can request a renewal of the TGT without re-entering their credentials, as long as the TGT hasn't expired.
+
+In cybersecurity attacks, particularly those seeking to move laterally within a network, attackers often target TGTs. If an attacker can obtain a TGT (especially of a privileged account), they can potentially access multiple services within the network. 

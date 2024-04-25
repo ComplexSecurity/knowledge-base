@@ -1,0 +1,9 @@
+The JBoss Modular Service Container (MSC) is a core component of the [[JBoss Application Server]], which is an open-source [[Java Enterprise Edition (Java EE)|Java EE (Enterprise Edition)]] application server. MSC is designed to provide a modular and dynamic framework for managing services within the JBoss server.
+
+MSC enables a modular architecture where services can be defined and managed independently. Each service is encapsulated within a module, allowing for better isolation and organization of functionality. MSC manages the lifecycle of services, including their instantiation, initialization, and eventual disposal. This includes handling dependencies between services, ensuring that services are started and stopped in the correct order.
+
+MSC supports dynamic updates to services, allowing for changes to be applied without requiring a full server restart. This dynamic behavior is essential for achieving high availability and minimizing downtime. Services in MSC can have dependencies on other services. MSC ensures that dependencies are satisfied before a service is started, creating a well-ordered and reliable system.
+
+MSC supports asynchronous execution of services, allowing certain operations to be performed concurrently. This is particularly useful for improving system responsiveness and resource utilization. MSC is designed to be extensible, allowing developers to add custom functionality or integrate with other frameworks. This extensibility is important for adapting the JBoss server to specific use cases and requirements.
+
+MSC manages resources associated with services, such as thread pools, database connections, and other critical resources. This helps in efficient resource utilization and prevents resource leaks. MSC provides runtime diagnostics and monitoring capabilities. Administrators can gain insights into the health and performance of the services running in the JBoss server.

@@ -1,0 +1,11 @@
+Jersey is an open-source framework for developing [[REST APIs|RESTful]] Web Services in [[Java]] that provides support for [[JAX-RS (Java API for RESTful Web Services)|JAX-RS]] (Java API for RESTful Web Services) APIs. It is a part of the Eclipse Foundation's Jakarta EE project. Jersey makes it easy for developers to build robust and scalable web services using the Java programming language.
+
+Jersey is a reference implementation of the JAX-RS specification. JAX-RS is a Java specification that provides a Java API for creating RESTful web services. Jersey simplifies the development of RESTful services by allowing developers to use annotations to define URIs, HTTP methods, and media type responses.
+
+Using annotations such as `@Path`, `@GET`, `@POST`, `@PUT`, `@DELETE`, and `@Produces`, developers can easily map Java methods to HTTP requests and responses. Jersey also includes a Client API, which simplifies the process of communicating with RESTful services. This is particularly useful for consuming REST services.
+
+It supports content negotiation using media type annotations, enabling services to produce and consume data in various formats like [[JavaScript Object Notation|JSON]], [[Extensible Markup Language|XML]], and [[Clear-Text|plain text]]. Jersey can be easily integrated with various web servers, servlet containers, and [[Java Enterprise Edition (Java EE)|Java EE]] application servers. It also works well with other Java technologies like [[Spring Framework|Spring]], JSON processing libraries, and [[OAuth]] libraries.
+
+Jersey provides ways to map exceptions to [[HTTP Protocol|HTTP]] responses, making error handling in web services more manageable. Jersey allows for the creation of filters and interceptors to modify the request and response objects in the server and client APIs.
+
+It supports asynchronous processing on both the server and client sides, allowing for more efficient processing of requests and responses. Jersey is extensible and allows developers to extend its capabilities through the use of custom providers, filters, and interceptors.

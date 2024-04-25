@@ -1,0 +1,5 @@
+HTTP is the foundation of the World Wide Web, and is used to load webpages using hypertext links. HTTP is an [[Application Layer]] protocol designed to transfer information between networked devices and runs on top of other layers of the [[Network Protocol Stack]]. 
+
+It is a protocol for fetching resources such as HTML documents and is the foundation of any data exchange on the Web and it is a [[client]]-[[server]] protocol. A complete document is reconstructed from the different sub documents fetched, for instance, text, layout description, images, videos, scripts and more.
+
+Without HTTP, it would be difficult to imagine how the internet would work. There would be no web pages, no URLs and no hyperlinks. Instead, users would need to know the exact [[IP Address]] of the server hosting the information they want to access, and they would need to use a low-level protocol like [[TCP-IP]].

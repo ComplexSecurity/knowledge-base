@@ -1,0 +1,5 @@
+Key-value store DBMS ([[Database Management Systems]]) is a type of [[Non-relational Database|NoSQL]] database that stores data as a collection of key-value pairs. In this system, each key is unique, and associated with exactly one value in the database. Key-value stores are known for their simplicity, high performance, and scalability.
+
+The model is straightforward – each item contains a key and a value. The key is used to uniquely identify and access the corresponding value. The value can be various data types, including strings, lists, or more complex objects. The nature of the value depends on the specific key-value store and its use case.
+
+Unlike [[Relational Database|relational databases]], key-value stores do not enforce a data schema, so the format and structure of the value are flexible and can vary from one item to another.

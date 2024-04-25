@@ -1,0 +1,11 @@
+Java Data Objects (JDO) is an open standard developed by the [[Java Community Process (JCP)]] for persisting [[Java]] objects in a transactional data store. JDO provides a transparent persistence layer, which means that developers can focus on the business logic of their application without needing to deal with the underlying database specifics. 
+  
+This abstraction allows for the storage and retrieval of Java objects to and from various types of data stores, including relational databases, [[Non-relational Database|NoSQL]] databases, and file systems.
+  
+JDO can be used as an ORM tool to map Java objects to relational database tables, similar to other ORM frameworks like [[Hibernate]] or [[Java Persistence API (JPA)|JPA]] (Java Persistence API). Unlike some ORM frameworks that are primarily focused on relational databases, JDO is designed to be datastore agnostic. It can work with various types of data stores, not limited to [[Structured Query Language|SQL]] databases.
+
+One of the key features of JDO is transparent persistence. This means that the Java objects don't need to be altered to be persisted. JDO handles the mapping to the data store without requiring specific persistence-related code in the domain objects. JDO includes its own query language ([[JDOQL]]), which allows for querying the data store using a syntax that is closely aligned with Java.
+
+As a standard (JCP), JDO provides a vendor-neutral approach to persistence, potentially offering higher portability of the application across different JDO implementations. JDO manages the lifecycle of persistent objects, including states such as transient, persistent, detached, and transactional.
+
+JDO uses a process called enhancement (bytecode modification) for persistent classes, which can be a build-time or load-time step in the development process. Despite its capabilities, JDO's popularity has waned compared to other persistence frameworks like JPA, which have gained more traction in the Java community, largely due to their direct support in [[Java Enterprise Edition (Java EE)|Java EE]].

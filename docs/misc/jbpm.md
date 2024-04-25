@@ -1,0 +1,13 @@
+JBoss BPM (Business Process Management) is a suite of business process management tools and technologies provided by Red Hat, specifically tailored for designing, executing, and monitoring business processes. JBoss BPM is part of the larger JBoss middleware portfolio and is designed to help organizations streamline their business operations and improve efficiency.
+
+JBoss BPM supports the BPMN (Business Process Model and Notation) 2.0 standard, which is a widely accepted standard for modeling business processes. BPMN provides a graphical notation for expressing business processes in a standardized and understandable way.
+
+JBoss BPM integrates with business rules engines, allowing organizations to define and manage business rules separately from the process logic. This integration ensures that business rules can be easily modified and updated without affecting the underlying processes.
+
+JBoss BPM includes a web-based process designer that enables business analysts and process stakeholders to visually model and design business processes. The designer supports drag-and-drop functionality for creating process diagrams using BPMN elements. The BPM suite includes a process execution engine that is capable of executing business processes based on the defined models. It manages the lifecycle of processes, including process instantiation, task assignment, and process completion.
+
+JBoss BPM provides capabilities for managing human tasks within business processes. This includes task assignment, notification, and tracking of tasks performed by human participants. Users can interact with tasks through a web-based user interface. JBoss BPM can be integrated with [[JBoss ESB (Enterprise Service Bus)]], allowing seamless communication and coordination between business processes and services in the enterprise.
+
+JBoss BPM supports flexible deployment options, allowing organizations to deploy their processes on-premises, in the cloud, or in a hybrid environment. This flexibility accommodates different organizational needs and IT infrastructures. The BPM suite includes tools for monitoring and analyzing the performance of business processes. Organizations can gain insights into process execution, identify bottlenecks, and make informed decisions for process optimization.
+
+JBoss BPM also supports DMN, a standard for decision modeling. This allows organizations to model and manage business decisions separately from the process, improving agility and maintainability.
