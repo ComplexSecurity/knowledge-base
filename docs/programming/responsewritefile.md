@@ -47,7 +47,7 @@ public void ProcessRequest(HttpContext context)
 }
 ```
 
-!!! caution
+!!! danger
     In this example, an attacker could manipulate the file path to access sensitive files. For instance, if the application is hosted at `http://example.com`, an attacker might access:
 
 ```http

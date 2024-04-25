@@ -33,7 +33,7 @@ require($page . '.php');
 ?>
 ```
 
-!!! caution
+!!! danger
     In this example, if a user can control the value of `$_GET['page']`, they might be able to include files like `config.php` by manipulating the URL, such as `http://example.com/?page=../config`.
 
 A more secure implementation may look like:

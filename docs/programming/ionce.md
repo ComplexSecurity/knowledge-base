@@ -42,7 +42,7 @@ include_once($page . '.php');
 ?>
 ```
 
-!!! caution
+!!! danger
     In this script, the `$page` variable is directly taken from the user input (`$_GET['page']`). An attacker could manipulate the URL to include files that are not intended to be accessible. For example, if the script is located at `http://example.com/script.php`, an attacker could access the following URL to potentially include sensitive files:
 
 ```bash

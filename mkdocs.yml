@@ -1027,7 +1027,7 @@ nav:
           - "RTF": misc/rtf.md
           - "Salesforce": misc/salesforce.md
           - "SAML (Security Assertion Markup Language)": misc/saml.md
-          - "SAP Applications:" misc/sapa.md
+          - "SAP Applications": misc/sapa.md
           - "SAX (Simple API for XML)": misc/sax.md
           - "Saxon": misc/saxon.md
           - "Sendmail": misc/sendmail.md

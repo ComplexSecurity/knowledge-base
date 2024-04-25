@@ -37,7 +37,7 @@ app.get('/somepage', function (req, res) {
     res.render('somepage', { userInput });
 });
 ```
-!!! caution
+!!! danger
     In this scenario, if `userInput` is not properly escaped and contains JavaScript code, it will be rendered as-is into the HTML. An attacker could exploit this by crafting a URL with a script in the `userInput` parameter. For example:
 
 ```bash

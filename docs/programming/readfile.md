@@ -53,6 +53,6 @@ http.createServer((req, res) => {
 }).listen(3000);
 ```
 
-!!! caution
+!!! danger
     In this example, a simple HTTP server is created which reads the file path from the URL and then uses `readFile()` to read and return the content of the file. This is a security risk because an attacker could manipulate the URL to access files outside the intended directory. For instance, requesting `http://localhost:3000/../../etc/passwd` could potentially expose sensitive system files.
 

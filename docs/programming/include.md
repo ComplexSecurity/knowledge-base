@@ -31,7 +31,7 @@ if (in_array($page, $allowed_pages)) {
 }
 ```
 
-!!! caution
+!!! danger
     In this example, if a user can control the value of `$_GET['page']`, they might be able to include files like `config.php` by accessing the URL `http://example.com/?page=../config`.
 
 A more secure example may be:

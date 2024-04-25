@@ -60,7 +60,7 @@ app.get('/file', (req, res) => {
 app.listen(3000, () => console.log('Server running on port 3000'));
 ```
 
-!!! caution
+!!! danger
     In this example, the server sends a file based on the `fileName` query parameter. An attacker could exploit this by manipulating the `fileName` parameter to access files outside the `public` directory. For example:
 
 ```bash

@@ -14,7 +14,7 @@ Some systems and networks block ICMP traffic (hence, the ping command) for secur
 
 Ping does not give detailed information about the nature of network issues; it only indicates whether a host is reachable.
 
-!!! caution
+!!! danger
     If a ping command does not receive a response, it does not necessarily mean that the host or the entire network is down. [[Firewall]], network policies, or the host configuration might be set to ignore or block ICMP requests.
 
 Hackers and pentesters use ping to identify which hosts on a network are online. By sending ICMP echo requests to different IPs on a network, they can map out which addresses are active. The response times and patterns can give insights into the network's topology and efficiency.

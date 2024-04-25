@@ -49,6 +49,6 @@ app.get('/profile', (req, res) => {
 });
 ```
 
-!!! caution
+!!! danger
     In this scenario, if an attacker provides a username in the query string that contains JavaScript code, this code will be rendered as-is into the HTML. If another user visits a URL like `http://example.com/profile?username=<script>maliciousCode()</script>`, the script would execute in their browser.
 

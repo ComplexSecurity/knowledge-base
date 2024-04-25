@@ -41,7 +41,7 @@ require_once($page . '.php');
 ?>
 ```
 
-!!! caution
+!!! danger
     In this example, an attacker could manipulate the query string in the URL to include arbitrary files from the server, such as `http://example.com/script.php?page=../../etc/passwd`. This could lead to sensitive data exposure.
   
 A more secure implementation could be:
