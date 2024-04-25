@@ -1,7 +1,6 @@
 site_name: Complex Security
 theme:
   name: material
-  custom_dir: overrides
   favicon: images/favicon.png
   language: en
   icon:
