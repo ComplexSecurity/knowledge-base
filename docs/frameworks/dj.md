@@ -10,4 +10,4 @@ Each of these small applications is based on the **MVT - or Model-View-Template
 - **View**: the view is a Python function designed to receive a request and send a response back. This is where the data is extracted, generating a response;
 - **Template:** this is the layer where the application template is produced through artifacts understood by the web browser. This is the part that concerns everything that the end user is able to view on their device.
 
-![[mvt.png]]
+![MVT](../assets/images/mvt.png)

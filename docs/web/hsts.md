@@ -24,6 +24,5 @@ The Strict-Transport-Security header is sent for a given website and covers a pa
 
 This is why, for complete protection, your website should include a call to the base domain (in this case, acunetix.com) and receive a Strict-Transport-Security header for that domain with the includeSubDomains directive.
 
-![[hsts2.png]]
-
+![HSTS](../assets/images/hsts2.png)
 
