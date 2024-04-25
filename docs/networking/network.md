@@ -4,8 +4,7 @@ This layer manages the delivery of packets, including routing through different 
 
 Some examples of protocols used at this layer include:
 
-- [IP Address (IPv4)](ip.md)
-- [IP Address (IPv6)](ip.md)
+- [IP Address (IPv4)](../networking/ipa.md)
+- [IP Address (IPv6)](../networking/ipa.md)
 - Open Shortest Path First (OSPF)
 - Enhanced Interior Gateway Routing Protocol (EIGRP)
-

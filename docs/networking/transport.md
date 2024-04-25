@@ -4,6 +4,5 @@ It ensures end-to-end communication services for applications and provides relia
 
 Some protocols that operate here are:
 
-- [User Datagram Protocol]() (UDP)
-- [Transmission Control Protocol]()(TCP)
-
+- [User Datagram Protocol](../networking/udp.md) (UDP)
+- [Transmission Control Protocol](../networking/tcp.md)(TCP)

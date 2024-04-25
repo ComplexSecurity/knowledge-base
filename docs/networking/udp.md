@@ -1,4 +1,4 @@
-UDP, or User Datagram Protocol, is a communication protocol used across the Internet. It's part of the Internet Protocol Suite, commonly known as [[TCP-IP|TCP/IP]]. Unlike its counterpart, [[Transmission Control Protocol|TCP]], UDP is known for its simplicity and speed in data transmission, but this comes at the cost of reliability and ordering.
+UDP, or User Datagram Protocol, is a communication protocol used across the Internet. It's part of the Internet Protocol Suite, commonly known as [TCP/IP](../networking/tcpip.md). Unlike its counterpart, [TCP](../networking/tcp.md), UDP is known for its simplicity and speed in data transmission, but this comes at the cost of reliability and ordering.
 
 UDP is a connectionless protocol meaning that UDP does not establish a connection before sending data. Instead, it sends packets directly to the recipient without prior communications to set up special transmission channels or data paths.
 

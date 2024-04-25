@@ -11,4 +11,3 @@ IP addresses can be static or dynamic:
 
 - Static - do not change. They serve as a permanent Internet address and provide a simple, reliable way for computers to contact you.
 - Dynamic - temporary and assigned each time a device accesses the Internet. They are borrowed from a pool of IP addresses that are shared among multiple computers.
-

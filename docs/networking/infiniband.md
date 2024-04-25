@@ -2,9 +2,8 @@ InfiniBand is a high-performance, low-latency networking technology primarily us
 
 InfiniBand provides very high data transfer rates (up to several hundred gigabits per second) with low latency, significantly faster than traditional Ethernet or Fibre Channel networks. It is highly scalable, suitable for small clusters to large supercomputers with thousands of nodes.
 
-InfiniBand supports advanced QoS capabilities, ensuring reliable and consistent data delivery for various types of traffic. InfiniBand natively supports [RDMA (Remote Direct Memory Access)](), allowing data to be transferred directly between the memory of two computers without CPU involvement. It includes features for error handling and failover, enhancing the reliability and stability of the network.
+InfiniBand supports advanced QoS capabilities, ensuring reliable and consistent data delivery for various types of traffic. InfiniBand natively supports [RDMA (Remote Direct Memory Access)](../misc/rdma.md), allowing data to be transferred directly between the memory of two computers without CPU involvement. It includes features for error handling and failover, enhancing the reliability and stability of the network.
 
 While Ethernet is more common and versatile, used for a wide range of networking applications, InfiniBand is specialized for high-performance and data-intensive tasks. InfiniBand's low latency and high throughput make it ideal for HPC and data center environments, though its specialized nature means it's generally more expensive and less familiar than Ethernet.
 
 InfiniBand infrastructure, including switches and host channel adapters (HCAs), can be more expensive and complex to implement and manage than traditional Ethernet. InfiniBand is typically used in environments where all components are designed to support it, as it's not natively compatible with standard Ethernet networks. Effective use of InfiniBand requires software that is specifically designed or adapted to take advantage of its features.
-

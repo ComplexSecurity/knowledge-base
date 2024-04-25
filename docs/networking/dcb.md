@@ -1,6 +1,6 @@
 Data Center Bridging (DCB) is a suite of Institute of Electrical and Electronics Engineers (IEEE) standards that enhance traditional Ethernet networking to make it more suitable for data center environments.
 
-These enhancements are particularly focused on enabling Ethernet networks to carry mixed types of traffic, such as storage, data, and high-performance interconnects, with improved reliability, efficiency, and low latency. DCB is crucial for technologies like [[FCoE (Fibre Channel over Ethernet)]] and [[iSCSI]], as well as [[RDMA over Converged Ethernet (RoCE)]].
+These enhancements are particularly focused on enabling Ethernet networks to carry mixed types of traffic, such as storage, data, and high-performance interconnects, with improved reliability, efficiency, and low latency. DCB is crucial for technologies like [FCoE (Fibre Channel over Ethernet)](../networking/fcoe.md) and [iSCSI](../networking/iscsi.md), as well as [[RDMA over Converged Ethernet (RoCE)]].
 
 Some key components include:
 
