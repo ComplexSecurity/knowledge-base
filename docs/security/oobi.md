@@ -1,0 +1,6 @@
+Out-of-band SQL injection is a type of [[SQL injection]] attack that differs from the more common in-band and blind techniques. In out-of-band SQL injections, the data is retrieved using a different channel than the one used to launch the attack. 
+
+This method is often used when an attacker is unable to use the same channel for both attack and data retrieval due to server-side limitations or security measures. Out-of-band SQL injection can be executed in two primary ways:
+
+- DNS-Based Data Exfiltration - the attacker exploits the SQL injection vulnerability to cause the database server to make a [[DNS]] request to a server controlled by the attacker. The attacker embeds the data they wish to exfiltrate (like usernames, passwords, etc.) within the subdomain of the DNS request. When the database server makes the request to this subdomain, the attacker's DNS server logs the query, allowing them to extract the data from the subdomain field.
+- HTTP-Based Data Exfiltration - Similar to the DNS-based method, but instead, the attacker forces the database server to make an HTTP request to an external server controlled by the attacker. The data to be exfiltrated is sent as part of the [[HTTP Protocol|HTTP]] request, which can be in the URL, headers, or even the body of the request, depending on the attacker's manipulation and the capabilities of the SQL server.

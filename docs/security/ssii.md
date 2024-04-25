@@ -1,0 +1,9 @@
+Server-Side Includes (SSI) Injection is a type of web application security vulnerability. This vulnerability occurs when an attacker is able to inject malicious code into a web application that uses Server-Side Includes. SSI is a server-side scripting language used primarily for including the contents of one or more files into a web page on a web server, usually for web page design purposes.
+
+Server-Side Includes are directives that are placed in [[HTML]] pages, and evaluated on the server while the pages are being served. They allow for dynamic content to be included in static web pages. Common uses include inserting the contents of a file, displaying the current date and time, or setting environment variables.
+
+The vulnerability arises when a web application does not properly [[Input Sanitization|sanitize]] user-supplied input that is incorporated into an SSI directive. An attacker can inject malicious SSI directives through user input fields, like form inputs or URL query parameters, which the server then executes.
+
+SSI Injection can lead to various malicious activities, depending on the level of server privileges available to the SSI engine. This might include [[Sensitive Data Exposure|data disclosure]], [[cross-site scripting]] (XSS), and, in some cases, [[Knowledge Base/Remote Code Execution|command execution]] on the server.
+
+If a web application includes user input directly in a web page that is processed for SSI directives, an attacker might input something like `<!--#exec cmd="ls" -->`. If this input is not properly sanitized, the server might execute this directive and include the output (in this case, the listing of files in the current directory) in the web page.

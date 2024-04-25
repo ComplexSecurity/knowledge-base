@@ -1,0 +1,6 @@
+The `SameSite` flag is an attribute used in [[HTTP Protocol|HTTP]] [[cookies]] to help mitigate the risk of cross-origin information leakage. It also provides some protection against [[cross-site request forgery]] attacks. Essentially, it instructs the browser how to handle cookies based on where the request originated. The `SameSite` attribute can take three values:
+
+1. **None**: The cookie will be sent in all requests, both same-site and cross-site. When `SameSite=None` is used, the [[Secure Flag|Secure]] attribute must also be set, meaning the cookie will only be sent over secure ([[HTTPS Protocol|HTTPS]]) connections.
+2. **Lax**: The default setting in most modern browsers if the `SameSite` attribute is not specified. Under `Lax` mode, cookies are withheld on cross-site subrequests (like loading images or frames), but are sent when the user navigates to the URL from an external site (e.g., by following a link).
+3. **Strict**: Under this setting, the cookie will only be sent in a first-party context and not be sent along with requests initiated by third party websites. This can prevent the user's state from being sent in cross-origin requests, providing strong protection against CSRF attacks but potentially impacting user experience, as some cross-origin requests may rely on those cookies.
+

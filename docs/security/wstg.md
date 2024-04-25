@@ -1,0 +1,7 @@
+The OWASP Web Security Testing Guide (WSTG) is a comprehensive resource for testing the security of web applications and web services. OWASP, which stands for the Open Web Application Security Project, is a nonprofit foundation that works to improve the security of software. 
+
+One of the standout features of the WSTG is its comprehensive coverage of various security testing aspects. It delves into everything from basic information gathering to more complex areas like authentication, session management, and input validation. This broad scope makes it a valuable tool not just for security professionals, but also for developers and IT personnel looking to understand and improve the security of their web applications.
+
+What sets the OWASP WSTG apart is its practical approach. It's not just a theoretical manual; it provides real-world examples and detailed steps for identifying and exploiting security vulnerabilities. This hands-on approach is incredibly useful for understanding the nuances of web security threats like [[SQL injection]], [[cross-site scripting]], and others.
+
+A good repository to start testing and to use as a checklist is available [here](https://github.com/OWASP/wstg/tree/master/document/4-Web_Application_Security_Testing)

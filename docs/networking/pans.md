@@ -10,4 +10,4 @@ Common uses include file transfers between devices, internet sharing from a phon
 
 Security in PANs is crucial, especially in wireless setups, to protect data during transmission. Technologies like Bluetooth incorporate security measures like encryption and authentication.
 
-Technologies like Bluetoothand [Near Field Communication (NFC)]() are prevalent in establishing WPANs for quick and efficient device-to-device communication.
+Technologies like [Bluetooth]() and [Near Field Communication (NFC)]() are prevalent in establishing WPANs for quick and efficient device-to-device communication.

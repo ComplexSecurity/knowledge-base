@@ -1,0 +1,11 @@
+PHAR files, short for "PHP Archive," are a way to package a complete [[PHP]] application or library into a single file. Introduced in PHP 5.3, PHAR files simplify the distribution and deployment of PHP applications by encapsulating entire PHP applications, including their libraries, data, and scripts, in a single archive.
+
+PHAR files allow bundling of all the PHP scripts, assets, and metadata needed for an application or library into a single file. This makes distribution and deployment easier and more streamlined. PHAR files can be executed directly by the PHP interpreter, similar to how [[Java Archive (JAR)|JAR]] files work in [[Java]]. This feature allows PHAR files to be used as standalone PHP applications.
+
+PHAR supports gzip and bzip2 compression, reducing the file size and making it more efficient for distribution. PHAR files can include a digital signature to verify the integrity of the contained files, adding a layer of security by preventing tampering. They can be used for various purposes, including as a distribution mechanism for PHP libraries, frameworks, and applications, as well as for creating self-contained command-line tools.
+
+PHAR files are often used to package entire PHP applications, so they can be easily distributed and run without the need for separate installation steps. Many PHP-based tools, such as [[PHPDocumentor]] or [[PHPUnit]], are distributed as PHAR files for ease of use and installation. Developers can package PHP libraries in PHAR format, allowing others to include the library in their projects without dealing with multiple files or directories.
+
+Creating a PHAR file involves bundling the PHP scripts and other resources, and optionally setting a stub (a small bootstrapping script) that directs the PHP interpreter on how to execute the PHAR. PHP provides a `Phar` class for creating and manipulating PHAR files programmatically.
+
+As with any executable file, care should be taken when running PHAR files from untrusted sources, as they can contain harmful code. Due to security implications, some server configurations might restrict the execution of PHAR files. Developers need to be aware of the deployment environment’s constraints.

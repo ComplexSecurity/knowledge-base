@@ -1,0 +1,15 @@
+OpenID Connect (OIDC) is an authentication and authorization protocol built on top of [[OAuth]] 2.0, designed to facilitate secure and standardized authentication in web and mobile applications. OIDC provides a framework for authenticating users, obtaining their identity information, and, if necessary, authorizing them to access protected resources or services. It is often used to implement [[Single Sign-On (SSO)]] and federated identity solutions.
+
+OIDC allows relying parties (client applications) to authenticate users through [[Trusted Identity Provider (IdP)|identity providers (IDPs)]]. Users log in to an IDP, which issues an ID token to the client application after successful authentication.
+
+The ID token is a [[JSON Web Tokens|JWT (JSON Web Token)]] that contains information about the authenticated user. It typically includes user attributes, such as username, email address, and other claims. The ID token is digitally signed by the IDP to ensure its integrity. OIDC enables SSO by allowing users to authenticate once with an IDP and then access multiple client applications without re-entering credentials. The ID token serves as proof of authentication.
+
+OIDC supports federated identity scenarios where users from one organization can use their home IDP's credentials to access resources in other organizations. This is useful for cross-domain authentication. OIDC defines various OAuth 2.0 flows, with the most commonly used being the Authorization Code Flow. In this flow, the client application obtains an authorization code, exchanges it for an ID token and an access token, and uses them to access resources.
+
+Another OIDC flow is the Implicit Flow, which is used in single-page applications (SPAs). It allows the client to obtain an ID token directly from the IDP without a server-side component. The Hybrid Flow combines elements of the Authorization Code Flow and the Implicit Flow, providing greater flexibility for applications that require ID tokens and access tokens.
+
+OIDC uses discovery documents, also known as well-known endpoints, to allow clients to dynamically locate and obtain the configuration details of the IDP, such as endpoints and cryptographic keys. OIDC includes a User Info Endpoint where clients can request additional user information beyond what is available in the ID token.
+
+OIDC defines a logout mechanism that allows users to log out from multiple applications simultaneously. This ensures a consistent logout experience. OIDC uses OAuth 2.0 scopes to request specific user information or access to protected resources. Scopes are used to control the level of authorization granted.
+
+OIDC incorporates security features, such as token encryption, to protect sensitive information in transit. It also supports Token Binding, which helps prevent token replay attacks.

@@ -302,6 +302,11 @@ nav:
           - "IP Address": networking/ipa.md
           - "iSCSI": networking/iscsi.md
           - "iWARP": networking/iwarp.md
+          - "Point-to-Point Protocol (PPP)": networking/ppp.md
+          - "Port": networking/port.md
+          - "RADIUS": networking/radius.md
+          - "TCP/IP": networking/tcpip.md
+          - "Transmission Control Protocol": networking/tcp.md
   - Programming:
       - "Start Here":
           - "Start Here": programming.md
@@ -370,6 +375,47 @@ nav:
           - "mt_rand()": programming/mtrand.md
           - "MySQL Improved": programming/mysqli.md
           - "mysqli_real_escape_string()": programming/mres.md
+          - "Object-Oriented Programming": programming/oop.md
+          - "Object-Relational Mapping": programming/orp.md
+          - "Objective C": programming/objectc.md
+          - "parseHTML()": programming/parse.md
+          - "passthru": programming/passthru.md
+          - "password_hash()": programming/passhash.md
+          - "password_verify()": programming/passver.md
+          - "Perl": programming/perl.md
+          - "pg_escape_string()": programming/escapestring.md
+          - "Phar Wrapper": programming/pharwrap.md
+          - "PHP": programming/php.md
+          - "PHP Filters": programming/phpfilters.md
+          - "PHP Wrappers": programming/phpwrappers.md
+          - "Polymorphism": programming/polymorph.md
+          - "preg_match()": programming/pregmatch.md
+          - "preg_replace()": programming/pregrep.md
+          - "prepend()": programming/prepend.md
+          - "printf()": programming/printf.md
+          - "Python": programming/python.md
+          - "Rails": programming/rails.md
+          - "readfile()": programming/readfile.md
+          - "render()": programming/render.md
+          - "replaceAll()": programming/replaceall.md
+          - "replaceWith()": programming/replacewith.md
+          - "requests": programming/requests.md
+          - "require_once()": programming/requireonce.md
+          - "require()": programming/require.md
+          - "res.render()": programming/resrender.md
+          - "Response.WriteFile": programming/responeswritefile.md
+          - "Ruby": programming/ruby.md
+          - "Ruby on Rails": programming/ror.md
+          - "shell_exec": programming/shexec.md
+          - "Smalltalk": programming/small.md
+          - "Snuffleupagus": programming/snuffle.md
+          - "Sodium": programming/sod.md
+          - "sprintf": programming/sprintf.md
+          - "String Filters": programming/stringfilt.md
+          - "Structured Query Language": programming/sql.md
+          - "Swift": programming/swift.md
+          - "sys": programming/sys.md
+          - "system": programming/system.md
   - Frameworks:
       - "Start Here":
           - "Start Here": frameworks.md
@@ -399,6 +445,14 @@ nav:
           - "Jersey": frameworks/jersey.md
           - "JUnit": frameworks/junit.md
           - "Laravel": frameworks/laravel.md
+          - "OSGi": frameworks/osgi.md
+          - "PHPUnit": frameworks/phpunit.md
+          - "ReactJS": frameworks/reactjs.md
+          - "RESTEasy": frameworks/resteasy.md
+          - "Spring Boot": frameworks/spring.md
+          - "Spring Framework": frameworks/springframe.md
+          - "Symfony": frameworks/symfony.md
+          - "Tornado": frameworks/tornado.md
   - Linux:
       - "Start Here":
           - "Start Here": linux.md
@@ -408,6 +462,8 @@ nav:
           - "BASH": linux/bash.md
           - "Grep": linux/grep.md
           - "Linux Environment Variables": linux/env.md
+          - "Relative Paths": linux/relative.md
+          - "sed": linux/sed.md
   - Terms:
       - "Start Here":
           - "Start Here": terms.md
@@ -429,6 +485,11 @@ nav:
           - "Industrial IoT (IIoT)": terms/iiot.md
           - "IoT": terms/iot.md
           - "Likelihood": terms/likelihood.md
+          - "Proxy": terms/proxy.md
+          - "Reverse Proxy": terms/revprox.md
+          - "Risk": terms/risk.md
+          - "Server": terms/server.md
+          - "Threats": terms/threats.md
   - AD:
       - "Start Here":
           - "Start Here": ad.md
@@ -448,6 +509,14 @@ nav:
           - "Kerberos Ticket Granting Ticket (TGT)": activedirectory/tgt.md
           - "Kerberos Tickets": activedirectory/tickets.md
           - "Microsoft Azure Active Directory (Entra ID)": activedirectory/aad.md
+          - "Pass-the-Hash Attacks": activedirectory/pth.md
+          - "Pass-the-Ticket Attacks": activedirectory/ptt.md
+          - "Primary Domain Controller": activedirectory/pdc.md
+          - "Relay Attacks": activedirectory/relayatt.md
+          - "Service Ticket": activedirectory/servtick.md
+          - "SMB Relay Attacks": activedirectory/smbrelay.md
+          - "SMB Signing": activedirectory/smbsign.md
+          - "Ticket Granting Service (TGS)": activedirectory/tgs.md
   - Protocols:
       - "Start Here":
           - "Start Here": protocols.md
@@ -479,6 +548,34 @@ nav:
           - "Network File Share (NFS)": protocols/nfs.md
           - "Network Time Protocol (NTP)": protocols/ntp.md
           - "NFS over RDMA": protocols/nor.md
+          - "OpenID Connect": protocols/openid.md
+          - "PAP (Password Authentication Protocol)": protocols/pap.md
+          - "Post Office Protocol": protocols/pop.md
+          - "Post Office Protocol Secure": protocols/pops.md
+          - "Remote Desktop Protocol": protocols/rdp.md
+          - "SCP (Secure Copy)": protocols/scp.md
+          - "SCSI Protocol": protocols/scsi.md
+          - "Secure File Transfer Protocol": protocols/sftp.md
+          - "Secure Shel": protocols/ssh.md
+          - "Server Message Block": protocols/smb.md
+          - "Signal Protocol": protocols/signal.md
+          - "Simple and Protected GSSAPI Negotation Mechanism": protocols/simpleprot.md
+          - "Simple Mail Transfer Protocol": protocols/smtp.md
+          - "Simple Mail Transfer Protocol Secure": protocols/smtps.md
+          - "Simple Network Management Protocol": protocols/snmp.md
+          - "Simultaneous Authentication of Equals (SAE)": protocols/sae.md
+          - "SMB 1": protocols/smb1.md
+          - "SMB 2": protocols/smb2.md
+          - "SMB 3": protocols/smb3.md
+          - "SMB Direct": protocols/smbdir.md
+          - "SMB Multichannel": protocols/smbmulti.md
+          - "SSH File Transfer Protocol": protocols/sftp2.md
+          - "STARTTLS": protocols/starttls.md
+          - "STOMP": protocols/stomp.md
+          - "TACACS+": protocols/tacacs.md
+          - "Telnet": protocols/telnet.md
+          - "TLS Handshake": protocols/tlshand.md
+          - "Trivial File Transfer Protocol": protocols/tftp.md
   - Crypto:
       - "Start Here":
           - "Start Here": cryptography.md
@@ -519,6 +616,25 @@ nav:
           - "HMAC (Hash-Based Message Authentication Code)": cryptography/hmac.md
           - "HMAC-Based One-Time Password (HOTP)": cryptography/hmaco.md
           - "MD5": cryptography/md5.md
+          - "OFB (Output Feedback)": cryptography/ofb.md
+          - "OpenSSL": cryptography/ssl.md
+          - "Perfect Forward Secrecy": cryptography/pfs.md
+          - "PGP (Pretty Good Privacy)": cryptography/pgp.md
+          - "Poly1305": cryptography/poly.md
+          - "Pre-Shared Key (PSK)": cryptography/psk.md
+          - "Public Key Infrastructure (PKI)": cryptography/pki.md
+          - "RIJNDAEL": cryptography/rij.md
+          - "ROT13": cryptography/rot13.md
+          - "RSA (Rivest-Shamir-Adleman)": cryptography/rsa.md
+          - "SHA-1": cryptography/sha1.md
+          - "SHA-3": cryptography/sha3.md
+          - "SHA-256": cryptography/sha256.md
+          - "SSL/TLS": cryptography/ssltls.md
+          - "Symmetric Encryption": cryptography/symmetric.md
+          - "Temporal Key Integrity Protocol (TKIP)": cryptography.md
+          - "TLS": cryptography/tls.md
+          - "Triple Des (3DES)": cryptography/3des.md
+          - "Twofish": cryptography/twofish.md
   - Tools:
       - "Start Here":
           - "Start Here": tools.md
@@ -575,6 +691,36 @@ nav:
           - "Nmap": tools/nmap.md
           - "NSLookup": tools/nslookup.md
           - "ntlmrelayx": tools/ntlmrelayx.md
+          - "OWASP ZAP": tools/zap.md
+          - "Patator": tools/patator.md
+          - "PayloadAllTheThings": tools/palt.md
+          - "PayloadBox": tools/pbox.md
+          - "Ping": tools/ping.md
+          - "Process Explorer": tools/procex.md
+          - "Project Interactsh": tools/interact.md
+          - "Proxychains": tools/proxychains.md
+          - "psexec": tools/psexec.md
+          - "PTH-Toolkit": tools/ptht.md
+          - "Pwncat": tools/pwncat.md
+          - "Responder": tools/responder.md
+          - "rsmangler": tools/rsmangler.md
+          - "Rsync": tools/rsync.md
+          - "SecLists": tools/seclists.md
+          - "secretsdump": tools/secretsdump.md
+          - "SetSPN": tools/setspn.md
+          - "smbserver": tools/smbserver.md
+          - "smbrelayx": tools/smbrelayx.md
+          - "smbserver": tools/smbserver.md
+          - "SQLMap": tools/sqlmap.md
+          - "Sysinternals Suite": tools/sysint.md
+          - "Sysmon (System Monitor)": tools/sysmon.md
+          - "Tcpdump": tools/tcpdump.md
+          - "TCPView": tools/tcpview.md
+          - "tgsrepcrack": tools/tgsrepcrack.md
+          - "The Mentalist": tools/mental.md
+          - "The Harvester": tools/harvest.md
+          - "Tplmap": tools/tplmap.md
+          - "Traceroute": tools/trace.md
   - Web:
       - "Start Here":
           - "Start Here": web.md
@@ -649,6 +795,33 @@ nav:
           - "Microsoft IIS": web/iis.md
           - "Negotiate Authentication": web/neg.md
           - "Nginx": web/nginx.md
+          - "Open Redirects": web/open.md
+          - "Parameter Entity": web/entity.md
+          - "Parameter Fuzzing": web/parfuzz.md
+          - "Pure": web/pure.md
+          - "Put HTTP Method": web/put.md
+          - "Rate Limiting": web/ratelimit.md
+          - "REST APIs": web/restapis.md
+          - "Robots Exclusion Protocol (REP)": web/rep.md
+          - "Robots.txt": web/robots.md
+          - "Same Origin Policy": web/sop.md
+          - "SameSite Flag": web/samesite.md
+          - "SASS": web/sass.md
+          - "Scalable Vector Graphic": web/svg.md
+          - "SCSS": web/scss.md
+          - "Search Engine Crawlers": web/crawlers.md
+          - "Secure Flag": web/secure.md
+          - "SessionStorage": web/sessstore.md
+          - "Single Page Application (SPA) Routing": web/sparoute.md
+          - "Single Page Applications": web/spas.md
+          - "SSI Directive": web/ssidir.md
+          - "SSL": web/ssl.md
+          - "SSL Certificates": web/sslcerts.md
+          - "SSL Handshakes": web/sslhand.md
+          - "Subdomains": web/subs.md
+          - "Template Directives": web/templatedirs.md
+          - "Top-Level Domains (TLDs)": web/tlds.md
+          - "Trace HTTP Method": web/trace.md
       - "Templating Engines":
           - "EJS (Embedded JavaScript)": web/ejs.md
           - "ERB": web/erb.md
@@ -656,8 +829,14 @@ nav:
           - "Jinja2": web/jinja2.md
           - "Mako": web/mako.md
           - "Mustache": web/must.md
+          - "Pug (Jade)": web/pug.md
+          - "Smarty": web/smarty.md
+          - "Template Engines": web/templateengines.md
+          - "Thymeleaf": web/thyme.md
+          - "Twig": web/twig.md
       - "Content Management Systems":
           - "Joomla": web/joomla.md
+          - "OpenCart": web/opencart.md
   - Databases:
       - "Start Here":
           - "Start Here": databases.md
@@ -699,6 +878,19 @@ nav:
           - "MongoDB": databases/mongo.md
           - "MySQL": databases/mysql.md
           - "Non-Relational Database": databases/non.md
+          - "Oracle Database": databases/oracle.md
+          - "PostgreSQL": databases/postgres.md
+          - "Prepared Statements": databases/prepared.md
+          - "Presto": databases/presto.md
+          - "Redis": databases/redis.md
+          - "Relational Database": databases/rdb.md
+          - "Relational Database Management System": databases/rdbms.md
+          - "SAP MaxDB": databases/maxdb.md
+          - "Schema": databases/schema.md
+          - "SQL Statements": databases/sqlstate.md
+          - "SQLite": databases/sqlite.md
+          - "Sybase": databases/sybase.md
+          - "TiDB": databases/tidb.md
   - Mobile:
       - "Start Here":
           - "Start Here": mobile.md
@@ -815,6 +1007,47 @@ nav:
           - "MVVM": misc/mvvm.md
           - "NodeJS": misc/node.md
           - "npm": misc/npm.md
+          - "OAuth": misc/oauth.md
+          - "Object Graph Navigation Language": misc/ognl.md
+          - "Office 365": misc/o365.md
+          - "Oracle WebLogic": misc/weblogic.md
+          - "Outlook Web Access": misc/owa.md
+          - "Payara": misc/payara.md
+          - "PHP Archive (PHAR)": misc/phar.md
+          - "PHPDocumentor": misc/phpdocumentor.md
+          - "Postfix": misc/postfix.md
+          - "Programmable Logic Controllers (PLC)": misc/plc.md
+          - "Project Object Model (POM)": misc/pom.md
+          - "RabbitMQ": misc/rabbit.md
+          - "Radio-Frequency Identification (RFID)": misc/rfid.md
+          - "RDMA (Remote Direct Memory Access)": misc/rdma.md
+          - "Remote Method Invocation": misc/rmi.md
+          - "Remote Procedure Call": misc/rpc.md
+          - "Remote Terminal Units (RTUs)": misc/rtus.md
+          - "RTF": misc/rtf.md
+          - "Salesforce": misc/salesforce.md
+          - "SAML (Security Assertion Markup Language)": misc/saml.md
+          - "SAP Applications:" misc/sapa.md
+          - "SAX (Simple API for XML)": misc/sax.md
+          - "Saxon": misc/saxon.md
+          - "Sendmail": misc/sendmail.md
+          - "SEO": misc/seo.md
+          - "Serialization": misc/serial.md
+          - "Server-Sent Events (SSE)": misc/sse.md
+          - "Serverless Architecture": misc/serverless.md
+          - "Service-Oriented Architecture (SOA)": misc/soa.md
+          - "SharePoint": misc/sharepoint.md
+          - "Shopify": misc/shopify.md
+          - "SOAP": misc/soap.md
+          - "SOAPAction": misc/soapaction.md
+          - "Standard Generalized Markup Language (SGML)": misc/sgml.md
+          - "Sub-Addressing": misc/subadd.md
+          - "Suhosin": misc/suhosin.md
+          - "Supervisory Control and Data Acquisition (SCADA)": misc/scada.md
+          - "Supply Chain Management": misc/supply.md
+          - "System Center Virtual Machine Manager": misc/scvmm.md
+          - "TomEE": misc/tomee.md
+          - "Transact-SQL": misc/tsql.md
   - Security:
       - "Start Here":
           - "Start Here": security.md
@@ -900,6 +1133,78 @@ nav:
           - "NTLM": security/ntlm.md
           - "NTLM Relay Attack": security/ntlmattack.md
           - "Null Byte Injection": security/nbi.md
+          - "Obfuscation": security/obfuscation.md
+          - "Object Injection": security/objects.md
+          - "OGNL Injection": security/ognli.md
+          - "Okta": security/okta.md
+          - "On-Path Attack": security/onpath.md
+          - "One-Time Password (OTP)": security/otp.md
+          - "ORM Injection": security/ormi.md
+          - "OS Command Injection": security/osci.md
+          - "OSINT": security/osint.md
+          - "Out-of-Band Data Exfiltration": security/oob.md
+          - "Out-of-Band Injections": security/oobi.md
+          - "OWASP Top Ten": security/owasp10.md
+          - "OWASP Web Security Testing Guide": security/wstg.md
+          - "Packet Sniffing": security/sniffing.md
+          - "Packing": security/packing.md
+          - "Parameterized Queries": security/parameterized.md
+          - "Password Cracking": security/crack.md
+          - "Password Hashes": security/hashes.md
+          - "Password Spraying": security/spray.md
+          - "Persistence": security/persist.md
+          - "Phishing": security/phishing.md
+          - "Pixel Flood": security/pixelf.md
+          - "Port Scanning": security/portscan.md
+          - "Privilege Escalation": security/privesc.md
+          - "Process Manipulation": security/procman.md
+          - "Rainbow Table Attack": security/rainbows.md
+          - "Rainbow Tables": security/raintab.md
+          - "Reconnaissance": security/recon.md
+          - "Reflected XSS": security/refxss.md
+          - "Regular Expression Denial of Service (ReDoS)": security/redos.md
+          - "Regular Expressions": security/regex.md
+          - "Remote Access Toolkit (RAT)": security/rat.md
+          - "Remote Code Execution (RCE)": security/rce.md
+          - "Remote File Inclusion": security/rfi.md
+          - "Reverse Shells": security/revshell.md
+          - "Rockyou.txt": security/rockyou.md
+          - "Role-Based Access Control": security/rbac.md
+          - "Rootkits": security/rootkits.md
+          - "Salt": security/salt.md
+          - "SAM": security/sam.md
+          - "Second Order LFI Attack": security/sola.md
+          - "Secure Token Service (STS)": security/sts.md
+          - "Security Associations (SAs)": security/sas.md
+          - "Security Information and Event Management (SIEM)": security/siem.md
+          - "Sensitive Data Exposure": security/sensitive.md
+          - "Server-Side Includes Injections": security/ssii.md
+          - "Server-Side Request Forgery": security/ssrf.md
+          - "Server-Side Template Injection": security/ssti.md
+          - "Service Principle Names (SPN)": security/spns.md
+          - "Service Provider (SP)": security/sp.md
+          - "Session Fixation": security/fixation.md
+          - "Session Hijacking": security/sesshij.md
+          - "Shellcode": security/shellcode.md
+          - "Shellcode Injection": security/shellinjection.md
+          - "Shellshock": security/shellshock.md
+          - "Shibboleth": security/shibboleth.md
+          - "Side-Channel Attacks": security/side.md
+          - "Single Sign-On (SSO)": security/sso.md
+          - "SOAPAction": security/soapaction.md
+          - "Social Engineering": security/soceng.md
+          - "SQL Injection": security/sqli.md
+          - "SSL Stripping": security/sslstrip.md
+          - "Stacked Queries": security/stacked.md
+          - "Static Analysis": security/static.md
+          - "Stored (Persistent) XSS": security/storedxss.md
+          - "Time-Based Boolean Injection": security/timebased.md
+          - "Time-Based One-Time Password (TOTP)": security/totp.md
+          - "Token Impersonation": security/imperson.md
+          - "Token in URL": security/tokenurl.md
+          - "TOR": security/tor.md
+          - "Traffic Interception": security/trafficint.md
+          - "Trusted Identity Provide (IdP)": security/tidp.md
   - Cloud:
       - "Start Here":
           - "Start Here": cloud.md

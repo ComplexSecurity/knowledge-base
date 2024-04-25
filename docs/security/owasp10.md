@@ -1,0 +1,11 @@
+The OWASP Top Ten is a regularly updated report outlining the most critical security risks to web applications. OWASP stands for the Open Web Application Security Project, an international non-profit organization dedicated to improving the security of software. The Top Ten is one of their most well-known projects and is widely considered as a go-to resource for understanding the most common and critical risks affecting web application security.
+
+The list is compiled by a team of security experts from various organizations and is based on a consensus about what the most critical web application security flaws are. The OWASP Top Ten is updated every few years to reflect the changing landscape of web application security. The list evolves as new threats emerge and old threats become less prevalent.
+
+Each item in the Top Ten represents a broad category of web application vulnerabilities. Examples from past editions include Injection Flaws (like [[SQL injection]]), [[Broken Authentication]], [[Sensitive Data Exposure]], [[Cross-Site Scripting]] (XSS), and more.
+
+The primary goal of the OWASP Top Ten is to raise awareness about common web application vulnerabilities and to provide guidance to developers and organizations on how to avoid these risks. The OWASP Top Ten influences the security policies and practices of many organizations. It's often used as a starting point for web application security and as a standard against which security tools and services are measured.
+
+The report is not just a list of vulnerabilities; it also provides explanations about each risk, examples of vulnerabilities, and how to prevent these issues. This makes it a valuable educational resource for developers and security professionals alike. The OWASP Top Ten is widely recognized and often referenced in various security standards, best practices, and regulatory frameworks, emphasizing its importance in the field of web application security.
+
+Due to its comprehensive, clear, and accessible format, the OWASP Top Ten is recognized globally and used by organizations worldwide to understand and mitigate web application security risks.
