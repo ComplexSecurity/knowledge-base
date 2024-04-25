@@ -4,7 +4,7 @@ The script is activated through a link, which sends a request to a website with 
 
 To distribute the malicious link, a perpetrator typically embeds it into an email or third party website (e.g., in a comment section or in social media). The link is embedded inside an anchor text that provokes the user to click on it, which initiates the [[Cross-Site Scripting|XSS]] request to an exploited website, reflecting the attack back to the user.
 
-![[reflected-xss-example.png]]
+![Reflected XSS](../assets/images/reflected-xss-example.png)
 
 Unlike a [[Stored XSS|stored]] attack, where the perpetrator must locate a website that allows for permanent injection of malicious scripts, reflected attacks only require that the malicious script be embedded into a link. That being said, in order for the attack to be successful, the user needs to click on the infected link.
 
