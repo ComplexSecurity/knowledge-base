@@ -307,6 +307,7 @@ nav:
           - "RADIUS": networking/radius.md
           - "TCP/IP": networking/tcpip.md
           - "Transmission Control Protocol": networking/tcp.md
+          - "User Datagram Protocol": networking/udp.md
   - Programming:
       - "Start Here":
           - "Start Here": programming.md
@@ -416,6 +417,13 @@ nav:
           - "Swift": programming/swift.md
           - "sys": programming/sys.md
           - "system": programming/system.md
+          - "VB.NET": programming/vbnet.md
+          - "VBScript": programming/vbscript.md
+          - "VirtualAllocEx": programming/valloc.md
+          - "Visual Basic": programming/vbasic.md
+          - "window.location()": programming/location.md
+          - "XMLHttpRequest": programming/xmlhr.md
+          - "ZIP Wrapper": programming/zipwrap.md
   - Frameworks:
       - "Start Here":
           - "Start Here": frameworks.md
@@ -453,6 +461,8 @@ nav:
           - "Spring Framework": frameworks/springframe.md
           - "Symfony": frameworks/symfony.md
           - "Tornado": frameworks/tornado.md
+          - "Universal Description, Discovery and Integration (UDDI)": frameworks/uddi.md
+          - "Vue.js": frameworks/vue.md
   - Linux:
       - "Start Here":
           - "Start Here": linux.md
@@ -490,6 +500,7 @@ nav:
           - "Risk": terms/risk.md
           - "Server": terms/server.md
           - "Threats": terms/threats.md
+          - "Vulnerabilities": terms/vulns.md
   - AD:
       - "Start Here":
           - "Start Here": ad.md
@@ -576,6 +587,21 @@ nav:
           - "Telnet": protocols/telnet.md
           - "TLS Handshake": protocols/tlshand.md
           - "Trivial File Transfer Protocol": protocols/tftp.md
+          - "Virtual Network Computing": protocols/vnc.md
+          - "WebSockets": protocols/sockets.md
+          - "WHOIS": protocols/whois.md
+          - "WinRM": protocols/winrm.md
+          - "WINS (Windows Internet Name Service)": protocols/wins.md
+          - "Wired Equivalent Privacy (WEP)": protocols/wep.md
+          - "WPA (Wi-Fi Protected Access)": protocols/wpa.md
+          - "WPA-EAP": protocols/wpa-eap.md
+          - "WPA-PSK": protocols/wpa-psk.md
+          - "WPA2": protocols/wpa2.md
+          - "WPA2-EAP": protocols/wpa2-eap.md
+          - "WPA2-PSK": protocols/wpa2-psk.md
+          - "WPA3": protocols/wpa3.md
+          - "WS-Federation": protocols/fed.md
+          - "XML-RPC": protocols/xmlrpc.md
   - Crypto:
       - "Start Here":
           - "Start Here": cryptography.md
@@ -635,6 +661,8 @@ nav:
           - "TLS": cryptography/tls.md
           - "Triple Des (3DES)": cryptography/3des.md
           - "Twofish": cryptography/twofish.md
+          - "X3DH (Extended Triple Diffie-Hellman)": cryptography/x3dh.md
+          - "XOR": cryptography/xor.md
   - Tools:
       - "Start Here":
           - "Start Here": tools.md
@@ -721,6 +749,22 @@ nav:
           - "The Harvester": tools/harvest.md
           - "Tplmap": tools/tplmap.md
           - "Traceroute": tools/trace.md
+          - "Username Anarchy": tools/anarchy.md
+          - "Wafw00f": tools/wafwoof.md
+          - "Wappalyzer": tools/wapp.md
+          - "Wayback Machine": tools/wayback.md
+          - "Wfuzz": tools/wfuzz.md
+          - "WhatWeb": tools/whatweb.md
+          - "Windows Command Line (CMD)": tools/cmd.md
+          - "Windows Credential Editor (WCE)": tools/wce.md
+          - "Windows PowerShell": tools/ps.md
+          - "wmiexec": tools/wmiexec.md
+          - "WPScan": tools/wpscan.md
+          - "WPVulnDB": tools/wpvulndb.md
+          - "XSS Strike": tools/xssstrike.md
+          - "XSSer": tools/xsser.md
+          - "XSSHunter": tools/xsshunter.md
+          - "XXEInjector": tools/xxeinjector.md
   - Web:
       - "Start Here":
           - "Start Here": web.md
@@ -822,6 +866,28 @@ nav:
           - "Template Directives": web/templatedirs.md
           - "Top-Level Domains (TLDs)": web/tlds.md
           - "Trace HTTP Method": web/trace.md
+          - "Uniform Resource Locator": web/url.md
+          - "URL Encoding": web/urlenc.md
+          - "User-Agent": web/useragent.md
+          - "ViewState": web/viewstate.md
+          - "Virtual Hosts (VHOSTS)": web/vhosts.md
+          - "Web Application Mapping": web/wam.md
+          - "Web Application Vulnerability Scanning": web/wavs.md
+          - "Web Configuration Testing": web/webconfig.md
+          - "Web Crawling": web/crawling.md
+          - "Web Development Frameworks": web/frames.md
+          - "Web Fuzzing": web/fuzzing.md
+          - "Web Proxies": web/proxies.md
+          - "Web Request Analysis": web/reqanal.md
+          - "Web Routes": web/routes.md
+          - "Web Services": web/services.md
+          - "Web Storage API": web/storapi.md
+          - "Wix": web/wix.md
+          - "WPForms": web/wpforms.md
+          - "WWW-Authenticate": web/wwwauth.md
+          - "X-Forwarded-For": web/xfor.md
+          - "X-Forwarded-IP": web/xforip.md
+          - "XHTML": web/xhtml.md
       - "Templating Engines":
           - "EJS (Embedded JavaScript)": web/ejs.md
           - "ERB": web/erb.md
@@ -837,6 +903,7 @@ nav:
       - "Content Management Systems":
           - "Joomla": web/joomla.md
           - "OpenCart": web/opencart.md
+          - "WordPress": web/wordpress.md
   - Databases:
       - "Start Here":
           - "Start Here": databases.md
@@ -891,6 +958,8 @@ nav:
           - "SQLite": databases/sqlite.md
           - "Sybase": databases/sybase.md
           - "TiDB": databases/tidb.md
+          - "Vertica/Mckoi": databases/vertica.md
+          - "Wide-Column Databases": databases/wide.md
   - Mobile:
       - "Start Here":
           - "Start Here": mobile.md
@@ -1048,6 +1117,31 @@ nav:
           - "System Center Virtual Machine Manager": misc/scvmm.md
           - "TomEE": misc/tomee.md
           - "Transact-SQL": misc/tsql.md
+          - "Undertow": misc/undertow.md
+          - "Unicode": misc/unicode.md
+          - "UUIDv1": misc/uuidv1.md
+          - "UUIDv4": misc/uuidv4.md
+          - "UUIDv5": misc/uuidv5.md
+          - "Virtual Machines": misc/vms.md
+          - "Virtual Private Server (VPS)": misc/vps.md
+          - "WAR (Web Application Archive)": misc/war.md
+          - "Web Services Business Process Execution Language (WS-BPEL)": misc/wsbpel.md
+          - "WildFly": misc/wildfly.md
+          - "Windows Management Instrumentation (WMI)": misc/wmi.md
+          - "Windows SID (Security Identifier)": misc/sid.md
+          - "WS-Trust": misc/trust.md
+          - "WSDL": misc/wsdl.md
+          - "Xalan": misc/xalan.md
+          - "XInclude": misc/xinclude.md
+          - "XML Schema": misc/xmlschema.md
+          - "XPath": misc/xpath.md
+          - "XPointer": misc/xpointer.md
+          - "XQuery": misc/xquery.md
+          - "XSL (Extensible Stylesheet Language)": misc/xsl.md
+          - "XSL-FO (Formatting Objects)": misc/fo.md
+          - "XSLT (Extensible Stylesheet Language Transformations)": misc/xslt.md
+          - "XStream": misc/xstream.md
+          - "YAML": misc/yaml.md
   - Security:
       - "Start Here":
           - "Start Here": security.md
@@ -1205,6 +1299,19 @@ nav:
           - "TOR": security/tor.md
           - "Traffic Interception": security/trafficint.md
           - "Trusted Identity Provide (IdP)": security/tidp.md
+          - "UNION Queries": security/union.md
+          - "Union-Based Injection": security/uinjection.md
+          - "ViewState Tampering": security/viewtamp.md
+          - "Virtual Private Network": security/vpns.md
+          - "Web Application Firewall (WAF)": security/waf.md
+          - "Web Cache Poisoning": security/webcache.md
+          - "Web Shell": security/webshell.md
+          - "Website Defacing": security/deface.md
+          - "Whitelists": security/whitelists.md
+          - "Wordlist": security/wordlist.md
+          - "XML External Entities (XXE)": security/xxe.md
+          - "XPath Injection": security/xpathi.md
+          - "XQuery Injection": security/xqueryi.md
   - Cloud:
       - "Start Here":
           - "Start Here": cloud.md

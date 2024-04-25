@@ -1,0 +1,10 @@
+The `X-Forwarded-IP` header, much like the [[X-Forwarded-For]] (XFF) header, is an [[HTTP Headers|HTTP header]] used in web traffic. However, it's important to note that `X-Forwarded-IP` is not a standard header and might not be consistently recognized or used. In environments where it is used, it typically serves the same purpose as the XFF header - to identify the original IP address of a client when the request goes through [[Proxy|proxies]] or [[Load Balancer|load balancers]].
+
+If implemented, the `X-Forwarded-IP` header would be used to record the IP address of the client making a request to a web server through a proxy or load balancer, much like the `X-Forwarded-For` header. In practice, when a client sends a request to a server via a proxy, the proxy may add the client’s original IP address in the `X-Forwarded-IP` header before forwarding the request.
+
+Since `X-Forwarded-IP` is not a widely recognized standard, its usage in penetration testing would depend on whether the target system implements and respects this header. If it does, then its potential uses are similar to `X-Forwarded-For`:
+
+1. **IP Spoofing**: A pentester might modify the `X-Forwarded-IP` header to simulate requests from different IP addresses, testing how the server or application responds to these changes and whether IP-based security controls can be bypassed.
+2. **Bypassing Security Filters**: If the application or server uses the `X-Forwarded-IP` for access control or rate limiting, modifying this header could help in bypassing these restrictions.
+3. **Identifying Misconfigurations and Flaws**: The presence and handling of an `X-Forwarded-IP` header could reveal misconfigurations in the server or application, especially if it blindly trusts the header without proper validation.
+4. **Testing Logging and Monitoring**: Altering the `X-Forwarded-IP` header can help in assessing whether monitoring and logging mechanisms are accurately recording client IP addresses and detecting potential header manipulations.

@@ -1,0 +1,5 @@
+Vulnerability scanning is commonly considered to be the most efficient way to check your site against a huge list of known vulnerabilities - and identify potential weaknesses in the security of your applications. Vulnerability scanning can be used as part of a standalone assessment, or as part of a continuous overall security monitoring strategy.
+
+Vulnerability scanners are automated tools that scan web applications to look for security vulnerabilities. They test web applications for common security problems such as [[Cross-Site Scripting|cross-site scripting (XSS)]], [[SQL injection]], and [[Cross-Site Request Forgery|cross-site request forgery (CSRF)]].
+
+More capable scanners may be able to delve further into an application by utilizing more advanced techniques. Pioneering application system testing techniques mean that Burp Scanner, the engine powering Burp Suite application security testing products, can find vulnerabilities many other scanners would miss, including [[Asynchronous SQL Injection]] and [[Blind SSRF]] for instance.

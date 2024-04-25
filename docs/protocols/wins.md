@@ -1,0 +1,9 @@
+Windows Internet Name Service (WINS) is a name resolution service for Windows networks that resolves [[NetBIOS]] names to IP addresses. Developed by Microsoft, it is used in networks where [[DNS]] (Domain Name System) is not available or as a supplement to DNS in mixed-environment networks. WINS is particularly significant for legacy systems and applications that rely on the NetBIOS protocol.
+
+WINS resolves NetBIOS names, which are short, 15-character names used to identify systems on a network, to their corresponding IP addresses. By centrally managing name resolution, WINS reduces the amount of broadcast traffic on the network, which is a common method used by NetBIOS systems in the absence of a name resolution service.
+
+WINS is especially important in environments that still run applications and services that depend on NetBIOS for network communication. Computers configured to use WINS automatically register their NetBIOS names and IP addresses with the WINS server when they join the network.
+
+WINS is used in networks where older Windows systems or applications that require NetBIOS name resolution are in use. In some networks, WINS works alongside DNS to provide comprehensive name resolution services, especially in environments that include a mix of old and new Windows operating systems. WINS can be used in small or medium-sized networks where DNS setup and maintenance might be considered too complex or unnecessary.
+
+Imagine a company that uses a mix of modern and legacy Windows systems. Some of the older systems run applications that use NetBIOS names for network communications. The company uses WINS to ensure these older systems can resolve NetBIOS names to IP addresses, while also using DNS for newer systems. This dual setup allows for smooth network operations across all their systems.

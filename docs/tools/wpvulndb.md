@@ -1,0 +1,7 @@
+WPVulnDB is a database that catalogs known security vulnerabilities in [[WordPress]], its plugins, and themes. WordPress is a widely used [[content management system]] (CMS) for websites, and like all software, it can have security vulnerabilities. WPVulnDB aims to provide a comprehensive and up-to-date resource for web developers, site administrators, and security professionals to track and address these vulnerabilities.
+
+It lists vulnerabilities found in the WordPress core software, as well as in numerous plugins and themes that are part of the WordPress ecosystem. These listings usually include details about the type of vulnerability (e.g., [[SQL injection]], [[cross-site scripting]], etc.), its severity, and the affected versions of the software.
+
+As new vulnerabilities are discovered, they are added to the database. This regular updating helps users stay aware of the latest security risks. WPVulnDB often provides an [[APIs|API]] (Application Programming Interface) that allows developers to integrate vulnerability data into their tools and workflows, enabling automated checks for vulnerable plugins or themes on WordPress sites.
+
+Alongside listing vulnerabilities, WPVulnDB may also provide advisories on how to mitigate or fix the vulnerabilities, which can include patching or updating to newer, secure versions of the software. Security researchers and contributors can submit information about new vulnerabilities, making WPVulnDB a community-driven resource.
