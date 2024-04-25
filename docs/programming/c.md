@@ -8,6 +8,6 @@ One of C's key features is its portability – C programs written for one operat
 
 C comes with a standard library that includes a set of common functionalities such as I/O operations, string handling, mathematical functions, and utilities for memory management.
 
-The syntax of C has influenced many other programming languages, including [[C++]], [[CSharp|C#]], [[Java]], and [[JavaScript]], among others.
+The syntax of C has influenced many other programming languages, including [C++](../programming/cpp.md), [C#](../programming/csharp.md), [Java](../programming/java.md), and [JavaScript](../programming/js.md), among others.
 
 C supports low-level operations using pointers, bit manipulation, and direct memory access, which are essential in system programming. C supports modularity, allowing complex applications to be broken down into simpler modules, which can then be compiled separately.

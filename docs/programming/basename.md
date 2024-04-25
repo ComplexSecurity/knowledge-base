@@ -1,4 +1,4 @@
-The `basename()` function is a commonly used function in various programming languages, including [[PHP]] and Unix/Linux shell scripting. Its primary purpose is to extract the filename from a given path.
+The `basename()` function is a commonly used function in various programming languages, including [PHP](../programming/php.md) and Unix/Linux shell scripting. Its primary purpose is to extract the filename from a given path.
 
 In PHP, `basename()` is used to return the filename from a specified path:
 
@@ -32,4 +32,4 @@ basename /some/path/file.txt .txt
 
 This command will output `file`, which is the filename without the path and the specified suffix.
 
-When using `basename()` in PHP, especially with user-supplied input, it's generally safe as it's designed to return the last component of a path. However, it's always good practice to validate and sanitize any user input and be cautious about how you use the resulting filename, particularly in file operations to prevent [[directory traversal]] or other path-related vulnerabilities.
+When using `basename()` in PHP, especially with user-supplied input, it's generally safe as it's designed to return the last component of a path. However, it's always good practice to validate and sanitize any user input and be cautious about how you use the resulting filename, particularly in file operations to prevent [directory traversal](../security/dirtrav.md) or other path-related vulnerabilities.

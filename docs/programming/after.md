@@ -1,9 +1,9 @@
-The [[jQuery]] after() function is used to insert content after the selected elements in the [[Document Object Model]] (DOM). This method provides a convenient way to add new content or elements to your webpage dynamically.
+The [jQuery](../programming/jquery.md) after() function is used to insert content after the selected elements in the [Document Object Model](../web/dom.md) (DOM). This method provides a convenient way to add new content or elements to your webpage dynamically.
 
-The after() function can take a string, [[HTML]] element, array of elements, or jQuery object as an argument. The provided content is then inserted right after each element in the set of matched elements:
+The after() function can take a string, [HTML](../web/http.md) element, array of elements, or jQuery object as an argument. The provided content is then inserted right after each element in the set of matched elements:
 
 ```javascript
-$(selector).after(content)
+$(selector).after(content);
 ```
 
 Where:
@@ -14,14 +14,13 @@ Where:
 An example could be:
 
 ```javascript
-$('p').after('<span> New content</span>');
+$("p").after("<span> New content</span>");
 ```
 
-This will insert the \<span>New content\</span> after every \<p> element in the document. The after() method can also take multiple arguments to insert multiple elements in sequence:
+This will insert the <span\>New content</span\> after every <p\> element in the document. The after() method can also take multiple arguments to insert multiple elements in sequence:
 
 ```javascript
-$('p').after('<span>First</span>', '<span>Second</span>');
+$("p").after("<span>First</span>", "<span>Second</span>");
 ```
 
-Be cautious when inserting content from untrusted sources to prevent [[Cross-Site Scripting]] (XSS) vulnerabilities. Always sanitize external input before including it in the DOM.
-
+Be cautious when inserting content from untrusted sources to prevent [Cross-Site Scripting](../web/xss.md) (XSS) vulnerabilities. Always sanitize external input before including it in the DOM.

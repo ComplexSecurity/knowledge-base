@@ -162,7 +162,7 @@ nav:
           - "F#": programming/fsharp.md
           - "fwrite()": programming/fwrite.md
           - "Go": programming/go.md
-          - "html-entities": programming/htmli.md
+          - "html-entities": programming/htmlentities.md
           - "html()": programming/htmlfunc.md
           - "htmlentities": programming/htmlent.md
           - "htmlspecialchars": programming/hsc.md

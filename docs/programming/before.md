@@ -1,4 +1,4 @@
-The [[jQuery]] before() function is used to insert content before the selected elements in the [[Document Object Model]] (DOM). This method is part of the jQuery library, which provides a powerful set of tools for [[HTML]] document traversal and manipulation.
+The [jQuery](../programming/jquery.md) before() function is used to insert content before the selected elements in the [Document Object Model](../web/dom.md) (DOM). This method is part of the jQuery library, which provides a powerful set of tools for [HTML](../web/html.md) document traversal and manipulation.
 
 before() is used to insert specified content or elements immediately before each element in the set of matched elements. The syntax is:
 
@@ -23,5 +23,5 @@ $('#myDiv').before('<p>New Paragraph</p>');
 
 This will insert a new paragraph element before \#myDiv.
 
-Similar to other jQuery methods, before() can handle script tags and event handlers in the content being added. However, this should be done with caution to avoid potential security risks like [[Cross-Site Scripting]] (XSS).
+Similar to other jQuery methods, before() can handle script tags and event handlers in the content being added. However, this should be done with caution to avoid potential security risks like [Cross-Site Scripting (XSS)](../web/xss.md).
 

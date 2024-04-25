@@ -1,4 +1,4 @@
-`call_user_func_array()` is a function in [[PHP]], a widely-used server-side scripting language for web development. This function is used to call a callback (a function or a method) with an array of parameters. It's particularly useful when you need to call a function and you don't know beforehand how many arguments will be passed to it.
+`call_user_func_array()` is a function in [PHP](../programming/php.md), a widely-used server-side scripting language for web development. This function is used to call a callback (a function or a method) with an array of parameters. It's particularly useful when you need to call a function and you don't know beforehand how many arguments will be passed to it.
 
 The main purpose of `call_user_func_array()` is to call a user-defined function or a method of a class with a set of parameters that are passed in an array. The basic syntax of `call_user_func_array()` is as follows:
 
@@ -29,6 +29,6 @@ echo $result; // Outputs 6
 
 In this example, `call_user_func_array()` is used to call the function `sum` with the parameters stored in the array `$params`.
 
-`call_user_func_array()` is often used in scenarios where the number of parameters is not known until runtime, or when implementing call forwarding or proxy patterns in [[object-oriented programming]].
+`call_user_func_array()` is often used in scenarios where the number of parameters is not known until runtime, or when implementing call forwarding or proxy patterns in [object-oriented programming](../programming/oop.md).
 
-While `call_user_func_array()` is a powerful and flexible function, it should be used with caution, especially when dealing with user input. If the `$callback` or parameters are influenced by user input, it could lead to security vulnerabilities, such as [[Remote Code Execution]] (RCE) or [[Function Injection]] attacks. It's crucial to validate and sanitize any user input that might affect the function call.
+While `call_user_func_array()` is a powerful and flexible function, it should be used with caution, especially when dealing with user input. If the `$callback` or parameters are influenced by user input, it could lead to security vulnerabilities, such as [Remote Code Execution (RCE)](../security/rce.md) or [Function Injection](../web/funcinject.md) attacks. It's crucial to validate and sanitize any user input that might affect the function call.

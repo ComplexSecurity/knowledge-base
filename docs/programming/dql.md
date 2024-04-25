@@ -1,4 +1,4 @@
-Doctrine Query Language (DQL) is a powerful query language used in the [[Doctrine]] ORM ([[Object-Relational Mapping]]) system for [[PHP]]. DQL is designed to allow developers to interact with their database using a syntax that is similar to [[Structured Query Language|SQL]] but is tailored for working with object-oriented entities rather than raw database tables.
+Doctrine Query Language (DQL) is a powerful query language used in the [Doctrine](../programming/doctrine.md) ORM ([Object-Relational Mapping](../programming/orp.md)) system for [PHP](../programming/php.md). DQL is designed to allow developers to interact with their database using a syntax that is similar to [SQL](../programming/sql.md) but is tailored for working with object-oriented entities rather than raw database tables.
 
 DQL operates on the entities and their associations defined in the ORM mapping. Instead of dealing with database tables and columns directly, developers write queries in terms of their PHP entities and their relationships.
 

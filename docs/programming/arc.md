@@ -1,6 +1,6 @@
-Automatic Reference Counting (ARC) is a memory management feature of [[Objective-C]] and [[Swift]], the programming languages used for developing applications on Apple's macOS and iOS platforms. Introduced with Objective-C 2.0 and fully embraced in Swift, ARC automates the process of memory management, reducing the complexity of manual memory management and minimizing memory leaks.
+Automatic Reference Counting (ARC) is a memory management feature of [Objective-C](../programming/objectc.md) and [Swift](../programming/swift.md), the programming languages used for developing applications on Apple's macOS and iOS platforms. Introduced with Objective-C 2.0 and fully embraced in Swift, ARC automates the process of memory management, reducing the complexity of manual memory management and minimizing memory leaks.
 
-ARC automatically keeps track of the number of references to objects in memory. When an object's reference count drops to zero (meaning it's no longer referenced in the program), ARC automatically deallocates (frees) that object from memory. 
+ARC automatically keeps track of the number of references to objects in memory. When an object's reference count drops to zero (meaning it's no longer referenced in the program), ARC automatically deallocates (frees) that object from memory.
 
 Each time you create a new reference to an object (for example, by assigning it to a variable or passing it in a method), ARC increments its reference count. Conversely, when the reference is no longer needed (like when the variable goes out of scope), ARC decrements the reference count. When an object’s reference count reaches zero, indicating that it's no longer in use, ARC automatically deallocates the object, freeing up the memory it occupied.
 
@@ -30,4 +30,3 @@ example = nil // ARC decrements the reference count, triggering deinitialization
     In this Swift example, when `example` is set to `nil`, ARC deallocates the `MyClass` instance, and its `deinit` block is called.
 
 ARC introduces the concept of strong and weak references to help manage memory, especially in situations where retaining cycles (two objects keeping each other alive) might occur. When dealing with Core Foundation objects in Objective-C, developers still need to manage memory manually, even with ARC enabled.
-

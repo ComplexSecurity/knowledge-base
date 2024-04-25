@@ -1,6 +1,6 @@
-C++ is a high-level, general-purpose programming language created by Bjarne Stroustrup as an extension of the [[C]] programming language, or "C with Classes". It was first introduced in 1985 and has since become one of the most widely used programming languages.
+C++ is a high-level, general-purpose programming language created by Bjarne Stroustrup as an extension of the [C](../programming/c.md) programming language, or "C with Classes". It was first introduced in 1985 and has since become one of the most widely used programming languages.
 
-C++ is particularly known for its performance and efficiency, as well as its support for [[Object-Oriented Programming]], making it a popular choice for software development in various domains.
+C++ is particularly known for its performance and efficiency, as well as its support for [Object-Oriented Programming](../programming/oop.md), making it a popular choice for software development in various domains.
 
 C++ supports object-oriented programming (OOP), a paradigm that uses "objects" – data structures consisting of data fields and methods together with their interactions – to design applications and computer programs.
 
