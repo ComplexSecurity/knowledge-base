@@ -1,14 +1,14 @@
-Tornado is an open-source web application framework and asynchronous networking library for [[Python]]. It is designed to handle asynchronous and non-blocking I/O operations, making it well-suited for building scalable and high-performance web applications.
+Tornado is an open-source web application framework and asynchronous networking library for [Python](../programming/python.md). It is designed to handle asynchronous and non-blocking I/O operations, making it well-suited for building scalable and high-performance web applications.
 
 Tornado is built on an event-driven architecture, allowing it to handle a large number of simultaneous connections without the need for threads or processes. This makes it particularly suitable for building real-time web applications.
 
-Tornado has built-in support for [[WebSockets]], enabling bidirectional communication between the client and the server. This is especially useful for building applications that require low-latency communication, such as chat applications and real-time collaboration tools.
+Tornado has built-in support for [WebSockets](../protocols/sockets.md), enabling bidirectional communication between the client and the server. This is especially useful for building applications that require low-latency communication, such as chat applications and real-time collaboration tools.
 
-Tornado uses a handler-based architecture where developers define request handlers to process different types of [[HTTP Protocol|HTTP]] requests. Each handler is responsible for handling a specific route or URL pattern.
+Tornado uses a handler-based architecture where developers define request handlers to process different types of [HTTP](../web/http.md) requests. Each handler is responsible for handling a specific route or URL pattern.
 
-Tornado includes its own HTTP server implementation, allowing developers to deploy Tornado applications without the need for additional web servers like [[Apache]] or [[Nginx]]. It can also be integrated with other web servers if needed. 
+Tornado includes its own HTTP server implementation, allowing developers to deploy Tornado applications without the need for additional web servers like [Apache](../web/apache.md) or [Nginx](../web/nginx.md). It can also be integrated with other web servers if needed. 
 
-Tornado includes a simple template engine for generating dynamic [[HTML]] content. Templates use a syntax similar to Python code and allow for embedding dynamic data. Tornado integrates well with other asynchronous libraries, including those for database access, allowing developers to build end-to-end asynchronous applications.
+Tornado includes a simple template engine for generating dynamic [HTML](../web/html.md) content. Templates use a syntax similar to Python code and allow for embedding dynamic data. Tornado integrates well with other asynchronous libraries, including those for database access, allowing developers to build end-to-end asynchronous applications.
 
 Tornado provides mechanisms for handling user authentication and authorization, making it suitable for building secure web applications. Tornado has an active community, and there is documentation available to help developers get started with the framework. It is commonly used for building web applications, APIs, and services.
 

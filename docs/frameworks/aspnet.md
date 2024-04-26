@@ -1,4 +1,4 @@
-ASP.NET is an open-source web framework for building web apps on the .[[Dotnet|NET (dotNET)]] framework. It is created by Microsoft and version 1.0 was released in 2002 to allow developers to build dynamic web apps, services, and sites. The framework is built to work with the standard [[HTTP protocol]], which is the standard protocol used across all web applications.
+ASP.NET is an open-source web framework for building web apps on the [.NET framework](../frameworks/dotnetf.md). It is created by Microsoft and version 1.0 was released in 2002 to allow developers to build dynamic web apps, services, and sites. The framework is built to work with the standard [HTTP protocol](../web/http.md), which is the standard protocol used across all web applications.
 
 ASP.NET is the successor to the ASP (Active Server Pages) technology and was a significant upgrade in terms of flexibility and power. It is an extension of the .NET platform with additional tools and libraries specifically for building things on the web, including web apps and websites.
 

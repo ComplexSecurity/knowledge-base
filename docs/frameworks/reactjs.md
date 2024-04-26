@@ -1,4 +1,4 @@
-React is a framework that employs Webpack to automatically compile React, JSX, and ES6 code while handling CSS file prefixes. React is a [[JavaScript]]-based UI development library. Although React is a library rather than a language, it is widely used in web development. 
+React is a framework that employs Webpack to automatically compile React, JSX, and ES6 code while handling CSS file prefixes. React is a [JavaScript](../programming/js.md)-based UI development library. Although React is a library rather than a language, it is widely used in web development. 
 
 React offers various extensions for entire application architectural support, such as Flux and React Native, beyond mere UI.
 

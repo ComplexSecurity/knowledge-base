@@ -1,4 +1,4 @@
-PHPUnit is a widely-used testing framework for [[PHP]], designed to support the practice of test-driven development (TDD) and to write and run unit tests for PHP applications. It is inspired by [[JUnit]] and has become an essential tool for PHP developers who aim to build robust and reliable software through systematic testing.
+PHPUnit is a widely-used testing framework for [PHP](../programming/php.md), designed to support the practice of test-driven development (TDD) and to write and run unit tests for PHP applications. It is inspired by [JUnit](../frameworks/junit.md) and has become an essential tool for PHP developers who aim to build robust and reliable software through systematic testing.
 
 PHPUnit automates the process of running tests on PHP code, making it easier to perform continuous testing during development. It focuses on unit testing, where individual components or functions of an application are tested in isolation to ensure they work as expected.
 

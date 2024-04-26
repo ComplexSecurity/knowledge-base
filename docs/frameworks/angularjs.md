@@ -1,4 +1,4 @@
-AngularJS framework is used for creating dynamic web apps with a structural architecture. This framework enables using [[HTML]] as the template language and facilitates the extension of HTML’s syntax to express application components clearly and concisely. 
+AngularJS framework is used for creating dynamic web apps with a structural architecture. This framework enables using [HTML](../web/html.md) as the template language and facilitates the extension of HTML’s syntax to express application components clearly and concisely. 
 
 Features such as Data binding and dependency injection reduce the code required. The whole process occurs solely within the browser, rendering it a suitable complement to any server technology.
 

@@ -4,11 +4,11 @@ At the core of the .NET Framework is the CLR, which provides a runtime environme
 
 The .NET Framework includes a vast class library known as the Framework Class Library (FCL), offering an extensive range of reusable types, components, and services, which significantly simplifies the development process.
 
-The framework supports multiple programming languages, including [[CSharp|C#]], [[VB.NET]], and [[FSharp|F#]]. This interoperability allows for the integration of code written in different languages in the same project.
+The framework supports multiple programming languages, including [C#](../programming/csharp.md), [VB.NET](../programming/vbnet.md), and [F#](../programming/fsharp.md). This interoperability allows for the integration of code written in different languages in the same project.
 
-The BCL is part of the FCL and includes classes that provide basic functionalities like file reading/writing, graphic rendering, database interaction, and [[Extensible Markup Language|XML]] document manipulation.
+The BCL is part of the FCL and includes classes that provide basic functionalities like file reading/writing, graphic rendering, database interaction, and [XML](../programming/xml.md) document manipulation.
 
-For web development, the .NET Framework includes [[ASP.NET]], a powerful platform for building dynamic websites, web applications, and web services.
+For web development, the .NET Framework includes [ASP.NET](../frameworks/aspnet.md), a powerful platform for building dynamic websites, web applications, and web services.
 
 It provides tools and libraries for building desktop applications, notably Windows Forms for standard GUI applications and Windows Presentation Foundation (WPF) for more complex, rich UI applications.
 

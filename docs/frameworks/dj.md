@@ -2,7 +2,7 @@ Django is a free and open-source web development framework written in Python. I
 
 Django provides the ability to build websites quickly and to scale it with less effort.
 
-In general, a project developed with Django is broken down into small applications composed of a [[Django]] package that, in return, resolves specific domains of the application.
+In general, a project developed with Django is broken down into small applications composed of a Django package that, in return, resolves specific domains of the application.
 
 Each of these small applications is based on the **MVT - or Model-View-Template** - pattern, the three aspects of a web application worked on by Django:
 

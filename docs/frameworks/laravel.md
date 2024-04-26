@@ -1,4 +1,4 @@
-**Laravel** is an open-source [[PHP]] framework designed to make developing web apps easier and faster through built-in features. These features are part of what makes Laravel so widely used by web developers:
+**Laravel** is an open-source [PHP](../programming/php.md) framework designed to make developing web apps easier and faster through built-in features. These features are part of what makes Laravel so widely used by web developers:
 
 - A modular packaging system with dependency management. This means you can easily add functionalities to your Laravel app without writing them from scratch. You can either create your own packages for code you routinely use or install ready-to-use packages through Composer.
 - A complete authentication system

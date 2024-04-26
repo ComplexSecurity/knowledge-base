@@ -1,4 +1,4 @@
-Hadoop is an open-source software framework for storing and processing large datasets in a distributed computing environment. Developed by the Apache Software Foundation, Hadoop is designed to scale up from single servers to thousands of machines, each offering local computation and storage. It is a key technology in the field of big data analytics and [[cloud computing]].
+Hadoop is an open-source software framework for storing and processing large datasets in a distributed computing environment. Developed by the Apache Software Foundation, Hadoop is designed to scale up from single servers to thousands of machines, each offering local computation and storage. It is a key technology in the field of big data analytics and [cloud computing](../cloud/cc.md).
 
 Hadoop includes the Hadoop Distributed File System (HDFS), which allows it to store data across multiple machines, providing high aggregate bandwidth across the cluster.
 
@@ -8,7 +8,7 @@ Hadoop is highly scalable. You can start with a single machine and expand to tho
 
 Hadoop can handle various forms of structured and unstructured data, giving users the flexibility to collect, process, and analyze data in ways that were not previously feasible.
 
-Hadoop's ecosystem includes various tools and extensions to improve its functionality, including Apache Hive for [[Structured Query Language|SQL]]-like queries, Apache HBase for [[Non-relational Database|NoSQL]] data storage, Apache Pig for data processing, and Apache Spark for in-memory data processing.
+Hadoop's ecosystem includes various tools and extensions to improve its functionality, including Apache Hive for [SQL](../programming/sql.md)-like queries, Apache HBase for [NoSQL](../databases/non.md) data storage, Apache Pig for data processing, and Apache Spark for in-memory data processing.
 
 Since it runs on commodity hardware and is open-source, Hadoop provides a cost-effective solution for processing large datasets. Hadoop has a large and active community of contributors and users. Major technology companies have adopted and contributed to Hadoop, making it a robust and continually evolving platform.
 
