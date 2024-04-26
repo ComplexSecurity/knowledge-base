@@ -1,4 +1,4 @@
-`LoadLibrary` is a function in the Windows API that loads a [[DLLs|Dynamic Link Library (DLL)]] into the calling process's address space. The function is widely used in legitimate software development to dynamically load libraries at runtime. However, in the context of hacking and [[DLL Hijacking]], `LoadLibrary` can be exploited for malicious purposes.
+`LoadLibrary` is a function in the Windows API that loads a [Dynamic Link Library (DLL)](../terms/dlls.md) into the calling process's address space. The function is widely used in legitimate software development to dynamically load libraries at runtime. However, in the context of hacking and [DLL Hijacking](../security/dll.md)(), `LoadLibrary` can be exploited for malicious purposes.
 
 In a DLL injection attack, `LoadLibrary` is used to load a malicious DLL into a target process's memory. This is often achieved by first allocating memory in the target process (using functions like `VirtualAllocEx`) and then writing the path of the malicious DLL into this allocated space. 
 

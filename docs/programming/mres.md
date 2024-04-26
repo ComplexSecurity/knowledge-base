@@ -1,6 +1,6 @@
-The mysqli_real_escape_string() function is a part of the MySQLi ("[[MySQL Improved]]") extension in [[PHP]]. This function is used to escape special characters in a string for use in an SQL query, considering the current character set of the connection. 
+The mysqli_real_escape_string() function is a part of the MySQLi ("[MySQL Improved](../programming/mysqli.md)") extension in [PHP](../programming/php.md). This function is used to escape special characters in a string for use in an SQL query, considering the current character set of the connection. 
 
-The primary purpose of this function is to prevent [[SQL injection]] attacks, which can occur when unescaped special characters in SQL statements are interpreted as command parts.
+The primary purpose of this function is to prevent [SQL injection](../security/sqli.md) attacks, which can occur when unescaped special characters in SQL statements are interpreted as command parts.
 
 It escapes certain characters like single quotes (`'`), double quotes (`"`), backslash (`\`), and NULL (the NULL byte), among others. This is important because these characters can be used maliciously in SQL commands by attackers.
 

@@ -1,4 +1,4 @@
-The `fopen()` function in [[PHP]] is used to open a file or a URL and initialize a new file pointer to it. It's a fundamental function for file handling in PHP, allowing you to read from or write to files.
+The `fopen()` function in [PHP](../programming/php.md) is used to open a file or a URL and initialize a new file pointer to it. It's a fundamental function for file handling in PHP, allowing you to read from or write to files.
 
 The syntax is:
 
@@ -46,7 +46,7 @@ if ($handle === false) {
 
 `fopen()` returns a file pointer resource on success, or `false` on error. It's essential to check the return value of `fopen()` for `false` to handle errors, such as permissions issues or the file not being found.
 
-The `fopen()` function in PHP itself is not inherently vulnerable, but it can become a source of security vulnerabilities if used improperly, particularly when handling user-supplied input. The primary security concerns associated with `fopen()` are [[Directory Traversal]] and [[Remote File Inclusion]].
+The `fopen()` function in PHP itself is not inherently vulnerable, but it can become a source of security vulnerabilities if used improperly, particularly when handling user-supplied input. The primary security concerns associated with `fopen()` are [Directory Traversal](../security/dirtrav.md) and [Remote File Inclusion](../security/rfi.md).
 
 An example of vulnerable code is:
 

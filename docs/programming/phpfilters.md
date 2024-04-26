@@ -1,4 +1,4 @@
-PHP Filters are a feature in [[PHP]] used to validate and sanitize external input. This feature is essential for securing PHP applications by ensuring that input data is safe before using it. PHP Filters are especially useful in preventing security vulnerabilities like [[SQL injection]], [[cross-site scripting]] (XSS), and other common input-related attacks.
+PHP Filters are a feature in [PHP](../programming/php.md) used to validate and sanitize external input. This feature is essential for securing PHP applications by ensuring that input data is safe before using it. PHP Filters are especially useful in preventing security vulnerabilities like [SQL injection](../security/sqli.md), [cross-site scripting (XSS)](../web/xss.md), and other common input-related attacks.
 
 The types of filters include:
 

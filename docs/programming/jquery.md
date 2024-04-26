@@ -1,4 +1,4 @@
-jQuery is a fast and concise [[JavaScript]] library that simplifies [[HTML]] document traversing, event handling, animating, and [[Ajax]] interactions for rapid web development. In simpler terms, jQuery is a collection of JS code that you can use in websites.
+jQuery is a fast and concise [JavaScript](../programming/js.md) library that simplifies [HTML](../web/html.md) document traversing, event handling, animating, and [Ajax](../web/ajax.md) interactions for rapid web development. In simpler terms, jQuery is a collection of JS code that you can use in websites.
 
 jQuery allows easy finding and changing of elements in the HTML document. It also makes it easier to handle user actions like clicks, mouse movements, key presses and so on.
 

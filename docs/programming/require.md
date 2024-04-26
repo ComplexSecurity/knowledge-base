@@ -1,4 +1,4 @@
-The `require()` function in [[PHP]] is used to include and execute the contents of a specified file during the execution of a script. It's very similar to the [[include()]] function, but with a key difference in how it handles errors.
+The `require()` function in [PHP](../programming/php.md) is used to include and execute the contents of a specified file during the execution of a script. It's very similar to the [include()](../programming/include.md) function, but with a key difference in how it handles errors.
 
 If `require()` fails to find or open the specified file, it generates a fatal error and halts the execution of the script. This is in contrast to `include()`, which only emits a warning (**E_WARNING**) and the script will continue to execute. `require()` is commonly used when the file is essential for the application to run. For example, files containing necessary functions, classes, or configurations are typically included using `require()`.
 
@@ -21,7 +21,7 @@ require 'config.php';
 ?>
 ```
 
-The `require()` function in PHP can be vulnerable to security risks, similar to [[include()]] and [[include_once()]]. The primary vulnerability associated with `require()` is [[Local File Inclusion]] (LFI), which can occur if the function is used with improperly validated or sanitized user input.
+The `require()` function in PHP can be vulnerable to security risks, similar to [include()](../programming/include.md) and [include_once()](../programming/ionce.md). The primary vulnerability associated with `require()` is [Local File Inclusion (LFI)](../web/lfi.md), which can occur if the function is used with improperly validated or sanitized user input.
 
 An example of a vulnerable use:
 

@@ -1,11 +1,11 @@
-In [[PHP]], string filters are a part of the filter extension, which provides a unified way to sanitize and validate data. These filters are specifically designed to process string data, ensuring it meets certain criteria for safety and correctness before it's used within an application. String filters in PHP fall into two main categories: sanitization and validation.
+In [PHP](../programming/php.md), string filters are a part of the filter extension, which provides a unified way to sanitize and validate data. These filters are specifically designed to process string data, ensuring it meets certain criteria for safety and correctness before it's used within an application. String filters in PHP fall into two main categories: sanitization and validation.
 
-Sanitization filters in PHP are used to "clean" the input data by removing or encoding unwanted characters. This is crucial for preventing security issues like [[Cross-Site Scripting]] (XSS) attacks. Some common ones include:
+Sanitization filters in PHP are used to "clean" the input data by removing or encoding unwanted characters. This is crucial for preventing security issues like [Cross-Site Scripting (XSS)](../web/xss.md) attacks. Some common ones include:
 
 1. **`FILTER_SANITIZE_STRING`**: This filter strips tags and optionally strips or encodes special characters. It's a general-purpose string sanitizer.
 2. **`FILTER_SANITIZE_EMAIL`**: This sanitizes the string to be safe for use as an email address by removing characters that are illegal in email addresses.
 3. **`FILTER_SANITIZE_URL`**: Similar to `FILTER_SANITIZE_EMAIL`, but for URLs, removing all characters except those allowed in a URL.
-4. **`FILTER_SANITIZE_SPECIAL_CHARS`**: This filter encodes special characters into HTML entities. For example, `<` becomes `&lt;` and `>` becomes `&gt;`. It's useful for preparing data to be output in an [[HTML]] context.
+4. **`FILTER_SANITIZE_SPECIAL_CHARS`**: This filter encodes special characters into HTML entities. For example, `<` becomes `&lt;` and `>` becomes `&gt;`. It's useful for preparing data to be output in an [HTML](../web/html.md) context.
 5. **`FILTER_SANITIZE_FULL_SPECIAL_CHARS`** / **`FILTER_SANITIZE_ENCODED`**: These filters offer more comprehensive encoding of special characters.
 
 Validation filters are used to check if the input meets certain criteria. Unlike sanitization filters, they don't modify the data; they just return a boolean indicating whether the data is valid.

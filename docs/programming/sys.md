@@ -1,4 +1,4 @@
-The `sys` module in [[Python]] is a standard library module which provides access to some variables used or maintained by the Python interpreter and to functions that interact strongly with the interpreter. It is part of Python's standard utility modules and is not specifically designed for hacking. 
+The `sys` module in [Python](../programming/python.md) is a standard library module which provides access to some variables used or maintained by the Python interpreter and to functions that interact strongly with the interpreter. It is part of Python's standard utility modules and is not specifically designed for hacking. 
 
 The `sys` module is used for manipulating the Python runtime environment and for interacting with the interpreter.
 

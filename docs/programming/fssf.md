@@ -1,4 +1,4 @@
-The `res.sendFile()` function is a method of the response object (`res`) in [[Express]].js, a web application framework for [[NodeJs|Node.js]]. This method is used to send a file as an [[HTTP Protocol|HTTP]] response to the client. It's particularly useful for tasks like serving static files (e.g., images, PDFs, [[HTML]] files) in response to client requests.
+The `res.sendFile()` function is a method of the response object (`res`) in [Express.js](../frameworks/express.md), a web application framework for [Node.js](../misc/node.md). This method is used to send a file as an [HTTP](../web/http.md) response to the client. It's particularly useful for tasks like serving static files (e.g., images, PDFs, [HTML](../web/html.md) files) in response to client requests.
 
 The syntax is:
 
@@ -36,7 +36,7 @@ app.listen(3000, () => {
     In this example, a PDF report is sent to the client when they access the `/download-report` endpoint. The `sendFile()` method is used to send `report.pdf` as the response.
 
   
-The `res.sendFile()` function in Express.js itself is not inherently vulnerable. However, like many other functions that involve file handling and user input, it can become a source of security vulnerabilities if not used properly. The primary concern with `res.sendFile()` is related to [[Directory Traversal|Path Traversal]] attacks when user input is used to determine the file path.
+The `res.sendFile()` function in Express.js itself is not inherently vulnerable. However, like many other functions that involve file handling and user input, it can become a source of security vulnerabilities if not used properly. The primary concern with `res.sendFile()` is related to [Directory Traversal](../security/dirtrav.md) attacks when user input is used to determine the file path.
 
 A vulnerable example:
 

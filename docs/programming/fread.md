@@ -1,4 +1,4 @@
-`fread()` is a built-in function in [[PHP]] used to read data from a file or a file-like resource. This function is commonly used for file handling operations in PHP, where it reads a specified number of bytes from a file pointer.
+`fread()` is a built-in function in [PHP](../programming/php.md) used to read data from a file or a file-like resource. This function is commonly used for file handling operations in PHP, where it reads a specified number of bytes from a file pointer.
 
 The syntax is:
 
@@ -6,7 +6,7 @@ The syntax is:
 fread(resource $handle, int $length): string|false
 ```
 
-- `$handle`: A file system pointer resource that is typically created using [[fopen()]].
+- `$handle`: A file system pointer resource that is typically created using [fopen()](../programming/fopen.md).
 - `$length`: The number of bytes to read from the file or resource.
 
 `fread()` returns the read string of up to `$length` bytes on success, or `false` on failure. A simple example showing how to open a file, read its contents and close the file is as follows:
@@ -38,7 +38,7 @@ In this example, `fopen()` is used to open the file named `example.txt` in read 
 
 `fread()` itself in PHP is not inherently vulnerable, but like any file operation function, it can become part of a vulnerability if used improperly, particularly in scenarios where the file being read is determined by user input. The main security concern with `fread()` is not the function itself, but how the file paths and data are handled.
 
-If the file path provided to `fread()` comes from an untrusted source (like user input) without proper validation and sanitization, it can lead to a security vulnerability known as [[Directory Traversal]] or Path Traversal.
+If the file path provided to `fread()` comes from an untrusted source (like user input) without proper validation and sanitization, it can lead to a security vulnerability known as [Directory Traversal](../security/dirtrav.md) or Path Traversal.
 
 An example of a vulnerable scenario is:
 

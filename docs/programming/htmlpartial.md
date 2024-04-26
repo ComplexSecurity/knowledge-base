@@ -1,6 +1,6 @@
 # @Html.Partial()
 
-The `@Html.Partial()` function is used in [[ASP.NET]] MVC ([[Model-View-Controller (MVC)|Model-View-Controller]]) framework, which is a part of ASP.NET for building web applications. It's a method defined in the `HtmlHelper` class and is used to render a specified partial view within a view. This method helps in modularizing and reusing views by allowing the inclusion of reusable components (partial views) within other views.
+The `@Html.Partial()` function is used in [ASP.NET](../frameworks/aspnet.md) MVC ([Model-View-Controller (MVC)](../misc/mvc.md)) framework, which is a part of ASP.NET for building web applications. It's a method defined in the `HtmlHelper` class and is used to render a specified partial view within a view. This method helps in modularizing and reusing views by allowing the inclusion of reusable components (partial views) within other views.
 
 It helps in breaking down complex views into smaller, reusable components (partial views) and enables the reuse of views across different parts of the application. It also improves the maintainability of the code by keeping views organized and avoiding repetition.
 

@@ -2,12 +2,12 @@
 
 `VirtualAllocEx` allocates a region of memory within the virtual address space of a specified process. The calling process (such as an application or a script) must have appropriate access rights to the target process. This function requires the handle to the process in which memory will be allocated, the desired starting address of the allocation (often set to NULL, letting the system choose the address), the size of the area to allocate, the type of memory allocation, and the type of memory protection desired.
 
-In the context of offensive security, such as penetration testing or ethical hacking, `VirtualAllocEx` can be used in several ways, including [[DLL Injection]] and [[Process Manipulation]]:
+In the context of offensive security, such as penetration testing or ethical hacking, `VirtualAllocEx` can be used in several ways, including [DLL Injection](../security/dlli.md) and [Process Manipulation](../security/procman.md):
 
 DLL Injection:
 
-- **Allocating Memory for DLL Path**: `VirtualAllocEx` is used to allocate memory in a target process’s address space to store the path of a malicious [[DLLs|DLL]].
-- **Remote Thread Creation**: After the path is written into the allocated memory, functions like `CreateRemoteThread` are used to create a thread in the target process that calls [[LoadLibrary]]. `LoadLibrary` loads the DLL from the specified path, effectively injecting the DLL into the target process.
+- **Allocating Memory for DLL Path**: `VirtualAllocEx` is used to allocate memory in a target process’s address space to store the path of a malicious [DLL](../terms/dlls.md).
+- **Remote Thread Creation**: After the path is written into the allocated memory, functions like `CreateRemoteThread` are used to create a thread in the target process that calls [LoadLibrary](../programming/loadl.md). `LoadLibrary` loads the DLL from the specified path, effectively injecting the DLL into the target process.
 
 Process Manipulation:
 

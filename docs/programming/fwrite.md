@@ -1,4 +1,4 @@
-In [[PHP]], the `fwrite()` function is used to write data to a file or a stream. It's commonly used in conjunction with [[fopen()]] to handle file operations. fwrite() is an essential function for file handling in PHP, allowing for both text and binary data writing.
+In [PHP](../programming/php.md), the `fwrite()` function is used to write data to a file or a stream. It's commonly used in conjunction with [fopen()](../programming/fopen.md) to handle file operations. fwrite() is an essential function for file handling in PHP, allowing for both text and binary data writing.
 
 The syntax is:
 
@@ -60,7 +60,7 @@ if ($handle) {
 In this example, an attacker could potentially:
 
 1. **Write to Sensitive Files**: If the server permissions allow, the attacker might overwrite important system files or configuration files by providing their paths in the `filename` parameter.
-2. **Execute Arbitrary Scripts**: If the server is configured to execute scripts in the directory where files are being written, an attacker could write a PHP script and then execute it by accessing its URL, leading to [[remote code execution]].
+2. **Execute Arbitrary Scripts**: If the server is configured to execute scripts in the directory where files are being written, an attacker could write a PHP script and then execute it by accessing its URL, leading to [remote code execution](../security/rce.md).
 
 
 

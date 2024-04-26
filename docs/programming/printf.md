@@ -1,4 +1,4 @@
-printf is a standard output function in the [[C]]programming language, used for formatted output to the console or standard output stream. It is part of the C standard library (`stdio.h`) and is widely used for displaying information to the user.
+printf is a standard output function in the [C](../programming/c.md) programming language, used for formatted output to the console or standard output stream. It is part of the C standard library (`stdio.h`) and is widely used for displaying information to the user.
 
 The syntax is as:
 

@@ -15,7 +15,7 @@ func main() {
     This example demonstrates a basic Go program that prints "Hello, World!" to the console. It uses the `fmt` package for formatted I/O operations.
 
 
-Additionally, here is an example of concurrent [[HTTP Protocol|HTTP]] requests:
+Additionally, here is an example of concurrent [HTTP](../web/http.md) requests:
 
 ```go
 package main

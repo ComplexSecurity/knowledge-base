@@ -1,4 +1,4 @@
-`window.location` in [[JavaScript]] is an object that contains information about the current URL and provides methods to change it. It's part of the `window` object, which represents the browser window or tab.
+`window.location` in [JavaScript](../programming/js.md) is an object that contains information about the current URL and provides methods to change it. It's part of the `window` object, which represents the browser window or tab.
 
 The `window.location` object includes properties like `href` (the full URL), `hostname` (domain name), `pathname` (the path after the domain name), `protocol` (such as 'http:' or 'https:'), and `search` (the query string).
 

@@ -1,4 +1,4 @@
-The `phar://` wrapper in [[PHP]] is a stream wrapper that allows PHP's file handling functions to interact with [[PHP Archive (PHAR)]] files. PHAR is a format used for packaging a complete PHP application or library into a single file. This format is similar to [[Java Archive (JAR)|JAR]] in [[Java]] and enables easy distribution and installation of PHP applications.
+The `phar://` wrapper in [PHP](../programming/php.md) is a stream wrapper that allows PHP's file handling functions to interact with [PHP Archive (PHAR)](../misc/phar.md) files. PHAR is a format used for packaging a complete PHP application or library into a single file. This format is similar to [JAR](../misc/jar.md) in [Java](../programming/java.md) and enables easy distribution and installation of PHP applications.
 
 The `phar://` wrapper allows direct access to the files contained within a PHAR archive, similar to accessing files in a file system. PHP scripts can read from and write to files inside a PHAR archive using standard file functions, provided that the PHAR is not read-only.
 

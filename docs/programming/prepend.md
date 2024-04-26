@@ -1,4 +1,4 @@
-The [[jQuery]] prepend() function is a method used to insert content at the beginning of the selected elements in the [[Document Object Model]] (DOM). This function is part of the jQuery library, a popular [[JavaScript]] toolkit used for simplifying HTML DOM tree traversal and manipulation, event handling, and animation.
+The [jQuery](../programming/jquery.md) prepend() function is a method used to insert content at the beginning of the selected elements in the [Document Object Model (DOM)](../web/dom.md). This function is part of the jQuery library, a popular [JavaScript](../programming/js.md) toolkit used for simplifying HTML DOM tree traversal and manipulation, event handling, and animation.
 
 prepend() is used to insert specified content as the first child of each element in the jQuery collection of matched elements. The syntax is as follows:
 
@@ -21,4 +21,4 @@ Or you could insert an HTML element such as inserting a new paragraph at the beg
 $('#myDiv').prepend('<p>New Paragraph</p>');
 ```
 
-Similar to other jQuery methods, prepend() can handle script tags and event handlers in the content being added. However, this should be done with caution to avoid potential security risks like [[Cross-Site Scripting]] (XSS).
+Similar to other jQuery methods, prepend() can handle script tags and event handlers in the content being added. However, this should be done with caution to avoid potential security risks like [Cross-Site Scripting (XSS)](../web/xss.md).

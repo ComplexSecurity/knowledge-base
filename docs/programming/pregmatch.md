@@ -1,4 +1,4 @@
-The preg_match() function in [[PHP]] is used for performing regular expression matches. It is part of PHP's PCRE ([[Perl]] Compatible [[Regular Expressions]]) functions, which are a set of functions that implement regular expression pattern matching using a syntax that is mostly compatible with Perl's regular expressions.
+The preg_match() function in [PHP](../programming/php.md) is used for performing regular expression matches. It is part of PHP's PCRE ([Perl](../programming/perl.md) Compatible [Regular Expressions](../security/regex.md)) functions, which are a set of functions that implement regular expression pattern matching using a syntax that is mostly compatible with Perl's regular expressions.
 
 The syntax is:
 
@@ -22,7 +22,7 @@ if (preg_match("/^example$/", "example")) {
 }
 ```
 
-Regular expressions, and by extension preg_match(), are often used in input validation. Proper input validation is a key aspect of securing applications against various forms of injection attacks, including [[SQL injection]] (SQLi). 
+Regular expressions, and by extension preg_match(), are often used in input validation. Proper input validation is a key aspect of securing applications against various forms of injection attacks, including [SQL injection (SQLi)](../security/sqli.md). 
 
 However, preg_match() by itself does not prevent SQLi. It can be part of a broader strategy for ensuring that inputs conform to expected formats (like checking if an input is a valid email address, phone number, etc.), which indirectly reduces the risk of injection attacks.
 

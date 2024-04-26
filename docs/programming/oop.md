@@ -14,7 +14,7 @@ OOP inherently promotes modularity, where applications can be broken down into s
 
 Thanks to inheritance and polymorphism, OOP enables code reusability, which reduces redundancy and increases the efficiency of the development process.
 
-Many modern programming languages support OOP principles, including [[Java]], [[CSharp|C#]], [[C++]], [[Python]], [[Ruby]], and [[PHP]].
+Many modern programming languages support OOP principles, including [Java](../programming/java.md), [C#](../programming/csharp.md), [C++](../programming/cpp.md), [Python](../programming/python.md), [Ruby](../programming/ruby.md), and [PHP](../programming/php.md).
 
 Some examples include classes:
 

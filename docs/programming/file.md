@@ -1,4 +1,4 @@
-The `file()` function in [[PHP]] is used to read the entire content of a file into an array. Each element of the array corresponds to a line in the file, with newline characters still attached. This function is particularly useful for reading and processing files line by line.
+The `file()` function in [PHP](../programming/php.md) is used to read the entire content of a file into an array. Each element of the array corresponds to a line in the file, with newline characters still attached. This function is particularly useful for reading and processing files line by line.
 
 ```php
 file(string $filename, int $flags = 0, resource $context = null): array|false
@@ -42,7 +42,7 @@ if ($lines === false) {
 
 In this version, `FILE_IGNORE_NEW_LINES` removes the newline characters at the end of each array element, and `FILE_SKIP_EMPTY_LINES` excludes empty lines from the array.
 
-When using `file()` with user-supplied data, such as file paths, it's important to validate and sanitize the input to prevent security vulnerabilities like [[Directory Traversal]]. Additionally, be aware of the file permissions and the server's configuration when reading files to avoid unauthorized access or disclosure of sensitive information.
+When using `file()` with user-supplied data, such as file paths, it's important to validate and sanitize the input to prevent security vulnerabilities like [Directory Traversal](../security/dirtrav.md). Additionally, be aware of the file permissions and the server's configuration when reading files to avoid unauthorized access or disclosure of sensitive information.
 
 An example of a vulnerable implementation:
 

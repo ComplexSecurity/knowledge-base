@@ -1,8 +1,8 @@
-The `file_get_contents()` function in [[PHP]] is a simple and convenient way to read the entire contents of a file into a string. It's widely used due to its ease of use and efficiency for reading files, especially when dealing with text files or the contents of a URL.
+The `file_get_contents()` function in [PHP](../programming/php.md) is a simple and convenient way to read the entire contents of a file into a string. It's widely used due to its ease of use and efficiency for reading files, especially when dealing with text files or the contents of a URL.
 
 It can be used to read local files from the file system. The function reads the entire file and returns its contents as a string. If the PHP configuration allows, `file_get_contents()` can also be used to read content from a URL, effectively fetching data from the web.
 
-It supports the use of a context resource created with `stream_context_create()` to modify the behavior of the request (like setting [[HTTP headers]] when fetching a URL).  If the function fails to read a file (e.g., due to permissions issues or the file not existing), it returns `FALSE`.
+It supports the use of a context resource created with `stream_context_create()` to modify the behavior of the request (like setting [HTTP headers](../web/headers.md) when fetching a URL).  If the function fails to read a file (e.g., due to permissions issues or the file not existing), it returns `FALSE`.
 
 The syntax is:
 
@@ -30,7 +30,7 @@ $content = file_get_contents('http://example.com');
 echo $content;
 ```
 
-When using `file_get_contents()` with user-provided data (e.g., file paths or URLs), it's crucial to validate and sanitize the input to prevent security vulnerabilities, such as [[Local File Inclusion]] (LFI) or [[Remote File Inclusion]] (RFI). Additionally, when reading from external URLs, be aware of the risks of fetching untrusted content, which could include malicious data or code.
+When using `file_get_contents()` with user-provided data (e.g., file paths or URLs), it's crucial to validate and sanitize the input to prevent security vulnerabilities, such as [Local File Inclusion (LFI)](../web/lfi.md) or [Remote File Inclusion (RFI)](../security/rfi.md). Additionally, when reading from external URLs, be aware of the risks of fetching untrusted content, which could include malicious data or code.
 
 An example of vulnerable code is:
 

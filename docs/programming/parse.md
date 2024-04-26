@@ -1,4 +1,4 @@
-The [[jQuery]] parseHTML() function is used to parse a string of [[HTML]] into an array of [[Document Object Model|DOM]] nodes. This function is particularly useful when you need to manipulate or examine HTML content provided as a string before inserting it into the document.
+The [jQuery](../programming/jquery.md) parseHTML() function is used to parse a string of [HTML](../web/html.md) into an array of [DOM](../web/dom.md) nodes. This function is particularly useful when you need to manipulate or examine HTML content provided as a string before inserting it into the document.
 
 parseHTML() takes a string of HTML and parses it into a collection of DOM nodes. This allows you to manipulate the nodes using jQuery methods before they are inserted into the DOM.
 
@@ -22,6 +22,6 @@ $("#someContainer").append(htmlNodes);
 
 This example parses the **htmlString** into DOM nodes and appends them to an element with the ID **someContainer**.
 
-Since parseHTML() does not execute scripts by default, it provides a safer way to handle HTML strings that might contain \<script> tags, helping to mitigate [[Cross-Site Scripting]] (XSS) vulnerabilities.
+Since parseHTML() does not execute scripts by default, it provides a safer way to handle HTML strings that might contain <script\> tags, helping to mitigate [Cross-Site Scripting (XSS)](../web/xss.md) vulnerabilities.
 
 Even though parseHTML() does not execute scripts by default, you should still sanitize the input HTML string to prevent XSS attacks, especially if the HTML is from an untrusted source.

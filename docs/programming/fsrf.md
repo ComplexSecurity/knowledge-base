@@ -1,4 +1,4 @@
-The `fs.readFile()` function is a part of the File System (`fs`) module in [[NodeJs|Node.js]], used for reading the contents of a file in an asynchronous manner. This function is essential for handling file operations in Node.js applications and allows you to read files from the file system without blocking the execution of your program.
+The `fs.readFile()` function is a part of the File System (`fs`) module in [Node.js](../misc/node.md), used for reading the contents of a file in an asynchronous manner. This function is essential for handling file operations in Node.js applications and allows you to read files from the file system without blocking the execution of your program.
 
 It reads files in a non-blocking way, meaning that Node.js can perform other operations while the file is being read. It requires a callback function that is called when the file reading is complete or an error occurs. By default, the content is read into a `Buffer` object. However, if an encoding is specified, the content is returned as a string in the specified encoding. The first argument to the callback function is an error object, which will be `null` if no error occurred.
 
@@ -43,7 +43,7 @@ fs.readFile('/path/to/file.txt', (err, data) => {
 });
 ```
 
-The `fs.readFile()` function in Node.js itself is not inherently vulnerable. However, when used improperly, particularly with unvalidated user input, it can lead to security vulnerabilities, most notably Path Traversal (or [[Directory Traversal]]) attacks.
+The `fs.readFile()` function in Node.js itself is not inherently vulnerable. However, when used improperly, particularly with unvalidated user input, it can lead to security vulnerabilities, most notably Path Traversal (or [Directory Traversal](../security/dirtrav.md)) attacks.
 
 An example of vulnerable code:
 

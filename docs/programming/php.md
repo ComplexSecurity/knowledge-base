@@ -1,4 +1,4 @@
-PHP is an open-source, server-side programming language that can be used to create websites, applications, customer relationship management systems and more. It is a widely-used general-purpose language that can be embedded into [[HTML]]. 
+PHP is an open-source, server-side programming language that can be used to create websites, applications, customer relationship management systems and more. It is a widely-used general-purpose language that can be embedded into [HTML](../web/html.md). 
 
 This functionality with HTML means that the PHP language has remained popular with developers as it helps to simplify HTML code.
 

@@ -10,4 +10,4 @@ VB is based on the BASIC programming language (Beginner's All-purpose Symbolic I
 
 VB came with an integrated development environment (IDE), which included a code editor, a debugger, and a GUI editor. VB made heavy use of the Component Object Model, which allowed for the integration of components and controls to enhance the functionality of applications.
 
-With the advent of the [[DotNet Framework|.NET framework]], Microsoft introduced VB.NET, which brought Visual Basic into the .NET ecosystem, offering a more modern, object-oriented version of the language. VB was commonly used for developing database-driven applications, offering straightforward methods for database integration and manipulation.
+With the advent of the [.NET framework](../frameworks/dotnetf.md), Microsoft introduced VB.NET, which brought Visual Basic into the .NET ecosystem, offering a more modern, object-oriented version of the language. VB was commonly used for developing database-driven applications, offering straightforward methods for database integration and manipulation.

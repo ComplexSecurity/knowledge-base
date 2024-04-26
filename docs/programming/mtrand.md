@@ -1,4 +1,4 @@
-The `mt_rand()` function in [[PHP]] is a pseudorandom number generator (PRNG) based on the Mersenne Twister algorithm. It is used to generate seemingly random numbers more efficiently and with a better statistical distribution than the older `rand()` function. 
+The `mt_rand()` function in [PHP](../programming/php.md) is a pseudorandom number generator (PRNG) based on the Mersenne Twister algorithm. It is used to generate seemingly random numbers more efficiently and with a better statistical distribution than the older `rand()` function. 
 
 However, despite these improvements, `mt_rand()` is not suitable for cryptographic purposes due to its predictability under certain conditions.
 

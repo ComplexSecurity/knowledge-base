@@ -1,4 +1,4 @@
-In [[PHP]], the htmlspecialchars function is used to convert special characters to their corresponding [[HTML]] entities. This function is particularly important in web development for preventing [[Cross-Site Scripting]] (XSS) attacks by escaping characters that could otherwise be interpreted and executed as HTML or [[JavaScript]].
+In [PHP](../programming/php.md), the htmlspecialchars function is used to convert special characters to their corresponding [HTML](../web/html.md) entities. This function is particularly important in web development for preventing [Cross-Site Scripting (XSS)](../web/xss.md) attacks by escaping characters that could otherwise be interpreted and executed as HTML or [JavaScript](../programming/js.md).
 
 htmlspecialchars specifically targets characters that have special significance in HTML such as:
 

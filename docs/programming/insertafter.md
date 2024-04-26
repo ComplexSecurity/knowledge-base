@@ -1,4 +1,4 @@
-The [[jQuery]] insertAfter() function is used to insert elements after a specified target in the [[Document Object Model]] (DOM). This method is part of the jQuery library, which provides a rich set of tools for manipulating [[HTML]] documents.
+The [jQuery](../programming/jquery.md) insertAfter() function is used to insert elements after a specified target in the [Document Object Model (DOM)](../web/dom.md). This method is part of the jQuery library, which provides a rich set of tools for manipulating [HTML](../web/html.md) documents.
 
 insertAfter() is used to insert specified elements or HTML content after a given target element within the DOM. The syntax is:
 
@@ -15,11 +15,11 @@ A usage example may be:
 $('<p>New paragraph</p>').insertAfter('#myDiv');
 ```
 
-In this example, a new paragraph element (\<p>New paragraph\</p>) is inserted after the element with the ID myDiv.
+In this example, a new paragraph element (<p\>New paragraph</p\>) is inserted after the element with the ID myDiv.
 
 If insertAfter() is used to insert content that includes user-supplied data, there is a risk of [[Cross-Site Scripting]] attacks. This can happen if the data is not properly sanitized or escaped before being inserted into the DOM. 
 
-For example, if an attacker is able to inject a \<script> tag into the content being inserted, they could execute malicious JavaScript on the client's browser. An example may be:
+For example, if an attacker is able to inject a <script\> tag into the content being inserted, they could execute malicious JavaScript on the client's browser. An example may be:
 
 ```javascript
 var userInput = "<script>maliciousCode();</script>";

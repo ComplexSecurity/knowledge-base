@@ -1,4 +1,4 @@
-Swift is a powerful and intuitive programming language created by Apple for building apps for iOS, macOS, watchOS, and tvOS. It's designed to be fast, modern, safe, and interactive, and it represents a departure from the [[Objective-C]] language historically used for Apple development. Swift combines features from both [[C]] and Objective-C, without having direct built-in C compatibility.
+Swift is a powerful and intuitive programming language created by Apple for building apps for iOS, macOS, watchOS, and tvOS. It's designed to be fast, modern, safe, and interactive, and it represents a departure from the [Objective-C](../programming/objectc.md) language historically used for Apple development. Swift combines features from both [C](../programming/c.md) and Objective-C, without having direct built-in C compatibility.
 
 Swift places a strong emphasis on safety and performance. Its syntax encourages writing clean and readable code, which is also less prone to errors. It introduces a strict typing system and automatic memory management, which help prevent common programming errors like null pointer dereferencing and buffer overflow.
 

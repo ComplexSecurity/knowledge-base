@@ -1,4 +1,4 @@
-In [[ASP.NET]], `Response.WriteFile()` is a method of the `HttpResponse` class, used to write the contents of a file directly to the HTTP response output stream. This method is particularly useful when you want to serve files from your server to the client, such as downloading a file or displaying an image.
+In [ASP.NET](../frameworks/aspnet.md), `Response.WriteFile()` is a method of the `HttpResponse` class, used to write the contents of a file directly to the HTTP response output stream. This method is particularly useful when you want to serve files from your server to the client, such as downloading a file or displaying an image.
 
 It reads the contents of a specified file and writes them directly to the HTTP response. This is done without loading the entire file into memory, which is efficient for large files. Often used in conjunction with setting the `ContentType` property of the `HttpResponse` object, to inform the browser about the type of content being sent.
 
@@ -31,7 +31,7 @@ Response.End();
 !!! info
     In the download example, `ContentType` is set to a general binary (`application/octet-stream`), and the `Content-Disposition` header is used to prompt the browser to download the file, rather than attempting to display it.
 
-The `Response.WriteFile()` function in ASP.NET itself is not inherently vulnerable, but its usage can lead to security vulnerabilities, especially if user input is used to determine the file path without proper validation. The primary concern in such scenarios is a security vulnerability known as Path Traversal or [[Directory Traversal]].
+The `Response.WriteFile()` function in ASP.NET itself is not inherently vulnerable, but its usage can lead to security vulnerabilities, especially if user input is used to determine the file path without proper validation. The primary concern in such scenarios is a security vulnerability known as Path Traversal or [Directory Traversal](../security/dirtrav.md).
 
 Consider an ASP.NET web application where a user can request to view a file, and the file path is taken directly from the user input:
 

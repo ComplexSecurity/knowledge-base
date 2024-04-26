@@ -1,10 +1,10 @@
-Smalltalk is a high-level, dynamically typed, reflective programming language and powerful development environment. Created in the 1970s at Xerox PARC by Alan Kay and others, Smalltalk played a significant role in the history of [[object-oriented programming]] (OOP) and influenced the development of many modern programming languages, including [[Objective-C]], [[Python]], [[Ruby]], and [[Java]].
+Smalltalk is a high-level, dynamically typed, reflective programming language and powerful development environment. Created in the 1970s at Xerox PARC by Alan Kay and others, Smalltalk played a significant role in the history of [[object-oriented programming]] (OOP) and influenced the development of many modern programming languages, including [Objective-C](../programming/objectc.md), [Python](../programming/python.md), [Ruby](../programming/ruby.md), and [Java](../programming/java.md).
 
 Everything in Smalltalk is an object, from numbers and strings to classes themselves. This uniformity provides a high degree of flexibility and expressiveness. In Smalltalk, types are associated with objects, not variables. This means that variables can refer to objects of any type, and type checks are performed at runtime.
 
 Smalltalk supports reflection, which means it can inspect and modify its structure and behavior at runtime. Smalltalk was one of the first languages to be accompanied by an integrated development environment (IDE), featuring a rich graphical user interface, an incremental compiler, and tools for debugging and code browsing.
 
-Smalltalk uses a unique message-sending syntax for method invocation, which is highly readable and expressive. Smalltalk had a significant impact on the development and popularization of object-oriented programming, a paradigm that emphasizes data encapsulation, inheritance, and [[polymorphism]].
+Smalltalk uses a unique message-sending syntax for method invocation, which is highly readable and expressive. Smalltalk had a significant impact on the development and popularization of object-oriented programming, a paradigm that emphasizes data encapsulation, inheritance, and [polymorphism](../programming/polymorph.md).
 
 The Smalltalk IDE introduced ideas such as "live" coding and the concept of an image-based environment, where all objects and code exist in a persistently running state. Many fundamental OOP design patterns were first identified and formulated in the Smalltalk community.
 

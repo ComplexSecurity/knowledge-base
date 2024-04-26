@@ -1,4 +1,4 @@
-The `res.render()` function is used in [[Express|Express.js]], a web framework for [[NodeJs|Node.js]]. It is a method of the response object (`res`) that compiles your template (written in a view engine like [[EJS (Embedded JavaScript)|EJS]], [[Pug (Jade)|Pug]], [[Handlebars]], etc.), inserts variables into it, and sends the resulting [[HTML]] string as the response.
+The `res.render()` function is used in [Express.js](../frameworks/express.md), a web framework for [Node.js](../misc/node.md). It is a method of the response object (`res`) that compiles your template (written in a view engine like [EJS](../web/ejs.md), [Pug](../web/pug.md), [Handlebars](../web/hbars.md), etc.), inserts variables into it, and sends the resulting [HTML](../web/html.md) string as the response.
 
 `res.render()` is used to render a view (template) and send its HTML output to the client. It works with different view engines supported by Express.js. The choice of view engine (like EJS, Pug, Handlebars) determines the syntax and capabilities of your templates.
 
@@ -24,7 +24,7 @@ app.get('/', function (req, res) {
 
 In this example, `res.render()` is used to render the `index` view. The second argument is an object with properties `title` and `message`, which are variables used in the `index.ejs` template to dynamically generate the HTML content.
 
-The `res.render()` function in Express.js itself is not inherently vulnerable. However, vulnerabilities can arise based on how it's used, particularly when dealing with user-provided data. The primary security concern in the context of `res.render()` and [[Template Engines|templating engines]] is [[Cross-Site Scripting]] (XSS).
+The `res.render()` function in Express.js itself is not inherently vulnerable. However, vulnerabilities can arise based on how it's used, particularly when dealing with user-provided data. The primary security concern in the context of `res.render()` and [templating engines](../web/templateengines.md) is [Cross-Site Scripting (XSS)](../web/xss.md).
 
 Suppose you have a route in your Express.js application that takes a query parameter and renders it directly onto the page:
 

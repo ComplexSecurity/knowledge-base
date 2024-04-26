@@ -1,4 +1,4 @@
-The `include_once()` function in [[PHP]] is similar to the [[include_once()]] function, but with a key difference: it checks if the specified file has already been included, and if so, it does not include it again. 
+The `include_once()` function in [PHP](../programming/php.md) is similar to the [include_once()](../programming/ionce.md) function, but with a key difference: it checks if the specified file has already been included, and if so, it does not include it again. 
 
 This behavior is particularly useful in situations where the same file might be included multiple times due to complex scripting or nested includes. By using `include_once()`, you can prevent issues like function redefinitions, variable redeclarations, and performance overhead from redundant inclusions.
 
@@ -23,12 +23,12 @@ include_once 'config.php';
 // Further code that might also include 'config.php' directly or indirectly
 ```
 
-While `include_once()` and [[require_once()]] serve similar purposes, the key difference lies in their behavior when the specified file cannot be found or loaded:
+While `include_once()` and [require_once()](../programming/requireonce.md) serve similar purposes, the key difference lies in their behavior when the specified file cannot be found or loaded:
 
 - `include_once()` will emit a warning (**E_WARNING**) and the script will continue to execute.
 - `require_once()` will emit a fatal error (**E_COMPILE_ERROR**) and halt script execution.
 
-The primary risks are similar to those with `include()`, notably [[Local File Inclusion]] (LFI) and [[Remote File Inclusion]] (RFI) vulnerabilities. However, the `include_once()` function's unique behavior does not inherently mitigate these risks.
+The primary risks are similar to those with `include()`, notably [Local File Inclusion (LFI)](../web/lfi.md) and [Remote File Inclusion (RFI)](../security/rfi.md) vulnerabilities. However, the `include_once()` function's unique behavior does not inherently mitigate these risks.
 
 A vulnerable example may be:
 
