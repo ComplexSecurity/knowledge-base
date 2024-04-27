@@ -17,4 +17,4 @@ Environment variables are accessed in the shell using the `$` prefix. For exampl
 
 Child processes inherit the environment variables from their parent process. This behavior is essential for ensuring that system settings propagate correctly to all processes. Environment variables are widely used in shell scripts and applications to make them more flexible and adaptable to different system configurations.
 
-Care must be taken with environment variables, particularly when used in scripts and applications, as they can be exploited if not properly handled (e.g., in cases of [[Environment Variable Injection]]).
+Care must be taken with environment variables, particularly when used in scripts and applications, as they can be exploited if not properly handled (e.g., in cases of [Environment Variable Injection](../security/varinj.md)).

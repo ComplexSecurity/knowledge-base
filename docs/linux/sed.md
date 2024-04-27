@@ -2,7 +2,7 @@
 
 `sed` is non-interactive, meaning it processes text without requiring user intervention, making it well-suited for scripting and batch processing.
 
-`sed` reads input line by line, processes it according to provided commands, and outputs the result. It's particularly efficient for handling large text files. It uses [[regular expressions]] for pattern matching, which allows for complex text manipulations.
+`sed` reads input line by line, processes it according to provided commands, and outputs the result. It's particularly efficient for handling large text files. It uses [regular expressions](../security/regex.md) for pattern matching, which allows for complex text manipulations.
 
 It is capable of editing files in-place (with the `-i` option), modifying the original file with the changes. It is commonly used for its search and replace functionality, which allows for the substitution of text patterns. `sed` commands can be scripted, enabling complex text transformations in shell scripts.
 
