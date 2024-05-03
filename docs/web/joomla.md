@@ -1,4 +1,4 @@
-Joomla is an open source [[content management system]](CMS). It helps you build powerful dynamic websites and applications. It has an intuitive interface that helps you use its features and functionality to the fullest.
+Joomla is an open source [content management system](../web/cms.md). It helps you build powerful dynamic websites and applications. It has an intuitive interface that helps you use its features and functionality to the fullest.
 
 Joomla is written in PHP and use MySQL database to store the data while using object-oriented programming techniques. It can be set up with one-click install through web hosting control panel. 
 
