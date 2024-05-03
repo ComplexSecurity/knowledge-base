@@ -1,8 +1,8 @@
-SMB Signing is a security feature in the [[Server Message Block]] (SMB) protocol, which is used for network file and printer sharing in Windows environments. SMB signing is designed to add an additional layer of security by ensuring the authenticity and integrity of SMB communications.
+SMB Signing is a security feature in the [Server Message Block (SMB)](../protocols/smb.md) protocol, which is used for network file and printer sharing in Windows environments. SMB signing is designed to add an additional layer of security by ensuring the authenticity and integrity of SMB communications.
 
 SMB signing verifies that the data has not been tampered with in transit. Each packet in the SMB communication is signed with a digital signature, which the receiving party checks to confirm its authenticity. 
 
-By verifying that each packet is from the legitimate source, SMB signing can prevent certain types of [[Man-in-the-Middle (MitM) attack|man-in-the-middle attacks]] where an attacker might intercept or modify the data being transmitted over the network.
+By verifying that each packet is from the legitimate source, SMB signing can prevent certain types of [man-in-the-middle attacks](../security/mitm.md) where an attacker might intercept or modify the data being transmitted over the network.
 
 When SMB signing is enabled, each packet in an SMB session is signed with a cryptographic hash. The recipient of the packet calculates its own hash of the packet and compares it to the signature. If the hashes match, it confirms the packet has not been altered. If the hashes do not match, it indicates the packet may have been tampered with, and the recipient can take appropriate action (like dropping the connection).
 

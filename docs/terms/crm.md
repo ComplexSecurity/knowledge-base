@@ -4,7 +4,7 @@ It stores detailed information about customers, including contact information, c
 
 It also automates marketing tasks like email campaigns, social media postings, and targeted advertising. It helps in segmenting customers for personalized marketing efforts and manages customer support requests, service cases, and provides tools for customer service representatives to track and resolve issues.
 
-It oOffers analytical tools and dashboards for tracking customer interactions, sales performance, and marketing effectiveness. It helps in making data-driven decisions. CRM systems often integrate with other business tools like email platforms, accounting software, and [[Enterprise Resource Planning Applications|ERP]] systems for seamless operations.
+It oOffers analytical tools and dashboards for tracking customer interactions, sales performance, and marketing effectiveness. It helps in making data-driven decisions. CRM systems often integrate with other business tools like email platforms, accounting software, and [ERP](../misc/erpapps.md) systems for seamless operations.
 
 CRM tools help in delivering personalized communication and service, enhancing customer satisfaction and loyalty. CRM systems can grow with the business, adapting to changing needs and increasing customer bases.
 

@@ -1,4 +1,4 @@
-The `grep` command in Unix and Unix-like operating systems is a powerful tool used for searching plain-text data for lines that match a given regular expression. Its name comes from the ed command `g/re/p` (globally search a [[Regular Expressions|regular expression]] and print). `grep` is widely used for searching in files, or combined with other commands in pipelines for various text-processing tasks.
+The `grep` command in Unix and Unix-like operating systems is a powerful tool used for searching plain-text data for lines that match a given regular expression. Its name comes from the ed command `g/re/p` (globally search a [regular expression](../security/regex.md) and print). `grep` is widely used for searching in files, or combined with other commands in pipelines for various text-processing tasks.
 
 Some basic examples include:
 

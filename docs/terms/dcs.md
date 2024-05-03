@@ -4,7 +4,7 @@ DCS are designed to distribute control functions across various subsystems, each
 
 Unlike centralized control systems, where a single controller manages the entire process, DCS distribute control across multiple interconnected subsystems. Each subsystem manages a specific part of the process. DCS are engineered for high reliability and uptime, which is crucial in continuous process industries where downtime can be very costly.
 
-They can be scaled to accommodate additional processes or increased capacity, making them suitable for large and complex industrial operations. DCS often integrate with other systems like [[Programmable Logic Controllers (PLC)|PLCs (Programmable Logic Controllers)]] and [[Supervisory Control and Data Acquisition (SCADA)|SCADA (Supervisory Control and Data Acquisition)]] systems for comprehensive process management.
+They can be scaled to accommodate additional processes or increased capacity, making them suitable for large and complex industrial operations. DCS often integrate with other systems like [PLCs (Programmable Logic Controllers)](../misc/plc.md) and [SCADA (Supervisory Control and Data Acquisition)](../misc/scada.md) systems for comprehensive process management.
 
 DCS typically provide advanced process control features, including complex algorithms for optimizing performance, efficiency, and safety.
 

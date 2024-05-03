@@ -7,7 +7,7 @@ Each part is as follows:
 - Update - modifies existing data in the database
 - Delete - removes data from the database.
 
-In the context of an API, they are typically executed over the Internet. The API serves as a middleman between a client and a server where the database is hosted. It uses [[HTTP Methods]] to perform these operations such as:
+In the context of an API, they are typically executed over the Internet. The API serves as a middleman between a client and a server where the database is hosted. It uses [HTTP Methods](../web/verbs.md) to perform these operations such as:
 
 - Create - associated with POST
 - Read - associated with GET
