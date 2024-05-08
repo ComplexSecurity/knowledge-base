@@ -66,7 +66,7 @@ nav:
           - "Welcome": index.md
   - Networking:
       - "Index":
-          - "Index": networking.md
+          - "Index - Networking": networking.md
       - "Networking":
           - "Address Resolution Protocol (ARP)": networking/arp.md
           - "Application Layer": networking/application.md
@@ -118,7 +118,7 @@ nav:
           - "Wireless LANs (WLANs)": networking/wlans.md
   - Programming:
       - "Index":
-          - "Index": programming.md
+          - "Index - Programming": programming.md
       - "Programming":
           - "@Html.Partial()": programming/htmlpartial.md
           - "add()": programming/add.md
@@ -234,7 +234,7 @@ nav:
           - "ZIP Wrapper": programming/zipwrap.md
   - Frameworks:
       - "Index":
-          - "Index": frameworks.md
+          - "Index - Frameworks": frameworks.md
       - "Frameworks":
           - "ActiveX": frameworks/activex.md
           - "AngularJS": frameworks/angularjs.md
@@ -272,8 +272,8 @@ nav:
           - "Universal Description, Discovery and Integration (UDDI)": frameworks/uddi.md
           - "Vue.js": frameworks/vue.md
   - Linux:
-      - "Start Here":
-          - "Start Here": linux.md
+      - "Index":
+          - "Index - Linux": linux.md
       - "Linux":
           - "$IFS Linux Environment Variable": linux/ifsvar.md
           - "Absolute Paths": linux/absolutepaths.md
@@ -283,8 +283,8 @@ nav:
           - "Relative Paths": linux/relative.md
           - "sed": linux/sed.md
   - Terms:
-      - "Start Here":
-          - "Start Here": terms.md
+      - "Index":
+          - "Index - Terms": terms.md
       - "Terms":
           - "ACID": terms/acid.md
           - "APIs": terms/apis.md
@@ -310,9 +310,9 @@ nav:
           - "Threats": terms/threats.md
           - "Vulnerabilities": terms/vulns.md
   - AD:
-      - "Start Here":
-          - "Start Here": ad.md
-      - "Terms":
+      - "Index":
+          - "Index - AD": ad.md
+      - "Active Directory":
           - "Active Directory": activedirectory/activedirectory.md
           - "Active Directory Domain Services (AD DS)": activedirectory/adds.md
           - "Active Directory Federation Services (AD FS)": activedirectory/adfs.md
@@ -337,9 +337,9 @@ nav:
           - "SMB Signing": activedirectory/smbsign.md
           - "Ticket Granting Service (TGS)": activedirectory/tgs.md
   - Protocols:
-      - "Start Here":
-          - "Start Here": protocols.md
-      - "Terms":
+      - "Index":
+          - "Index - Protocols": protocols.md
+      - "Protocols":
           - "ActiveSync": protocols/activesync.md
           - "Advanced Message Queuing Protocol (AMQP)": protocols/amqp.md
           - "AJP": protocols/ajp.md
@@ -411,8 +411,8 @@ nav:
           - "WS-Federation": protocols/fed.md
           - "XML-RPC": protocols/xmlrpc.md
   - Crypto:
-      - "Start Here":
-          - "Start Here": cryptography.md
+      - "Index":
+          - "Index - Cryptography": cryptography.md
       - "Cryptography":
           - "Advanced Encryption Standard (AES)": cryptography/aes.md
           - "AES-GCM": cryptography/aesgcm.md
@@ -472,8 +472,8 @@ nav:
           - "X3DH (Extended Triple Diffie-Hellman)": cryptography/x3dh.md
           - "XOR": cryptography/xor.md
   - Tools:
-      - "Start Here":
-          - "Start Here": tools.md
+      - "Index":
+          - "Index - Tools": tools.md
       - "Tools":
           - "Aircrack-ng": tools/aircrack-ng.md
           - "Aquatone": tools/aquatone.md
@@ -577,8 +577,8 @@ nav:
           - "XSSHunter": tools/xsshunter.md
           - "XXEInjector": tools/xxeinjector.md
   - Web:
-      - "Start Here":
-          - "Start Here": web.md
+      - "Index":
+          - "Index - Web": web.md
       - "Web":
           - "AJAX": web/ajax.md
           - "Apache": web/apache.md
@@ -716,8 +716,8 @@ nav:
           - "OpenCart": web/opencart.md
           - "WordPress": web/wordpress.md
   - Databases:
-      - "Start Here":
-          - "Start Here": databases.md
+      - "Index":
+          - "Index - Databases": databases.md
       - "Databases":
           - "Altibase": databases/altibase.md
           - "Amazon Redshift": databases/redshift.md
@@ -772,14 +772,14 @@ nav:
           - "Vertica/Mckoi": databases/vertica.md
           - "Wide-Column Databases": databases/wide.md
   - Mobile:
-      - "Start Here":
-          - "Start Here": mobile.md
+      - "Index":
+          - "Index - Mobile": mobile.md
       - "Mobile":
           - "Android": mobile/android.md
           - "Android Software Development Kit (SDK)": mobile/asdk.md
   - Misc:
-      - "Start Here":
-          - "Start Here": misc.md
+      - "Index":
+          - "Index - Miscellaneous": misc.md
       - "Misc":
           - "Ansible": misc/ansible.md
           - "Ant": misc/ant.md
@@ -954,8 +954,8 @@ nav:
           - "XStream": misc/xstream.md
           - "YAML": misc/yaml.md
   - Security:
-      - "Start Here":
-          - "Start Here": security.md
+      - "Index":
+          - "Index - Security": security.md
       - "Security":
           - "ARP Poisoning": security/arppoison.md
           - "AS-REP Roasting": security/asreproasting.md
@@ -1124,8 +1124,8 @@ nav:
           - "XPath Injection": security/xpathi.md
           - "XQuery Injection": security/xqueryi.md
   - Cloud:
-      - "Start Here":
-          - "Start Here": cloud.md
+      - "Index":
+          - "Index - Cloud": cloud.md
       - "Cloud":
           - "AWS": cloud/aws.md
           - "AWS WAF": cloud/aws-waf.md

@@ -5,7 +5,3 @@ For all things networking! Includes network protocols such as ARP, DHCP, DNS as 
 Anything to do with computer networking is located in here.
 
 <img src="../assets/images/s2s-drake.gif" width="800">
-
-## Protocols
-
-- [ARP](../docs/networking/arp.md)

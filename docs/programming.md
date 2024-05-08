@@ -6,7 +6,3 @@ For all programming related things. Mainly from a security perspective. Covers f
     We are not programmers. There may be mistakes or inconsistencies. Coding is a mysterious beast.
 
 <img src="../assets/images/bobs-burger-tina-belcher.gif" width="800">
-
-## Protocols
-
-- [ARP](../docs/networking/arp.md)
