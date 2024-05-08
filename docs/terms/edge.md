@@ -1,6 +1,6 @@
 Edge computing refers to a distributed computing paradigm that brings computation and data storage closer to the location where it is needed, to improve response times and save bandwidth. It represents a shift from traditional centralized and cloud-based systems to decentralized processing at the edge of the network.
 
-In edge computing, data processing occurs near the source of data generation (like [[IoT]] devices or local edge servers), rather than being transmitted to a distant, centralized data center or cloud.
+In edge computing, data processing occurs near the source of data generation (like [IoT](../terms/iot.md) devices or local edge servers), rather than being transmitted to a distant, centralized data center or cloud.
 
 By processing data locally, edge computing reduces latency, or the delay before a transfer of data begins following an instruction. This is crucial for real-time applications like autonomous vehicles, industrial automation, and smart cities.
 

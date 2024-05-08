@@ -2,7 +2,7 @@ Kerberos is a computer network security protocol that authenticates service requ
 
 Kerberos employs secret-key cryptography and a trusted third party, the Key Distribution Center (KDC), to authenticate client-server applications and verify user identities. The **KDC** provides authentication and ticket-granting services, issuing "tickets" for secure identity verification. This process uses shared secret cryptography, protecting against eavesdropping and replay attacks.
 
-Kerberos is employed heavily on secure systems that depend on reliable auditing and authentication features. Kerberos is used in Posix authentication, and [[Active Directory]], [[Network File Share|NFS]], and [[Server Message Block|Samba]]. It's also an alternative authentication system to [[Secure Shell|SSH]], [[Post Office Protocol|POP]], and [[Simple Mail Transfer Protocol|SMTP]].
+Kerberos is employed heavily on secure systems that depend on reliable auditing and authentication features. Kerberos is used in Posix authentication, and [Active Directory](../activedirectory/activedirectory.md), [NFS](../protocols/nfs.md), and [Samba](../protocols/smb.md). It's also an alternative authentication system to [SSH](../protocols/ssh.md), [POP](../protocols/pop.md), and [SMTP](../protocols/smtp.md).
 
 Kerberos protocol represents the following three things:
 

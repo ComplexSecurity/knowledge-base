@@ -2,7 +2,7 @@ DotNetNuke, also known as DNN, is a web [content management system (CMS)](../web
 
 DotNetNuke is a versatile and powerful CMS and application framework suited for creating and managing dynamic and interactive websites, particularly for businesses invested in Microsoft's technology ecosystem. It's praised for its modularity, customizability, and strong community support.
 
-It is built on the Microsoft [.NET framework](../frameworks/dotnetf), making it a robust choice for organizations invested in Microsoft technologies. It allows the integration of .NET-based custom modules and functionalities. It also allows devs to modify and extend its core capabilities as it is open-source.
+It is built on the Microsoft [.NET framework](../frameworks/dotnetf.md), making it a robust choice for organizations invested in Microsoft technologies. It allows the integration of .NET-based custom modules and functionalities. It also allows devs to modify and extend its core capabilities as it is open-source.
 
 DNN operates on a modular structure, enabling users to add or remove functionalities by installing or uninstalling modules.
 

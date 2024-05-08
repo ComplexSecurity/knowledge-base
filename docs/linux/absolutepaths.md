@@ -8,7 +8,7 @@ In Unix/Linux, an absolute path might look like `/home/username/Documents/file.t
 
 Since absolute paths start from the root directory, they uniquely identify a file or directory's location in the file system, avoiding ambiguity. Absolute paths are particularly useful in scenarios where the relative position of files might change, or when a consistent and unchanging reference to a file is needed, like in system configuration or when linking libraries in programming.
 
-[[Relative Paths]] specify a location starting from the current directory. They are shorter but depend on the current directory's location, making them less consistent for some uses compared to absolute paths.
+[Relative Paths](../linux/relative.md) specify a location starting from the current directory. They are shorter but depend on the current directory's location, making them less consistent for some uses compared to absolute paths.
 
 !!! info
     For example, if your current directory is `/home/username`, a relative path to a file might be `Documents/file.txt`, which is relative to the current directory, whereas the absolute path would be `/home/username/Documents/file.txt`.

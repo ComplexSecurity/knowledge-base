@@ -1,6 +1,6 @@
 Relative paths are a way of specifying the location of a file or directory in relation to the current working directory in a file system.
 
-A relative path is defined in relation to the current directory that the user or application is working in. This is known as the current working directory. Unlike [[Absolute Paths]], which provide the complete path from the root of the file system, relative paths navigate from the current directory. They do not start with the root directory or a drive letter.
+A relative path is defined in relation to the current directory that the user or application is working in. This is known as the current working directory. Unlike [Absolute Paths](../linux/absolutepaths.md), which provide the complete path from the root of the file system, relative paths navigate from the current directory. They do not start with the root directory or a drive letter.
 
 In Unix/Linux, a relative path might look like `Documents/file.txt` or `../otherfolder/image.jpg`. The `.` denotes the current directory, and `..` denotes the parent directory. In Windows, similar to Unix/Linux but uses backslashes, like `Documents\file.txt` or `..\otherfolder\image.jpg`.
 
