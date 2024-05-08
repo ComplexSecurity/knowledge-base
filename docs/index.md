@@ -16,3 +16,5 @@ If anything is missing or wrong, please feel free to send a request to update or
 
 !!! info
     We welcome contributions and suggestions from the community to help enrich this resource further.
+
+<img src="assets/images/cat2.gif" width="600">

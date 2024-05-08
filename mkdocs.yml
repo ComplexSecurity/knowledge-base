@@ -65,8 +65,8 @@ nav:
       - "Welcome":
           - "Welcome": index.md
   - Networking:
-      - "Start Here":
-          - "Start Here": networking.md
+      - "Index":
+          - "Index": networking.md
       - "Networking":
           - "Address Resolution Protocol (ARP)": networking/arp.md
           - "Application Layer": networking/application.md
@@ -117,8 +117,8 @@ nav:
           - "Wide Area Network (WAN)": networking/wans.md
           - "Wireless LANs (WLANs)": networking/wlans.md
   - Programming:
-      - "Start Here":
-          - "Start Here": programming.md
+      - "Index":
+          - "Index": programming.md
       - "Programming":
           - "@Html.Partial()": programming/htmlpartial.md
           - "add()": programming/add.md
@@ -233,8 +233,8 @@ nav:
           - "XMLHttpRequest": programming/xmlhr.md
           - "ZIP Wrapper": programming/zipwrap.md
   - Frameworks:
-      - "Start Here":
-          - "Start Here": frameworks.md
+      - "Index":
+          - "Index": frameworks.md
       - "Frameworks":
           - "ActiveX": frameworks/activex.md
           - "AngularJS": frameworks/angularjs.md
@@ -640,7 +640,7 @@ nav:
           - "HttpOnly Flag": web/httponly.md
           - "HTTPS Protocol": web/https.md
           - "iFrame": web/iframe.md
-          - "Index HTML File": web/index.md
+          - "Index HTML File": web/indexpage.md
           - "JavaScript Minification": web/mini.md
           - "JSON Web Tokens": web/jwt.md
           - "Key Exchange": web/exchange.md
