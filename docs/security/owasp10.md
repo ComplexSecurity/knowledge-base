@@ -2,7 +2,7 @@ The OWASP Top Ten is a regularly updated report outlining the most critical secu
 
 The list is compiled by a team of security experts from various organizations and is based on a consensus about what the most critical web application security flaws are. The OWASP Top Ten is updated every few years to reflect the changing landscape of web application security. The list evolves as new threats emerge and old threats become less prevalent.
 
-Each item in the Top Ten represents a broad category of web application vulnerabilities. Examples from past editions include Injection Flaws (like [[SQL injection]]), [[Broken Authentication]], [[Sensitive Data Exposure]], [[Cross-Site Scripting]] (XSS), and more.
+Each item in the Top Ten represents a broad category of web application vulnerabilities. Examples from past editions include Injection Flaws (like [SQL injection]()), [Broken Authentication](), [Sensitive Data Exposure](), [Cross-Site Scripting]() (XSS), and more.
 
 The primary goal of the OWASP Top Ten is to raise awareness about common web application vulnerabilities and to provide guidance to developers and organizations on how to avoid these risks. The OWASP Top Ten influences the security policies and practices of many organizations. It's often used as a starting point for web application security and as a standard against which security tools and services are measured.
 

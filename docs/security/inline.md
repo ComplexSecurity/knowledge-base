@@ -1,6 +1,6 @@
 Inline queries, also known as inline SQL or dynamic SQL, refer to SQL commands that are constructed as strings within an application's code and then executed by a database.
 
-These queries are dynamically built using input from users or other sources. In the context of [[SQL injection]], inline queries are particularly relevant because they can create vulnerabilities if not handled correctly.
+These queries are dynamically built using input from users or other sources. In the context of [SQL injection](), inline queries are particularly relevant because they can create vulnerabilities if not handled correctly.
 
 Inline queries are often vulnerable to SQL injection attacks when user input is concatenated directly into the query string. Attackers can manipulate the input to alter the query's structure, executing unintended commands or accessing unauthorized data.
 

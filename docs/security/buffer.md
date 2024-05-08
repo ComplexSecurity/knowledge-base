@@ -8,6 +8,6 @@ Buffer overflows typically occur because of insufficient bounds checking during 
 
 More critically, buffer overflows can be exploited to execute arbitrary code. 
 
-Web forms, [[Uniform Resource Locator|URL]] parameters and [[HTTP Headers]] are common input vectors in web app pentesting. Attackers may try to overflow buffers by providing excessively long input strings in these fields.
+Web forms, [Uniform Resource Locator|URL]() parameters and [HTTP Headers]() are common input vectors in web app pentesting. Attackers may try to overflow buffers by providing excessively long input strings in these fields.
 
-Pentesters also often use fuzzing techniques like [[Directory Fuzzing]] or [[Parameter Fuzzing (KB)]], sending large amounts of data or specifically crafted payloads to test how the app handles it.
+Pentesters also often use fuzzing techniques like [Directory Fuzzing]() or [Parameter Fuzzing (KB)](), sending large amounts of data or specifically crafted payloads to test how the app handles it.

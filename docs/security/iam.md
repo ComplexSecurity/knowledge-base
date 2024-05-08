@@ -2,7 +2,7 @@ IAM stands for Identity and Access Management. It is a framework of policies, te
 
 IAM systems facilitate the creation, modification, and deletion of user accounts, also known as identity provisioning and deprovisioning. This includes user onboarding when employees join an organization and offboarding when they leave.
 
-IAM systems provide mechanisms for verifying the identities of users and devices. This can include password-based authentication, [[Multi-Factor Authentication (MFA)]], biometric authentication, and [[Single Sign-On (SSO)]] solutions.
+IAM systems provide mechanisms for verifying the identities of users and devices. This can include password-based authentication, [Multi-Factor Authentication (MFA)](), biometric authentication, and [Single Sign-On (SSO)]() solutions.
 
 IAM controls determine what resources or data users and devices are allowed to access. Authorization policies define the permissions and privileges associated with different roles and identities. IAM solutions enforce access control policies, ensuring that only authorized users and devices can access specific applications, systems, networks, and data. This helps protect against unauthorized access.
 

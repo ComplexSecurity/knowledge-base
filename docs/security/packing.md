@@ -1,8 +1,8 @@
-Packing is a technique used to compress and disguise the code, making it difficult to understand and reverse-engineer. It's a form of [[Obfuscation (KB)|obfuscation]] that goes beyond simple [[JavaScript Minification|minification]].
+Packing is a technique used to compress and disguise the code, making it difficult to understand and reverse-engineer. It's a form of [Obfuscation (KB)|obfuscation]() that goes beyond simple [JavaScript Minification|minification]().
 
-The original [[JavaScript]] code is compressed, reducing its size. This often involves removing unnecessary characters (like whitespace and comments), as in minification, but can also include more advanced transformations.
+The original [JavaScript]() code is compressed, reducing its size. This often involves removing unnecessary characters (like whitespace and comments), as in minification, but can also include more advanced transformations.
 
-The compressed code is then encoded into a non-standard format. This could be a [[base64]] encoding or any other custom encoding mechanism. The objective is to make the code look like a nonsensical string of characters, which is hard to interpret.
+The compressed code is then encoded into a non-standard format. This could be a [base64]() encoding or any other custom encoding mechanism. The objective is to make the code look like a nonsensical string of characters, which is hard to interpret.
 
 The encoded string is embedded within a wrapper function. This function is responsible for decoding the string back into JavaScript code at runtime.
 

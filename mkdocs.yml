@@ -61,6 +61,9 @@ extra:
 
 nav:
   - Home: https://complexsecurity.io
+  - Welcome:
+      - "Welcome":
+          - "Welcome": index.md
   - Networking:
       - "Start Here":
           - "Start Here": networking.md
@@ -85,7 +88,12 @@ nav:
           - "DNS": networking/dns.md
           - "Dynamic Host Configuration Protocol (DHCP)": networking/dhcp.md
           - "FCoE (Fibre Channel over Ethernet)": networking/fcoe.md
+          - "Handshake": networking/shake.md
+          - "ICMP": networking/icmp.md
+          - "IP Address": networking/ipa.md
           - "InfiniBand": networking/infiniband.md
+          - "iSCSI": networking/iscsi.md
+          - "iWARP": networking/iwarp.md
           - "Local Area Networks (LANs)": networking/lans.md
           - "MAC Address": networking/mac.md
           - "Network Address Translation (NAT)": networking/nat.md
@@ -95,25 +103,19 @@ nav:
           - "Packet": networking/packet.md
           - "Personal Area Networks (PANs)": networking/pans.md
           - "Physical Layer": networking/physical.md
+          - "Point-to-Point Protocol (PPP)": networking/ppp.md
+          - "Port": networking/port.md
           - "Presentation Layer": networking/presentation.md
+          - "RADIUS": networking/radius.md
           - "RDMA Over Converged Ethernet (RoCE)": networking/roce.md
           - "Routers": networking/routers.md
           - "Session Layer": networking/session.md
-          - "Transport Layer": networking/transport.md
-          - "Wide Area Network (WAN)": networking/wans.md
-          - "Wireless LANs (WLANs)": networking/wlans.md
-          - "Data Center Bridging": networking/dcb.md
-          - "Handshake": networking/shake.md
-          - "ICMP": networking/icmp.md
-          - "IP Address": networking/ipa.md
-          - "iSCSI": networking/iscsi.md
-          - "iWARP": networking/iwarp.md
-          - "Point-to-Point Protocol (PPP)": networking/ppp.md
-          - "Port": networking/port.md
-          - "RADIUS": networking/radius.md
           - "TCP/IP": networking/tcpip.md
           - "Transmission Control Protocol": networking/tcp.md
+          - "Transport Layer": networking/transport.md
           - "User Datagram Protocol": networking/udp.md
+          - "Wide Area Network (WAN)": networking/wans.md
+          - "Wireless LANs (WLANs)": networking/wlans.md
   - Programming:
       - "Start Here":
           - "Start Here": programming.md

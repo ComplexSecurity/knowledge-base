@@ -1,4 +1,4 @@
-Blind boolean [[SQL injection]] are a subtype of [[Blind Injections|blind SQL injection]] attacks. In these attacks, the attacker cannot see direct data outputs from the database, such as in error-based or union-based SQL injections. Instead, they infer information about the database by sending a series of true or false queries and observing how the application's responses differ based on these conditions. 
+Blind boolean [SQL injection]() are a subtype of [Blind Injections|blind SQL injection]() attacks. In these attacks, the attacker cannot see direct data outputs from the database, such as in error-based or union-based SQL injections. Instead, they infer information about the database by sending a series of true or false queries and observing how the application's responses differ based on these conditions. 
 
 The attacker crafts a SQL query that incorporates a condition which evaluates to either true or false. They rely on observing how the application behaves when the condition is met (true) versus when it is not met (false).
 

@@ -9,9 +9,9 @@ The key components are:
 Some examples of protocols include:
 
 1. **Password Authentication**: A simple form is a login system where the username is the challenge and the password is the response.
-2. **CAPTCHA**: A [[CAPTCHA]] presents a challenge (like distorted text or images) to the user (prover) who must enter the correct text or select the correct images.
+2. **CAPTCHA**: A [CAPTCHA]() presents a challenge (like distorted text or images) to the user (prover) who must enter the correct text or select the correct images.
 3. **Smart Card Authentication**: When accessing a secure system with a smart card, the card reader (verifier) sends a challenge to the card (prover), which then uses a stored private key to generate a response.
-4. **Two-Factor Authentication Devices**: The device generates a [[one-time password (OTP)]] as a response to a login challenge, and the user enters this OTP to complete the authentication process.
+4. **Two-Factor Authentication Devices**: The device generates a [one-time password (OTP)]() as a response to a login challenge, and the user enters this OTP to complete the authentication process.
 5. **Cryptographic Protocols**: In more complex systems, cryptographic algorithms are used to create a secure challenge-response system, such as using public key cryptography where the challenge is encrypted with the prover's public key and can only be decrypted and responded to by the holder of the corresponding private key.
 
 They provide a secure method for verifying the identity of a user or device, as the correct response should only be producible by an entity that knows the secret. By using a unique or time-variant challenge each time, the protocol prevents attackers from capturing and reusing a response.

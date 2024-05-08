@@ -1,6 +1,6 @@
 Obfuscation of code is a technique used to transform plain, easy-to-read code into a new version that is deliberately hard to understand and reverse-engineer—both for humans and machines.  
   
-Obfuscation has been used in several different programming languages, notably C/C++ (there’s even a competition for obfuscating C code) and Perl. But there’s a language where obfuscation has gained tremendous popularity among developers and business owners alike: [[JavaScript]].
+Obfuscation has been used in several different programming languages, notably C/C++ (there’s even a competition for obfuscating C code) and Perl. But there’s a language where obfuscation has gained tremendous popularity among developers and business owners alike: [JavaScript]().
 
 JavaScript is an interpreted language, so client-side JavaScript requires an interpreter in the browser to read it, interpret it, and run it. This also means that anyone can use a browser debugger to easily go through the JS code and read or modify it at will.  
   

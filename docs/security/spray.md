@@ -1,6 +1,6 @@
 The basics of a password spraying attack involve a threat actor using a single common password against multiple accounts on the same application. This avoids the account lockouts that typically occur when an attacker uses a brute force attack on a single account by trying many passwords. Password spraying is particularly effective against businesses that participate in password sharing.
 
-Password Spraying is a variant of what is known as a [[Brute Force Attack|brute force attack]]. In a traditional brute force attack, the perpetrator attempts to gain unauthorized access to a single account by guessing the password repeatedly in a very short period of time. 
+Password Spraying is a variant of what is known as a [Brute Force Attack|brute force attack](). In a traditional brute force attack, the perpetrator attempts to gain unauthorized access to a single account by guessing the password repeatedly in a very short period of time. 
 
 Most organizations have employed countermeasures, commonly a lock-out after three to five attempts. In a Password Spraying attack, the attacker circumvents common countermeasures (e.g., account lock out) by “spraying” the same password across many accounts before trying another password.
 

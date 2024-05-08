@@ -1,8 +1,8 @@
-Authy is a [[Multi-Factor Authentication (MFA)|two-factor authentication (2FA)]] app that provides an additional layer of security for online accounts beyond just usernames and passwords. It's similar to Google Authenticator but comes with several features that distinguish it. Authy is designed to generate [[Time-based One-Time Password (TOTP)|time-based one-time passwords (TOTPs)]] for 2FA, enhancing the security of user accounts on various online platforms.
+Authy is a [Multi-Factor Authentication (MFA)|two-factor authentication (2FA)]() app that provides an additional layer of security for online accounts beyond just usernames and passwords. It's similar to Google Authenticator but comes with several features that distinguish it. Authy is designed to generate [Time-based One-Time Password (TOTP)|time-based one-time passwords (TOTPs)]() for 2FA, enhancing the security of user accounts on various online platforms.
 
 One of the standout features of Authy is its ability to sync across multiple devices. This means you can access your 2FA tokens from your smartphone, tablet, or desktop, which is convenient if you lose access to one of your devices. Authy allows users to back up their 2FA accounts in the cloud. If you change or lose your device, you can easily recover your accounts on a new device after verifying your identity.
 
-Like [[Google Authenticator]], Authy generates TOTPs offline, making it usable even in areas without internet connectivity. In addition to generating TOTPs, Authy also supports push authentication – a simple approve or deny prompt for logging in, adding ease of use. You can use Authy to manage 2FA tokens for various services, including social media, cloud storage, email, and online banking.
+Like [Google Authenticator](), Authy generates TOTPs offline, making it usable even in areas without internet connectivity. In addition to generating TOTPs, Authy also supports push authentication – a simple approve or deny prompt for logging in, adding ease of use. You can use Authy to manage 2FA tokens for various services, including social media, cloud storage, email, and online banking.
 
 The process is:
 

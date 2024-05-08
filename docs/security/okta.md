@@ -1,6 +1,6 @@
-Okta is an [[Identity and Access Management (IAM)]] company that provides cloud software to help companies manage and secure user authentication into applications, and for developers to build identity controls into applications, website web services, and devices.
+Okta is an [Identity and Access Management (IAM)]() company that provides cloud software to help companies manage and secure user authentication into applications, and for developers to build identity controls into applications, website web services, and devices.
 
-Okta allows organizations to manage user access to various systems and applications. It supports secure login processes through [[Multi-Factor Authentication (MFA)]], [[Single Sign-On (SSO)]], and universal directory services for storing and managing user profiles.
+Okta allows organizations to manage user access to various systems and applications. It supports secure login processes through [Multi-Factor Authentication (MFA)](), [Single Sign-On (SSO)](), and universal directory services for storing and managing user profiles.
 
 As a cloud-based solution, Okta enables companies to implement IAM functionalities without the need for on-premise hardware, leading to potentially lower costs and easier scalability. Okta integrates with thousands of apps and services, including popular software like Microsoft Office 365, Salesforce, and Google Workspace, facilitating seamless access across a range of tools.
 

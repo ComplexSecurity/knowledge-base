@@ -6,4 +6,4 @@ This is an example of a clickjacking attack.
 
 The technique depends upon the incorporation of an invisible, actionable web page (or multiple pages) containing a button or hidden link, say, within an iframe. The iframe is overlaid on top of the user's anticipated decoy web page content.
 
-This attack differs from a [[Cross-Site Request Forgery]] attack in that the user is required to perform an action such as a button click whereas a CSRF attack depends upon forging an entire request without the user's knowledge or input.
+This attack differs from a [Cross-Site Request Forgery]() attack in that the user is required to perform an action such as a button click whereas a CSRF attack depends upon forging an entire request without the user's knowledge or input.

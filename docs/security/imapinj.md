@@ -1,4 +1,4 @@
-IMAP Injection is a type of cyber attack that exploits vulnerabilities in web applications that interact with email servers using the [[Internet Message Access Protocol|Internet Message Access Protocol (IMAP)]]. IMAP is a standard email retrieval protocol used to fetch emails from a mail server. 
+IMAP Injection is a type of cyber attack that exploits vulnerabilities in web applications that interact with email servers using the [Internet Message Access Protocol|Internet Message Access Protocol (IMAP)](). IMAP is a standard email retrieval protocol used to fetch emails from a mail server. 
 
 The vulnerability occurs when a web application constructs IMAP commands using user-supplied input without properly sanitizing or validating it.
 
@@ -21,4 +21,4 @@ imap_search($mailbox, $command);
 
 In this example, the application constructs an IMAP search command based on user input without validation, making it susceptible to injection.
 
-IMAP Injection, though less common than other types of injection attacks like [[SQL Injection]], represents a significant security risk in applications that interact with email servers. It underscores the importance of proper input handling and robust security measures in application development.
+IMAP Injection, though less common than other types of injection attacks like [SQL Injection](), represents a significant security risk in applications that interact with email servers. It underscores the importance of proper input handling and robust security measures in application development.

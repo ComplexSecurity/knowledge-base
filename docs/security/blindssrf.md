@@ -1,8 +1,8 @@
-Blind [[Server-Side Request Forgery]] (SSRF) is a type of cybersecurity vulnerability where an attacker manipulates a server to make a request to a third-party system. 
+Blind [Server-Side Request Forgery]() (SSRF) is a type of cybersecurity vulnerability where an attacker manipulates a server to make a request to a third-party system. 
 
 In a "blind" SSRF attack, the attacker does not receive a direct response from the forged request. This makes it more challenging for the attacker to ascertain the success of the attack, but it also makes the attack harder to detect and prevent.
 
-The attacker finds a vulnerable server that can make [[HTTP Protocol|HTTP]] requests to other systems. This vulnerability typically arises when the server does not properly validate or restrict user-supplied URLs before using them in a web request.
+The attacker finds a vulnerable server that can make [HTTP Protocol|HTTP]() requests to other systems. This vulnerability typically arises when the server does not properly validate or restrict user-supplied URLs before using them in a web request.
 
 The attacker crafts a request that, when processed by the server, causes it to make an unintended HTTP request to an external system. This external system could be another server on the internet or, more dangerously, a system within the server’s internal network.
 

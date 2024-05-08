@@ -1,6 +1,6 @@
 A firewall is a computer network security system that restricts internet traffic in to, out of, or within a private network.
 
-This software or dedicated hardware-software unit functions by selectively blocking or allowing data [[Packet|packets]]. It is typically intended to help prevent malicious activity and to prevent anyone—inside or outside a private network—from engaging in unauthorized web activities.
+This software or dedicated hardware-software unit functions by selectively blocking or allowing data [Packet|packets](). It is typically intended to help prevent malicious activity and to prevent anyone—inside or outside a private network—from engaging in unauthorized web activities.
 
 Firewalls can be viewed as gated borders or gateways that manage the travel of permitted and prohibited web activity in a private network. By comparison, network security firewalls are for web traffic management — typically intended to slow the spread of web threats.
 

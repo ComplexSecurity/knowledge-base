@@ -1,4 +1,4 @@
-Asynchronous SQL injection is a form of [[SQL injection]] attack where the malicious SQL commands executed by an attacker don't produce immediate results. 
+Asynchronous SQL injection is a form of [SQL injection]() attack where the malicious SQL commands executed by an attacker don't produce immediate results. 
 
 In traditional SQL injection, the attacker inputs malicious SQL code into an input field (like a search box or login form) to manipulate a database in ways that benefit them, such as accessing unauthorized data. 
 

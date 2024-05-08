@@ -6,7 +6,7 @@ In the context of web penetration testing (pentesting), code reviews are a detai
 
 This process is critical for uncovering issues that automated tools might miss, especially those related to logic flaws or complex security vulnerabilities.
 
-Reviewers look for common security issues such as [[SQL injection]], [[Cross-Site Scripting]] (XSS), [[Cross-Site Request Forgery]] (CSRF), and other vulnerabilities that could be exploited by attackers.
+Reviewers look for common security issues such as [SQL injection](), [Cross-Site Scripting]() (XSS), [Cross-Site Request Forgery]() (CSRF), and other vulnerabilities that could be exploited by attackers.
 
 It is also good to understand the business logic implemented in the code to ensure it does not introduce security vulnerabilities. Logical errors are often not detected by automated tools but can lead to significant security risks.
 

@@ -1,6 +1,6 @@
 Shellcode is a small piece of code used as the payload in the exploitation of a software vulnerability. It's typically written in machine code and is used to directly control the processor's execution of instructions. The term "shellcode" historically refers to code that creates a command shell through which an attacker can control the system. However, it can be used for various other malicious purposes.
 
-The primary function of shellcode is to exploit vulnerabilities (like [[buffer overflows]]) in software and provide an attacker with control of the affected system. This control is often achieved through opening a remote shell from which commands can be executed.
+The primary function of shellcode is to exploit vulnerabilities (like [buffer overflows]()) in software and provide an attacker with control of the affected system. This control is often achieved through opening a remote shell from which commands can be executed.
 
 In the context of security vulnerabilities, particularly those like buffer overflows, shellcode is the payload that gets executed after the exploit has compromised the system's memory. Shellcode is often written in assembly language for precision and control and then converted into machine code. It needs to be compact and efficient due to space constraints in the exploit payload.
 

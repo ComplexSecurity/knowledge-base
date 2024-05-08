@@ -1,4 +1,4 @@
-Union-based [[SQL injection]] is a type of in-band SQL injection attack that leverages the [[UNION queries|UNION]] SQL operator. This operator is used to combine the results of two or more SELECT statements into a single result set.
+Union-based [SQL injection]() is a type of in-band SQL injection attack that leverages the [UNION queries|UNION]() SQL operator. This operator is used to combine the results of two or more SELECT statements into a single result set.
 
 In the context of a SQL injection attack, the attacker uses the UNION operator to append a malicious SQL query to a legitimate query made by the application.
 

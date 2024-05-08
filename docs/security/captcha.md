@@ -1,4 +1,4 @@
-CAPTCHA, which stands for "Completely Automated Public Turing test to tell Computers and Humans Apart," is a type of challenge-response test used in computing to determine whether the user is human or not. This tool is commonly used on websites to prevent automated software (like bots) from performing actions that could potentially be abusive or harmful, such as creating accounts, posting spam, or conducting [[Brute Force Attack|brute-force attacks]].
+CAPTCHA, which stands for "Completely Automated Public Turing test to tell Computers and Humans Apart," is a type of challenge-response test used in computing to determine whether the user is human or not. This tool is commonly used on websites to prevent automated software (like bots) from performing actions that could potentially be abusive or harmful, such as creating accounts, posting spam, or conducting [Brute Force Attack|brute-force attacks]().
 
 CAPTCHA presents a challenge that is usually easy for humans to solve but difficult for automated systems.
 

@@ -2,13 +2,13 @@ A virtual private network (VPN) is an Internet security service that allows user
 
 Some of the most common reasons people use VPNs are to protect against snooping on public WiFi, to circumvent Internet censorship, or to connect to a business’s internal network for the purpose of remote work.
 
-![[VPNs.png]]
+![VPNs.png]()
 
 Ordinarily, most Internet traffic is unencrypted and very public. When a user creates an Internet connection, such as visiting a website in a browser, the user’s device will connect to their Internet Service Provider (ISP), and then the ISP will connect to the Internet to find the appropriate web server to communicate with to fetch the request website.
 
-Information about the user is exposed in every step of the website request. Since the user’s [[IP address]] is exposed throughout the process, the ISP and any other intermediary can keep logs of the user’s browsing habits.
+Information about the user is exposed in every step of the website request. Since the user’s [IP address]() is exposed throughout the process, the ISP and any other intermediary can keep logs of the user’s browsing habits.
 
-Additionally, the data flowing between the user’s device and the web server is unencrypted; this creates opportunities for malicious actors to spy on the data or perpetrate attacks on the user, such as a [[On-Path Attack|on-path attack]].
+Additionally, the data flowing between the user’s device and the web server is unencrypted; this creates opportunities for malicious actors to spy on the data or perpetrate attacks on the user, such as a [On-Path Attack|on-path attack]().
 
 Conversely, a user connecting to the Internet using a VPN service has a higher level of security and privacy. A VPN connection involves the following 4 steps:
 

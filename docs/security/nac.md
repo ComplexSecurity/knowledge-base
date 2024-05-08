@@ -10,7 +10,7 @@ NAC systems can continuously monitor and assess the security posture of devices 
 
 NAC allows organizations to securely manage guest access, providing limited access for visitors while protecting the internal network.
 
-NAC systems often integrate with other security technologies like [[Firewall|firewalls]], [[intrusion prevention systems]] (IPS), and [[Security Information and Event Management (SIEM)|security information and event management]] (SIEM) systems for enhanced network security.
+NAC systems often integrate with other security technologies like [Firewall|firewalls](), [intrusion prevention systems]() (IPS), and [Security Information and Event Management (SIEM)|security information and event management]() (SIEM) systems for enhanced network security.
 
 NAC provides visibility into the devices connected to the network, including type, ownership, and compliance status, which is crucial for network management and security. In case of detection of non-compliance or a security threat, NAC systems can automatically respond by restricting a device’s network access or quarantining it for remediation.
 

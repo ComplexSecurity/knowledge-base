@@ -1,6 +1,6 @@
-The dark web refers to a part of the internet that is not indexed by standard search engines and is accessible only through special software, such as [[Tor]] or I2P, which anonymize user traffic. It's known for hosting a range of anonymous and often illicit activities due to its ability to preserve user anonymity.
+The dark web refers to a part of the internet that is not indexed by standard search engines and is accessible only through special software, such as [Tor]() or I2P, which anonymize user traffic. It's known for hosting a range of anonymous and often illicit activities due to its ability to preserve user anonymity.
 
-The dark web forms a small part of the [[Deep Web|deep web]], which includes all parts of the internet not indexed by search engines.
+The dark web forms a small part of the [Deep Web|deep web](), which includes all parts of the internet not indexed by search engines.
 
 The dark web is a known hub for cybercriminal activities, including the sale of exploited data, hacking tools, and services. Understanding the nature of these threats can inform security strategies in penetration testing.
 

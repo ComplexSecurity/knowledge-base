@@ -7,7 +7,7 @@ Identifying these vulnerabilities often requires a deep understanding of the app
 Some examples of Business Logic Vulnerabilities include:
 
 1. **Authentication Bypass**: An application might allow a user to access protected resources without properly authenticating, perhaps through manipulation of URLs or direct access to a backend API.
-2. [[Insecure Direct Object References (IDOR) (KB)]]: If an application exposes internal objects through URLs or parameters (like `www.example.com/account?id=123`), an attacker might manipulate these references to access data belonging to other users.
+2. [Insecure Direct Object References (IDOR) (KB)](): If an application exposes internal objects through URLs or parameters (like `www.example.com/account?id=123`), an attacker might manipulate these references to access data belonging to other users.
 3. **Multi-Step Transaction Manipulations**: In applications involving multi-step transactions (like shopping carts in e-commerce sites), attackers could manipulate the process to change the order's outcome, such as altering prices or quantities after final confirmation but before payment.
 4. **Business Rules Bypass**: If certain business rules are not enforced consistently across an application, it can lead to vulnerabilities. For example, an e-commerce site might limit one promotional item per user, but this rule could be bypassed by creating multiple accounts.
 5. **Workflow Exploitations**: By understanding and manipulating the workflow of an application, attackers can exploit vulnerabilities. For instance, skipping steps in a workflow to achieve a goal that should not otherwise be allowed.

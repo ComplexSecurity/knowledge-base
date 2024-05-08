@@ -2,7 +2,7 @@ Authorization, in the context of computer security and information systems, is t
 
 Authorization involves defining and enforcing policies that determine what actions users can perform on a system, such as read, write, delete, or execute permissions on files, databases, or applications.
 
-In many systems, authorization is managed through [[Role-Based Access Control (RBAC)|RBAC]], where permissions are assigned based on roles within an organization, and users are granted roles that provide appropriate access. Authorization involves managing the privileges assigned to users or groups, ensuring they have the necessary access to perform their roles efficiently but not more than what is required.
+In many systems, authorization is managed through [Role-Based Access Control (RBAC)|RBAC](), where permissions are assigned based on roles within an organization, and users are granted roles that provide appropriate access. Authorization involves managing the privileges assigned to users or groups, ensuring they have the necessary access to perform their roles efficiently but not more than what is required.
 
 This security principle dictates that users and programs should have the minimum levels of access - or permissions - necessary to perform their tasks. This minimizes the risk of unauthorized access. Authorization is enforced through policies set by the system or network administrators. These policies are implemented and enforced through security mechanisms in the operating system, applications, or in the network.
 

@@ -13,7 +13,7 @@ Authentication, Authorization, and Accounting (AAA) is a framework for intellige
     - **Process**: Records are kept of what actions were taken, when they were taken, which resources were used, for how long, etc. This data can include time logs, data usage, performed activities, and more.
     - **Goal**: Provide a way to audit and bill for resource usage, as well as a means to monitor and analyze usage patterns for security and administrative purposes.
 
-AAA is implemented through various protocols and systems, such as [[RADIUS]] (Remote Authentication Dial-In User Service) and [[TACACS+]] (Terminal Access Controller Access-Control System Plus). 
+AAA is implemented through various protocols and systems, such as [RADIUS]() (Remote Authentication Dial-In User Service) and [TACACS+]() (Terminal Access Controller Access-Control System Plus). 
 
 These protocols help manage AAA for networked computing environments and are essential for enforcing security policies, controlling access to resources, auditing usage, and ensuring that only authorized users and devices can access network resources and perform actions according to their permissions. 
 

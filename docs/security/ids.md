@@ -10,6 +10,6 @@ When IDS was developed, the depth of analysis required to detect intrusion could
 
 Network intrusion detection systems are used to detect suspicious activity to catch hackers before damage is done to the network. There are network-based and host-based intrusion detection systems. Host-based IDSes are installed on client computers; network-based IDSes are on the network itself.
 
-An IDS works by looking for deviations from normal activity and known attack signatures. Anomalous patterns are sent up the stack and examined at protocol and application layers. It can detect events like [[DNS]] poisonings, malformed information packets and Christmas tree scans.
+An IDS works by looking for deviations from normal activity and known attack signatures. Anomalous patterns are sent up the stack and examined at protocol and application layers. It can detect events like [DNS]() poisonings, malformed information packets and Christmas tree scans.
 
 An IDS can be implemented as a network security device or a software application.

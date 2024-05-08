@@ -1,6 +1,6 @@
 Common Vulnerabilities and Exposures (CVE) is a database of publicly disclosed information security issues. A CVE number uniquely identifies one vulnerability from the list. CVE provides a convenient, reliable way for vendors, enterprises, academics, and all other interested parties to exchange information about cyber security issues.
 
-Enterprises typically use CVE, and corresponding [[Common Vulnerability Scoring System|CVSS]] scores, for planning and prioritization in their vulnerability management programs.
+Enterprises typically use CVE, and corresponding [Common Vulnerability Scoring System|CVSS]() scores, for planning and prioritization in their vulnerability management programs.
 
 As defined by CVE, a vulnerability is a “...flaw in a software, firmware, hardware, or service component resulting from a weakness that can be exploited, causing a negative impact to the confidentiality, integrity, or availability of an impacted component or components.”
 

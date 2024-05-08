@@ -1,4 +1,4 @@
-"Brute XSS" is an open-source tool specifically designed for identifying and testing for [[Cross-Site Scripting]] (XSS) vulnerabilities in web applications. 
+"Brute XSS" is an open-source tool specifically designed for identifying and testing for [Cross-Site Scripting]() (XSS) vulnerabilities in web applications. 
 
 XSS vulnerabilities are a common security issue where an attacker can inject malicious scripts into content that other users see. Brute XSS assists in automating the process of detecting these vulnerabilities.
 

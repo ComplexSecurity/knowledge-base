@@ -7,8 +7,8 @@ Privilege escalation can occur through various means, including:
 
 - Exploiting System Vulnerabilities: Taking advantage of security flaws or bugs in the operating system, applications, or services to gain unauthorized access or privileges.
 - Misconfigured Permissions: Taking advantage of improperly configured permissions on files, directories, or network shares.
-- [[Password Cracking]] and Credential Theft: Using stolen login credentials to access restricted areas of the system.
-- [[Social Engineering]] Attacks: Tricking legitimate users into revealing their credentials or performing actions that elevate the attacker's access.
+- [Password Cracking]() and Credential Theft: Using stolen login credentials to access restricted areas of the system.
+- [Social Engineering]() Attacks: Tricking legitimate users into revealing their credentials or performing actions that elevate the attacker's access.
 
 Privilege escalation is often a critical step in successful cyberattacks, allowing attackers to install persistent threats, access sensitive data, or take control of the system. Defending against privilege escalation involves regular patching of software, strict control and auditing of user permissions, and monitoring for suspicious activities that might indicate an attempt to gain unauthorized access.
 

@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# Knowledge Base
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## About
+This knowledge base is a large collection of pages detailing acronyms, tools, technologies, and terminologies encountered over the years. It is a constantly evolving knowledge base with new notes added on a consistent basis. 
 
-## Commands
+If anything is missing or wrong, please feel free to send a request to update or add a note. This is now a community-driven effort to give back to the cyber security world.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### How to Contribute
+- Review existing content
+- Submit new topics or updates
+- Share your cybersecurity insights
+- Submit requests through the Github repository located [here](https://github.com/ComplexSecurity/knowledge-base)
 
-## Project layout
+## Contact
+- For requests or inquiries, please contact [jonathan@complexsecurity.io](mailto:jonathan@complexsecurity.io)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! info
+    We welcome contributions and suggestions from the community to help enrich this resource further.

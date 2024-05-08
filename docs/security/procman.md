@@ -4,7 +4,7 @@ Some key aspects include:
 
 1. Memory Manipulation: Modifying the memory space of a process. This can include injecting code or data into a process's memory, which is commonly seen in buffer overflow attacks or DLL injection techniques.
 2. Process Injection: Inserting code into a running process. This is often done to execute malicious code in the context of a legitimate process, thereby bypassing security measures.
-3. [[Privilege Escalation]]: Exploiting a process that runs with higher privileges to perform actions that would otherwise be restricted. This is a critical step in many cyber attacks to gain broader access to a system.
+3. [Privilege Escalation](): Exploiting a process that runs with higher privileges to perform actions that would otherwise be restricted. This is a critical step in many cyber attacks to gain broader access to a system.
 4. Process Hijacking: Taking control of a running process, often done by altering the process's execution flow, to perform unauthorized actions.
 5. Debugging and Reverse Engineering: Attaching a debugger to a process to analyze or alter its runtime behavior. This is common in software development and reverse engineering but can also be used for malicious purposes.
 

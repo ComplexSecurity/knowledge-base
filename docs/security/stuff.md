@@ -1,6 +1,6 @@
 Credential stuffing is a type of cyberattack where attackers use lists of compromised user credentials (usernames and passwords) to gain unauthorized access to user accounts through large-scale automated login requests. This attack relies on the fact that many people reuse the same usernames and passwords across multiple websites and online services.
 
-Attackers first obtain leaked usernames and passwords from one source. These credentials often come from data breaches at various companies and are typically sold or shared on the [[Dark Web|dark web]]. Using automated tools, attackers then attempt to log in to other websites or services with these credentials. This is usually done on a large scale, testing thousands or even millions of username/password combinations across various sites.
+Attackers first obtain leaked usernames and passwords from one source. These credentials often come from data breaches at various companies and are typically sold or shared on the [Dark Web|dark web](). Using automated tools, attackers then attempt to log in to other websites or services with these credentials. This is usually done on a large scale, testing thousands or even millions of username/password combinations across various sites.
 
 When a login attempt is successful, attackers gain unauthorized access to users' accounts. They can then exploit these accounts for various purposes, such as stealing personal information, committing fraud, or spreading spam.
 

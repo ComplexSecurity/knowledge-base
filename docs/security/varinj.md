@@ -10,4 +10,4 @@ In a web application, consider a server-side script that sets an environment var
 putenv("LANG=" . $_GET['lang']);
 ```
 
-If `$_GET['lang']` is not properly [[Input Sanitization|sanitized]], it can be exploited to inject malicious values.
+If `$_GET['lang']` is not properly [Input Sanitization|sanitized](), it can be exploited to inject malicious values.

@@ -6,7 +6,7 @@ The name "Onion Router" comes from the method Tor uses to encrypt data multiple 
 
 When you use Tor, your data passes through a random sequence of relays. Each relay knows only the previous and next relay in the sequence, making it extremely difficult to trace the entire path of any piece of data.
 
-Tor allows users to bypass internet censorship, access websites that are blocked in their country, and browse the internet without revealing their [[IP address]].
+Tor allows users to bypass internet censorship, access websites that are blocked in their country, and browse the internet without revealing their [IP address]().
 
 Tor is known for facilitating access to the "dark web," a part of the internet not indexed by traditional search engines. It hosts a range of services, from the illicit to the privacy-conscious.
 

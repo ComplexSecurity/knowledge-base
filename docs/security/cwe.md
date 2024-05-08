@@ -6,6 +6,6 @@ CWE is used as a basis for identifying, mitigating, and preventing software weak
 
 Many security tools, such as static code analysis tools, use the CWE list to help identify weaknesses in software. It is also used in cybersecurity training and education to provide a framework for discussing common security issues.
 
-CWE is often used in conjunction with other security standards and lists, such as the [[Common Vulnerabilities and Exposures (CVE)]] system and the [[OWASP Top Ten]], to provide a comprehensive approach to security vulnerability management.
+CWE is often used in conjunction with other security standards and lists, such as the [Common Vulnerabilities and Exposures (CVE)]() system and the [OWASP Top Ten](), to provide a comprehensive approach to security vulnerability management.
 
 The CWE list is maintained and continuously updated by a broad community of industry practitioners, tool vendors, researchers, and other stakeholders in the cybersecurity field. This community involvement ensures that the list stays relevant and up-to-date with the evolving landscape of software security.

@@ -1,8 +1,8 @@
-ORM Injection is a type of attack targeting applications that use [[Object-Relational Mapping]] (ORM) libraries to interact with databases. ORM is a technique that allows developers to manage database data as objects in programming languages like [[Java]], [[CSharp|C#]] and [[Python]], etc. 
+ORM Injection is a type of attack targeting applications that use [Object-Relational Mapping]() (ORM) libraries to interact with databases. ORM is a technique that allows developers to manage database data as objects in programming languages like [Java](), [CSharp|C#]() and [Python](), etc. 
 
 ORM Injection exploits vulnerabilities where user inputs are improperly sanitized before being passed to ORM methods or functions.
 
-Similar to [[SQL Injection]], ORM Injection occurs when an attacker manipulates inputs to inject malicious code or queries. However, instead of targeting raw SQL queries, ORM Injection targets the ORM query functions or methods.
+Similar to [SQL Injection](), ORM Injection occurs when an attacker manipulates inputs to inject malicious code or queries. However, instead of targeting raw SQL queries, ORM Injection targets the ORM query functions or methods.
 
 ORMs often provide methods for building queries without the need to write raw SQL. If these methods are used with unsanitized inputs, attackers can manipulate them to alter query logic or execute unintended commands.
 

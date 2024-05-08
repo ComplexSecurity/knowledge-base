@@ -9,6 +9,6 @@ Hash functions are used to ensure data integrity. If an attacker can produce a c
 
 Collision attacks can undermine digital signature schemes. If an attacker can generate a collision, they might be able to forge a digital signature, making it appear as though a trusted source signed a malicious document or file.
 
-[[MD5]], an older hash function, is known to be vulnerable to collision attacks. It's possible to create two different documents that hash to the same MD5 hash, allowing for potential security breaches. Similar vulnerabilities have been discovered in [[SHA-1]], leading to its deprecation in favour of more secure hash functions like [[SHA-256]].
+[MD5](), an older hash function, is known to be vulnerable to collision attacks. It's possible to create two different documents that hash to the same MD5 hash, allowing for potential security breaches. Similar vulnerabilities have been discovered in [SHA-1](), leading to its deprecation in favour of more secure hash functions like [SHA-256]().
 
-The best defense against collision attacks is using modern, secure hash functions like [[SHA-256]] or [[SHA-3]], which are designed to be resistant to such attacks. As vulnerabilities are discovered, it's important for organizations to update their cryptographic practices and move to more secure algorithms.
+The best defense against collision attacks is using modern, secure hash functions like [SHA-256]() or [SHA-3](), which are designed to be resistant to such attacks. As vulnerabilities are discovered, it's important for organizations to update their cryptographic practices and move to more secure algorithms.

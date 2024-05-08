@@ -2,7 +2,7 @@ In web application penetration testing (pentesting), a "whitelist" is a security
 
 Whitelists are commonly used for input validation. Web applications compare user inputs against a list of safe characters, strings, or patterns, accepting only those that are explicitly allowed.
 
-Unlike [[Blacklists|blacklisting]], which attempts to enumerate all potentially harmful inputs (a near-impossible task), whitelisting ensures that only known-safe inputs are accepted. This reduces the risk of security bypasses due to unforeseen attack vectors.
+Unlike [Blacklists|blacklisting](), which attempts to enumerate all potentially harmful inputs (a near-impossible task), whitelisting ensures that only known-safe inputs are accepted. This reduces the risk of security bypasses due to unforeseen attack vectors.
 
 Examples of whitelisting include allowing only alphanumeric characters in a user ID field, permitting specific file types in upload forms, or enabling only certain HTML tags in text inputs.
 

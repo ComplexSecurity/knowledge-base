@@ -6,4 +6,4 @@ One of the core functionalities of SIEM is correlating events from different sou
 
 SIEM systems analyze data in real time to detect activities that might indicate a threat. They generate alerts based on predefined and customizable rules that signal potential security issues.
 
-SIEMs often integrate with other security solutions, such as [[intrusion prevention systems]] (IPS), [[Firewall|firewalls]], and endpoint protection platforms, to provide a more comprehensive security overview.
+SIEMs often integrate with other security solutions, such as [intrusion prevention systems]() (IPS), [Firewall|firewalls](), and endpoint protection platforms, to provide a more comprehensive security overview.

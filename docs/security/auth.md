@@ -10,11 +10,11 @@ Types of Authentication Factors:
 - **Location Factors**: Somewhere the user is (e.g., accessing from a specific location).
 - **Behavior Factors**: Something the user does (e.g., typing patterns).
 
-Combining two or more different types of authentication factors significantly increases security. For example, a system may require a password (something the user knows) and a one-time code from a smartphone (something the user has) - known as [[Multi-Factor Authentication (MFA)]].
+Combining two or more different types of authentication factors significantly increases security. For example, a system may require a password (something the user knows) and a one-time code from a smartphone (something the user has) - known as [Multi-Factor Authentication (MFA)]().
 
-[[Single Sign-On (SSO)]] allows user to authenticate once and gain access to multiple systems without being prompted to log in again for each system.
+[Single Sign-On (SSO)]() allows user to authenticate once and gain access to multiple systems without being prompted to log in again for each system.
 
-Various protocols facilitate authentication including [[Kerberos Authentication|Kerberos]], [[Lightweight Directory Access Protocol|LDAP]], [[OAuth]], and [[SAML (Security Assertion Markup Language)]].
+Various protocols facilitate authentication including [Kerberos Authentication|Kerberos](), [Lightweight Directory Access Protocol|LDAP](), [OAuth](), and [SAML (Security Assertion Markup Language)]().
 
 Authentication is a fundamental part of access control systems, determining whether a user should be allowed access to a system or resource. It helps in protecting systems from unauthorized access, thus safeguarding sensitive data and resources. In digital communications and transactions, authentication establishes trust by ensuring that entities involved are who they claim to be.
 

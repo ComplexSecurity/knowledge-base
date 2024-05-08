@@ -7,8 +7,8 @@ One notable aspect of LanMan was its approach to password storage and authentica
 
 The weaknesses in LanMan's password handling make it relevant in the context of hacking and penetration testing: 
 
-1. **Legacy Systems**: Some older systems and applications still use LanMan hashing for compatibility reasons. These systems are vulnerable to [[password cracking]] attacks.
-2. **Cracking LanMan Hashes**: Due to the insecure nature of LanMan hashes, they are often targeted in password cracking. Tools like [[John the Ripper]] or [[Hashcat]] can quickly crack these hashes.
+1. **Legacy Systems**: Some older systems and applications still use LanMan hashing for compatibility reasons. These systems are vulnerable to [password cracking]() attacks.
+2. **Cracking LanMan Hashes**: Due to the insecure nature of LanMan hashes, they are often targeted in password cracking. Tools like [John the Ripper]() or [Hashcat]() can quickly crack these hashes.
 3. **Enumeration and Exploitation**: In penetration testing, identifying systems that use LanMan hashes can reveal weak points in a network's security. Exploiting these vulnerabilities can allow attackers to gain unauthorized access.
 
-Modern Windows systems have moved away from LanMan authentication due to its security flaws. It's recommended to disable LanMan authentication in group policy settings. Systems still relying on LanMan should be upgraded or replaced to use more secure authentication methods. Modern systems use more secure algorithms like [[NTLM]] (NT LAN Manager) and [[Kerberos Authentication|Kerberos]] for password hashing and authentication.
+Modern Windows systems have moved away from LanMan authentication due to its security flaws. It's recommended to disable LanMan authentication in group policy settings. Systems still relying on LanMan should be upgraded or replaced to use more secure authentication methods. Modern systems use more secure algorithms like [NTLM]() (NT LAN Manager) and [Kerberos Authentication|Kerberos]() for password hashing and authentication.

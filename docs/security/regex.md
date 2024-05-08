@@ -18,11 +18,11 @@ Where:
 - \\. - matches a period (a literal do)
 - \$ - asserts the end of a line
 
-During reconnaissance, regex can help in extracting information like email addresses, IP addresses, and URLs from large datasets or scraped web content. Regex helps in modifying attack payloads to evade detection by [[Intrusion Detection Systems|IDS]], which often rely on pattern matching to identify malicious traffic.
+During reconnaissance, regex can help in extracting information like email addresses, IP addresses, and URLs from large datasets or scraped web content. Regex helps in modifying attack payloads to evade detection by [Intrusion Detection Systems|IDS](), which often rely on pattern matching to identify malicious traffic.
 
 Regex can be used to generate complex fuzzing patterns to test applications for unexpected or insecure behavior when receiving malformed or unexpected inputs.
 
-Regex is utilized in testing for [[Cross-Site Scripting|XSS]] and [[SQL Injection]] vulnerabilities to identify patterns that a malicious actor could exploit.
+Regex is utilized in testing for [Cross-Site Scripting|XSS]() and [SQL Injection]() vulnerabilities to identify patterns that a malicious actor could exploit.
 
 Regex is a powerful tool in the arsenal of a penetration tester or a web application hacker, used for efficiently searching, extracting, and manipulating text data. It enables precise targeting and analysis, making it invaluable in identifying and exploiting vulnerabilities in web applications. However, it requires a good understanding of regex syntax and patterns to be effectively used in these contexts.
 

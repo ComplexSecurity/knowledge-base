@@ -1,4 +1,4 @@
-Blind [[Cross-Site Scripting]] (XSS) is a subset of the more widely known Cross-Site Scripting vulnerability, specifically [[Stored (Persistent) XSS|Stored XSS]], but with a key difference in its discovery and exploitation. 
+Blind [Cross-Site Scripting]() (XSS) is a subset of the more widely known Cross-Site Scripting vulnerability, specifically [Stored (Persistent) XSS|Stored XSS](), but with a key difference in its discovery and exploitation. 
 
 In a standard XSS attack, the attacker's payload (malicious script) is executed immediately in the user's browser and the results are instantly observable by the attacker. However, in a Blind XSS attack, the exploitation is not immediately visible.
 

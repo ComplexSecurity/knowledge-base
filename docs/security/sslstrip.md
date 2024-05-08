@@ -1,5 +1,5 @@
   
-SSL stripping is a type of [[Man-in-the-Middle (MitM) attack|man-in-the-middle (MITM)]] attack where the attacker intercepts and alters the communication between a user's browser and a web server to force the connection to downgrade from a secure [[HTTPS Protocol|HTTP]] connection to an unsecure [[HTTP Protocol|HTTP]] connection. 
+SSL stripping is a type of [Man-in-the-Middle (MitM) attack|man-in-the-middle (MITM)]() attack where the attacker intercepts and alters the communication between a user's browser and a web server to force the connection to downgrade from a secure [HTTPS Protocol|HTTP]() connection to an unsecure [HTTP Protocol|HTTP]() connection. 
 
 This attack exploits the fact that many websites redirect from an initial HTTP connection to a secure HTTPS connection. By intercepting and manipulating this redirect, the attacker can keep the connection unencrypted, allowing them to read and modify any data passed between the two parties.
 

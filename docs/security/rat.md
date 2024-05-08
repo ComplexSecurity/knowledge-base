@@ -7,7 +7,7 @@ In the context of cybersecurity, RATs can be used for unauthorized access and co
 1. **Surveillance and Espionage**: Attackers can use RATs to monitor user actions, capture keystrokes (keylogging), take screenshots, or activate webcams and microphones for surveillance purposes.
 2. **Data Theft**: RATs can be used to search for and exfiltrate sensitive data from a victim's computer or network.
 3. **Launching Further Attacks**: Once a RAT is installed, it can serve as a foothold for the attacker to deploy additional malware, escalate privileges, or move laterally across a network.
-4. **Botnets**: Infected machines with RATs can be organized into botnets for coordinated attacks, such as [[Denial of Service (DoS) Attacks|distributed denial-of-service (DDoS)]] attacks.
+4. **Botnets**: Infected machines with RATs can be organized into botnets for coordinated attacks, such as [Denial of Service (DoS) Attacks|distributed denial-of-service (DDoS)]() attacks.
 
 In ethical hacking and penetration testing, RATs can be used to demonstrate the impact of a security breach and to test an organization's ability to detect and respond to such threats. Ethical use of RATs involves:
 

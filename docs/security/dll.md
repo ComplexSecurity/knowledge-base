@@ -1,4 +1,4 @@
-DLL hijacking is a vulnerability exploitation technique where an attacker exploits the way some Windows applications search for and load Dynamic Link Libraries ([[DLLs]]). If an application does not specify a full path for a DLL, Windows searches for the DLL in a predefined set of directories.
+DLL hijacking is a vulnerability exploitation technique where an attacker exploits the way some Windows applications search for and load Dynamic Link Libraries ([DLLs]()). If an application does not specify a full path for a DLL, Windows searches for the DLL in a predefined set of directories.
 
 An attacker can place a malicious DLL with the expected name in a directory that is searched before the legitimate one, leading the application to load the attacker's DLL instead of the legitimate one.
 

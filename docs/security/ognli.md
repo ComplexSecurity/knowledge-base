@@ -1,10 +1,10 @@
-OGNL ([[Object Graph Navigation Language]]) injection is a security vulnerability that occurs when an application allows unsanitized user input to be evaluated as OGNL expressions. OGNL is a powerful expression language used in various [[Java]] frameworks, such as [[Apache Struts 2|Apache Struts 2]], to navigate and manipulate object graphs.
+OGNL ([Object Graph Navigation Language]()) injection is a security vulnerability that occurs when an application allows unsanitized user input to be evaluated as OGNL expressions. OGNL is a powerful expression language used in various [Java]() frameworks, such as [Apache Struts 2|Apache Struts 2](), to navigate and manipulate object graphs.
 
-OGNL is primarily used for expressing expressions that navigate and manipulate object graphs. It allows users to access and modify properties of Java objects. OGNL injection arises when an application doesn't properly validate and [[Input Sanitization|sanitize user input]] before interpreting it as OGNL expressions. Attackers can manipulate input fields to inject malicious OGNL expressions, leading to unauthorized access, data manipulation, or [[Knowledge Base/Remote Code Execution]].
+OGNL is primarily used for expressing expressions that navigate and manipulate object graphs. It allows users to access and modify properties of Java objects. OGNL injection arises when an application doesn't properly validate and [Input Sanitization|sanitize user input]() before interpreting it as OGNL expressions. Attackers can manipulate input fields to inject malicious OGNL expressions, leading to unauthorized access, data manipulation, or [Knowledge Base/Remote Code Execution]().
 
 OGNL injection is often associated with web applications that use Java frameworks like Apache Struts 2. Attackers may craft malicious input to exploit vulnerabilities in the application's handling of OGNL expressions.
 
-To prevent OGNL injection, developers should validate and sanitize user input before using it in OGNL expressions. Input validation, proper encoding, and the use of [[parameterized queries]] or prepared statements are essential measures to protect against this type of injection.
+To prevent OGNL injection, developers should validate and sanitize user input before using it in OGNL expressions. Input validation, proper encoding, and the use of [parameterized queries]() or prepared statements are essential measures to protect against this type of injection.
 
 Consider a web app using Apache Struts 2 with the following action:
 

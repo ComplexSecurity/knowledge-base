@@ -2,9 +2,9 @@ A Secure Token Service (STS) is a vital component in web services and identity m
 
 STS verifies the identity of a user or system, often using credentials like username and password, certificates, or multi-factor authentication methods. Once authentication is successful, STS issues a security token. This token contains claims about the user, which can include user identity, roles, privileges, and other relevant attributes.
 
-STS can facilitate interoperability between different systems and security domains by translating authentication tokens into formats that other systems can understand. In federated identity scenarios and [[Single Sign-On (SSO)]] implementations, an STS enables users to authenticate once and access multiple related but independent software systems.
+STS can facilitate interoperability between different systems and security domains by translating authentication tokens into formats that other systems can understand. In federated identity scenarios and [Single Sign-On (SSO)]() implementations, an STS enables users to authenticate once and access multiple related but independent software systems.
 
-In a [[service-oriented architecture (SOA)]], STS is used to secure web services by ensuring that only authenticated and authorized users can access them. STS is central to claims-based authentication systems, where it issues tokens based on a user's claims, which are then used to access various resources and services.
+In a [service-oriented architecture (SOA)](), STS is used to secure web services by ensuring that only authenticated and authorized users can access them. STS is central to claims-based authentication systems, where it issues tokens based on a user's claims, which are then used to access various resources and services.
 
 In federated identity management, STS allows different organizations to trust each other's authentication tokens, enabling users from one domain to access resources in another.
 
