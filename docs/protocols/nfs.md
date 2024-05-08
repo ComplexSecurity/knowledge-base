@@ -1,4 +1,4 @@
-It is a [[client]]/[[server]] system that allows users to access files across a network and treat them as if they resided in a local file directory. It has the same purpose as [[Server Message Block|SMB]] but it cannot talk to SMB.
+It is a [client](../terms/client.md)/[server](../terms/server.md) system that allows users to access files across a network and treat them as if they resided in a local file directory. It has the same purpose as [SMB](../protocols/smb.md) but it cannot talk to SMB.
 
 The NFS protocol has no mechanism for authentication or authorization. The authorization is taken from the available information of the file system where the server is responsible for translating the user information supplied by the client to that of the file system and converting the corresponding authorization information as correctly as possible into the syntax required by UNIX.
 

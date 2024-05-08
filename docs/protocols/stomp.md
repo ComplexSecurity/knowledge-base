@@ -4,9 +4,9 @@ Unlike other messaging protocols that use a binary format, STOMP uses a text-bas
 
 The protocol defines a handful of commands (like CONNECT, SEND, SUBSCRIBE, UNSUBSCRIBE, BEGIN, COMMIT, ACK, NACK, and DISCONNECT), making it straightforward to use. Messages in STOMP are organized in frames, which are similar to HTTP messages. Each frame consists of a command, optional headers, and an optional body.
 
-Due to its simplicity, there are STOMP clients available in many programming languages, making it a good choice for cross-language messaging. STOMP is suitable for scenarios where you need to connect different systems with a message broker but don't require the advanced features of more complex protocols like [[Advanced Message Queuing Protocol (AMQP)|AMQP]] or [[MQTT]].
+Due to its simplicity, there are STOMP clients available in many programming languages, making it a good choice for cross-language messaging. STOMP is suitable for scenarios where you need to connect different systems with a message broker but don't require the advanced features of more complex protocols like [AMQP](../protocols/amqp.md) or [MQTT](../protocols/mqtt.md).
 
-Routing in STOMP is usually done using message headers, which makes it flexible to route messages based on various criteria. Many popular message brokers like [[Apache ActiveMQ]], [[RabbitMQ]], and others support STOMP, making it a versatile choice for different environments.
+Routing in STOMP is usually done using message headers, which makes it flexible to route messages based on various criteria. Many popular message brokers like [Apache ActiveMQ](../misc/activemq.md), [RabbitMQ](../misc/rabbit.md), and others support STOMP, making it a versatile choice for different environments.
 
-STOMP supports transactions, allowing a series of SEND, ACK, and NACK commands to be treated as a single atomic operation. STOMP can be used over [[WebSockets]], which makes it an excellent choice for web applications requiring real-time messaging.
+STOMP supports transactions, allowing a series of SEND, ACK, and NACK commands to be treated as a single atomic operation. STOMP can be used over [WebSockets](../protocols/sockets.md), which makes it an excellent choice for web applications requiring real-time messaging.
 

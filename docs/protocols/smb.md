@@ -1,8 +1,8 @@
-Server Message Block in modern language is also known as **Common Internet File System**. The system operates as an [[application layer]] network protocol primarily used for offering shared access to files, printers, serial ports, and other sorts of communications between nodes on a network.
+Server Message Block in modern language is also known as **Common Internet File System**. The system operates as an [application layer](../networking/application.md) network protocol primarily used for offering shared access to files, printers, serial ports, and other sorts of communications between nodes on a network.
 
-For instance, on Windows, SMB can run directly over [[TCP-IP|TCP/IP]] without the need for NetBIOS over TCP/IP. 
+For instance, on Windows, SMB can run directly over [TCP/IP](../networking/tcpip.md) without the need for NetBIOS over TCP/IP. 
 
-Server Message Block is a [[client]]-[[server]] protocol that regulates access to files and entire directories and other network resources such as printers, routers, or interfaces released for the network. The main application area of the protocol has been the **Windows** operating system series in particular, whose network services support SMB in a downward-compatible manner - which means that devices with newer editions can easily communicate with devices that have an older Microsoft operating system installed. 
+Server Message Block is a [client](../terms/client.md)-[server](../terms/server.md) protocol that regulates access to files and entire directories and other network resources such as printers, routers, or interfaces released for the network. The main application area of the protocol has been the **Windows** operating system series in particular, whose network services support SMB in a downward-compatible manner - which means that devices with newer editions can easily communicate with devices that have an older Microsoft operating system installed. 
 
 With the free software project Samba, there is also a solution that enables the use of SMB in Linux and Unix distributions and thus cross-platform communication via SMB.
 

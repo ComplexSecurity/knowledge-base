@@ -1,10 +1,10 @@
-Simple Mail Transfer Protocol Secure (SMTPS) refers to the use of [[Simple Mail Transfer Protocol]] (SMTP) over a secure connection, typically using [[SSL]] (Secure Sockets Layer) or [[TLS]] (Transport Layer Security). 
+Simple Mail Transfer Protocol Secure (SMTPS) refers to the use of [Simple Mail Transfer Protocol](../protocols/smtp.md) (SMTP) over a secure connection, typically using [SSL](../cryptography/ssl.md) (Secure Sockets Layer) or [TLS](../cryptography/tls.md) (Transport Layer Security). 
 
 SMTP is the standard protocol for sending emails across the Internet. When SMTP is secured with SSL/TLS, it becomes SMTPS, ensuring that the email messages are transmitted in an encrypted form, providing confidentiality and data integrity between the email client and the mail server.
 
-SMTPS encrypts the data being transmitted, which includes the email content, headers, and any authentication credentials. This prevents unauthorized interception and reading of email data during transmission. In addition to encryption, SMTPS also provides a means of authenticating the mail server, which can help prevent [[Man-in-the-Middle (MitM) attack]].
+SMTPS encrypts the data being transmitted, which includes the email content, headers, and any authentication credentials. This prevents unauthorized interception and reading of email data during transmission. In addition to encryption, SMTPS also provides a means of authenticating the mail server, which can help prevent [Man-in-the-Middle (MitM) attack](../security/mitm.md).
 
-The standard port for SMTP is 25. However, for SMTPS, the commonly used port is 465. Some servers also use port 587 for SMTP with [[STARTTLS]], which upgrades a plain SMTP connection to a secure one.
+The standard port for SMTP is 25. However, for SMTPS, the commonly used port is 465. Some servers also use port 587 for SMTP with [STARTTLS](../protocols/starttls.md), which upgrades a plain SMTP connection to a secure one.
 
 When an email client sends an email using SMTPS, it first establishes a secure connection with the SMTP server using SSL/TLS. This ensures that all subsequent data exchange during the session is encrypted. Once the secure connection is established, the email client sends the email to the server using the SMTP protocol, but now over the encrypted channel.
 

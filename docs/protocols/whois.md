@@ -1,6 +1,6 @@
-WHOIS is a widely used internet protocol and database system that provides information about [[Fully Qualified Domain Name (FQDN)|domain names]], [[IP address|IP addresses]], and other resources on the internet.
+WHOIS is a widely used internet protocol and database system that provides information about [domain names](../web/fqdn.md), [IP addresses](../networking/ipa.md), and other resources on the internet.
 
-It serves as a public directory for domain registration and ownership information. WHOIS data includes details about domain registrants, domain registration dates, domain name servers ([[DNS]]), and administrative and technical contacts associated with a domain.
+It serves as a public directory for domain registration and ownership information. WHOIS data includes details about domain registrants, domain registration dates, domain name servers ([DNS](../networking/dns.md)), and administrative and technical contacts associated with a domain.
 
 WHOIS provides information about the owner of a domain name, including their name, organization, email address, postal address, and phone number. This data can be valuable for verifying the legitimacy of a website, contacting the domain owner for legitimate purposes, or conducting due diligence before engaging in online transactions.
 

@@ -1,8 +1,8 @@
 mDNS (Multicast DNS) is a network protocol used for resolving hostnames to IP addresses within small networks that do not include a local name server. It is a part of the Zero-configuration networking (Zeroconf) protocol suite, allowing devices to use network services without manual setup or configuration.
 
-mDNS enables devices on the same local network to discover each other and establish communication without the need for a central [[DNS]] server. It's particularly useful in home networks, small offices, or [[IoT]] (Internet of Things) environments.
+mDNS enables devices on the same local network to discover each other and establish communication without the need for a central [DNS](../networking/dns.md) server. It's particularly useful in home networks, small offices, or [IoT](../terms/iot.md) (Internet of Things) environments.
 
-Similar to traditional DNS, mDNS resolves hostnames to IP addresses. However, it operates in a smaller scope, typically limited to a single local network segment. mDNS uses multicast [[User Datagram Protocol|UDP]] to send query messages to which all listening devices on the network can respond. A device will respond to an mDNS query only if it has the requested hostname.
+Similar to traditional DNS, mDNS resolves hostnames to IP addresses. However, it operates in a smaller scope, typically limited to a single local network segment. mDNS uses multicast [UDP](../networking/udp.md) to send query messages to which all listening devices on the network can respond. A device will respond to an mDNS query only if it has the requested hostname.
 
 Hostnames in mDNS typically end in `.local`. For example, a device named "printer" might advertise itself as `printer.local`. 
 

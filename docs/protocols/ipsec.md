@@ -14,6 +14,6 @@ IPsec operates in two modes:
 
 IPsec uses Security Associations, which are agreements on how to secure communication. SAs define the protocols and algorithms to be used for securing packet flows.
 
-IPsec commonly uses the [[Internet Key Exchange (IKE)]] protocol to handle the negotiation of keys and the establishment of security associations.
+IPsec commonly uses the [Internet Key Exchange (IKE)](../protocols/ike.md) protocol to handle the negotiation of keys and the establishment of security associations.
 
-IPsec is widely used in creating [[Virtual Private Network|Virtual Private Networks]] (VPNs). In a VPN, IPsec provides secure connections between remote users and networks or between different networks over the internet. IPsec policies define how traffic is to be secured. These policies determine which traffic needs to be secured and how it should be processed.
+IPsec is widely used in creating [Virtual Private Networks](../security/vpns.md) (VPNs). In a VPN, IPsec provides secure connections between remote users and networks or between different networks over the internet. IPsec policies define how traffic is to be secured. These policies determine which traffic needs to be secured and how it should be processed.

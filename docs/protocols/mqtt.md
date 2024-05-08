@@ -13,8 +13,8 @@ MQTT supports different levels of Quality of Service for message delivery:
 
 MQTT supports the concept of retained messages. When a message is sent with the "retain" flag, the broker stores the last message sent on a specific topic. Subscribers joining later will receive the most recent retained message for that topic.
 
-MQTT is designed to be lightweight, making it suitable for devices with limited resources, such as sensors and [[IoT]] devices. The protocol minimizes the amount of overhead associated with communication.
+MQTT is designed to be lightweight, making it suitable for devices with limited resources, such as sensors and [IoT](../terms/iot.md) devices. The protocol minimizes the amount of overhead associated with communication.
 
-MQTT is connectionless, meaning that clients (publishers and subscribers) do not need to maintain a continuous connection to the broker. Clients can connect, send or receive messages, and then disconnect. While MQTT itself does not define security mechanisms, it can be used in combination with secure transport protocols such as [[SSL-TLS|TLS/SSL]] for encryption. Additionally, authentication mechanisms can be implemented at the application level.
+MQTT is connectionless, meaning that clients (publishers and subscribers) do not need to maintain a continuous connection to the broker. Clients can connect, send or receive messages, and then disconnect. While MQTT itself does not define security mechanisms, it can be used in combination with secure transport protocols such as [TLS/SSL](../cryptography/ssltls.md) for encryption. Additionally, authentication mechanisms can be implemented at the application level.
 
 MQTT has gained popularity in the Internet of Things (IoT) space due to its efficiency and scalability. It is well-suited for scenarios where devices need to communicate with each other or with a central server in a distributed and resource-constrained environment.

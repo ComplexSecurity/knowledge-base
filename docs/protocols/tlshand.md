@@ -1,10 +1,10 @@
-The [[TLS]] (Transport Layer Security) handshake is a protocol used to establish a secure communication channel between two parties — typically a web server and a client (such as a web browser). This process involves the negotiation of various parameters to create a secure connection, including authentication, cipher suite selection, and key exchange. 
+The [TLS]() (Transport Layer Security) handshake is a protocol used to establish a secure communication channel between two parties — typically a web server and a client (such as a web browser). This process involves the negotiation of various parameters to create a secure connection, including authentication, cipher suite selection, and key exchange. 
 
-The TLS handshake is more secure and is the successor to the older [[SSL Handshake|SSL (Secure Sockets Layer) handshake]]. 
+The TLS handshake is more secure and is the successor to the older [SSL (Secure Sockets Layer) handshake](../web/sslhand.md). 
 
 The handshake begins with the client sending a "Client Hello" message to the server. This message includes the TLS version the client supports, a list of supported cipher suites (encryption algorithms), and a randomly generated session key. The server responds with a "Server Hello" message, choosing a TLS version and a cipher suite from the options provided by the client. It also sends its own randomly generated session key.
 
-The server sends its digital certificate to the client. The certificate typically includes the server's public key and is issued by a trusted [[Certificate Authorities (CAs)|Certificate Authority (CA)]]. If the selected cipher suite requires additional data exchange for key generation (like in [[Diffie-Hellman]]), the server provides the necessary parameters.
+The server sends its digital certificate to the client. The certificate typically includes the server's public key and is issued by a trusted [Certificate Authority (CA)](../web/cas.md). If the selected cipher suite requires additional data exchange for key generation (like in [Diffie-Hellman](../cryptography/dh.md)), the server provides the necessary parameters.
 
 The server can optionally request a certificate from the client for mutual authentication. The "Server Hello Done" indicates the end of the server's response. If requested, the client sends its certificate to the server.
 

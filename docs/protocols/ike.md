@@ -1,4 +1,4 @@
-IKE (Internet Key Exchange) is a protocol used in [[IPsec]] (Internet Protocol Security) for ensuring secure, authenticated key exchange and establishing [[Security Associations (SAs)]]. IKE plays a crucial role in setting up the cryptographic parameters for securing IP communications.
+IKE (Internet Key Exchange) is a protocol used in [IPsec](../protocols/ipsec.md) (Internet Protocol Security) for ensuring secure, authenticated key exchange and establishing [Security Associations (SAs)](../security/sas.md). IKE plays a crucial role in setting up the cryptographic parameters for securing IP communications.
 
 IKE automates the process of generating, exchanging, and managing cryptographic keys required for IPsec, and also negotiates the IPsec Security Associations (SAs) parameters. 
 
@@ -15,6 +15,6 @@ IKE supports multiple authentication methods, including pre-shared keys, digital
 
 There are two versions of IKE – IKEv1 and IKEv2. IKEv2 is a newer version that simplifies the protocol and improves upon the security features of IKEv1. It also offers better support for NAT traversal.
 
-IKE includes mechanisms for [[Network Address Translation (NAT)]] traversal, which is important for enabling IPsec traffic to pass through NAT devices commonly used in internet routing.
+IKE includes mechanisms for [Network Address Translation (NAT)](../networking/nat.md) traversal, which is important for enabling IPsec traffic to pass through NAT devices commonly used in internet routing.
 
-IKE is widely used in setting up VPN ([[Virtual Private Network]]) connections, allowing secure and authenticated communication over untrusted networks like the internet.
+IKE is widely used in setting up VPN ([Virtual Private Network](../security/vpns.md)) connections, allowing secure and authenticated communication over untrusted networks like the internet.

@@ -1,4 +1,4 @@
-Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft, which provides a user with a graphical interface to connect to another computer over a network connection. The user employs RDP [[client]] software for this purpose, while the other computer must run RDP [[server]] software.
+Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft, which provides a user with a graphical interface to connect to another computer over a network connection. The user employs RDP [client](../terms/client.md) software for this purpose, while the other computer must run RDP [server](../terms/server.md) software.
 
 It facilitates secure information exchange between remotely connected machines over an encrypted communication channel.
 

@@ -1,4 +1,4 @@
-**FTP (File Transfer Protocol)** is a standard network protocol used for the transfer of files from one host to another over a [[Transmission Control Protocol|TCP]]-based network, such as the Internet.
+**FTP (File Transfer Protocol)** is a standard network protocol used for the transfer of files from one host to another over a [TCP](../networking/tcp.md)-based network, such as the Internet.
 
 FTP works by opening two connections that link the computers trying to communicate with each other. One connection is designated for the commands and replies that get sent between the two clients, and the other channel handles the transfer of data. 
 

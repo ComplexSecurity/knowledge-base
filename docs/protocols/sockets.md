@@ -1,6 +1,6 @@
-A WebSocket is a communication protocol that provides full-duplex communication channels over a single [[Transmission Control Protocol|TCP]] connection. It enables real-time, event-driven communication between a client and a server.
+A WebSocket is a communication protocol that provides full-duplex communication channels over a single [TCP](../networking/tcp.md) connection. It enables real-time, event-driven communication between a client and a server.
 
-Unlike traditional [[HTTP Protocol|HTTP]], which follows a request-response model, WebSockets allow bi-directional communication. This means that the client and the server can send data to each other anytime without continuous polling.
+Unlike traditional [HTTP](../web/http.md), which follows a request-response model, WebSockets allow bi-directional communication. This means that the client and the server can send data to each other anytime without continuous polling.
 
 WebSockets are a bi-directional, full duplex communications protocol initiated over HTTP. They are commonly used in modern web applications for streaming data and other asynchronous traffic.
 

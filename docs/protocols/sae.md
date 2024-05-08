@@ -1,4 +1,4 @@
-Simultaneous Authentication of Equals (SAE) is a secure password-based authentication and key establishment protocol used primarily in Wi-Fi Protected Access 3 ([[WPA3]]). SAE was developed to replace the [[Pre-Shared Key (PSK)]] method used in [[WPA2]] and is designed to provide better security features.
+Simultaneous Authentication of Equals (SAE) is a secure password-based authentication and key establishment protocol used primarily in Wi-Fi Protected Access 3 ([WPA3](../protocols/wpa3.md)). SAE was developed to replace the [Pre-Shared Key (PSK)](../cryptography/psk.md) method used in [WPA2](../protocols/wpa2.md) and is designed to provide better security features.
 
 SAE enhances security compared to WPA2's PSK method, particularly against offline dictionary attacks, where an attacker tries to guess the network password using databases of possible passwords.
 

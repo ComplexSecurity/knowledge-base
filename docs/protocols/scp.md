@@ -1,4 +1,4 @@
-SCP (Secure Copy Protocol) is a network protocol that supports file transfers between hosts on a network. It uses SSH ([[Secure Shell]]) for data transfer and provides the same authentication and security as SSH. Unlike the standard file copy commands, SCP ensures that both the file and the communication channel are secure.
+SCP (Secure Copy Protocol) is a network protocol that supports file transfers between hosts on a network. It uses SSH ([Secure Shell](../protocols/ssh.md)) for data transfer and provides the same authentication and security as SSH. Unlike the standard file copy commands, SCP ensures that both the file and the communication channel are secure.
 
 SCP uses SSH for data transfer, ensuring that the entire transmission is encrypted and secure from eavesdropping. It leverages SSH's authentication, requiring valid credentials for access to both the source and destination systems. SCP is typically used via a command-line interface, allowing for easy integration with scripts and other automated processes.
 
@@ -44,7 +44,7 @@ scp -i /path/to/private/key file.txt username@remotehost:/path/to/remote/directo
 !!! info
     The `-i` option allows you to specify an SSH private key to be used for authentication.
 
-SCP ensures that files are encrypted during transfer, providing a high level of security, especially when transferring sensitive data over the internet or unsecured networks. SCP may not be the fastest file transfer method due to the encryption/decryption overhead. For larger transfers, other protocols like [[rsync]] or [[SSH File Transfer Protocol (SFTP)|SFTP]] might be more efficient.
+SCP ensures that files are encrypted during transfer, providing a high level of security, especially when transferring sensitive data over the internet or unsecured networks. SCP may not be the fastest file transfer method due to the encryption/decryption overhead. For larger transfers, other protocols like [rsync](../tools/rsync.md) or [SFTP](../protocols/sftp.md) might be more efficient.
 
 
 

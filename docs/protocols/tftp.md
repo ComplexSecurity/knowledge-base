@@ -1,6 +1,6 @@
-TFTP, or Trivial File Transfer Protocol, is a simple high-level protocol for transferring data servers use to boot diskless workstations, X-terminals, and routers by using [[User Datagram Protocol|UDP]].
+TFTP, or Trivial File Transfer Protocol, is a simple high-level protocol for transferring data servers use to boot diskless workstations, X-terminals, and routers by using [UDP](../networking/udp.md).
 
-Although it may sound similar, TFTP works differently than [[File Transfer Protocol|FTP]] (File Transfer Protocol) and [[HTTP Protocol]]. Although TFTP is also based in FTP technology, TFTP is an entirely different protocol. Among the differences is that TFTP’s transport protocol uses UDP which is not secure while FTP uses [[Transmission Control Protocol]] (TCP) to secure information.
+Although it may sound similar, TFTP works differently than [FTP](../protocols/ftp.md) (File Transfer Protocol) and [HTTP Protocol](../web/http.md). Although TFTP is also based in FTP technology, TFTP is an entirely different protocol. Among the differences is that TFTP’s transport protocol uses UDP which is not secure while FTP uses [Transmission Control Protocol](../networking/tcp.md) (TCP) to secure information.
 
 TFTP was primarily designed to read or write files by using a remote server. However, TFTP is a multi-purpose protocol that can be leveraged for an array of different tasks. 
 
