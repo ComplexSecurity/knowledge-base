@@ -1,6 +1,6 @@
-Galois/Counter Mode (GCM) is an encryption mode that combines the [[Counter (CTR)|counter mode (CTR)]] of block cipher encryption with the Galois mode of authentication. It's widely used for its efficiency and security, particularly in encrypting and authenticating data in communication protocols like TLS and [[IPsec]]. 
+Galois/Counter Mode (GCM) is an encryption mode that combines the [counter mode (CTR)](../cryptography/ctr.md) of block cipher encryption with the Galois mode of authentication. It's widely used for its efficiency and security, particularly in encrypting and authenticating data in communication protocols like TLS and [IPsec](../protocols/ipsec.md). 
 
-GCM is a mode of operation for symmetric key cryptographic block ciphers such as [[Advanced Encryption Standard (AES)|AES]]. GCM combines the counter mode (CTR) for encryption, which turns a block cipher into a stream cipher, with a Galois field multiplication operation to provide data authenticity (integrity checking).
+GCM is a mode of operation for symmetric key cryptographic block ciphers such as [AES](../cryptography/aes.md). GCM combines the counter mode (CTR) for encryption, which turns a block cipher into a stream cipher, with a Galois field multiplication operation to provide data authenticity (integrity checking).
 
 One of the significant advantages of GCM is that it provides both confidentiality (encryption) and integrity/authentication in a single, efficient process.
 

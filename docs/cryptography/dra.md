@@ -1,10 +1,10 @@
-The Double Ratchet Algorithm is a key management algorithm designed to provide secure end-to-end encryption for instant messaging applications. It was developed as part of the [[Signal Protocol]] by Open Whisper Systems, and it's used in popular messaging apps like Signal, WhatsApp, and Facebook Messenger. The algorithm is named for its dual mechanisms, or "ratchets," which are used to update the keys for each message.
+The Double Ratchet Algorithm is a key management algorithm designed to provide secure end-to-end encryption for instant messaging applications. It was developed as part of the [Signal Protocol](../protocols/signal.md) by Open Whisper Systems, and it's used in popular messaging apps like Signal, WhatsApp, and Facebook Messenger. The algorithm is named for its dual mechanisms, or "ratchets," which are used to update the keys for each message.
 
 The algorithm frequently changes encryption keys, using a new key for every message. This practice, known as "ratcheting," ensures that even if a key is compromised, only a small part of the conversation can be decrypted. Because it constantly updates keys, the algorithm provides forward secrecy. If a key is compromised, past messages remain secure since they were encrypted with different keys.
 
 The Double Ratchet Algorithm is designed to work in environments where both parties are not always online at the same time, typical in modern messaging applications.
 
-The Double Ratchet Algorithm combines a [[Diffie-Hellman]] key exchange with a symmetric-key ratchet to update the keys for each message:
+The Double Ratchet Algorithm combines a [Diffie-Hellman](../cryptography/dh.md) key exchange with a symmetric-key ratchet to update the keys for each message:
 
 1. **Diffie-Hellman Ratchet**: Used intermittently to provide new key material. When two parties exchange messages, they also periodically send new Diffie-Hellman public keys. Each party combines the other's public key with their own private key to derive new shared secrets.
 2. **Symmetric-Key Ratchet**: Also known as the "KDF-chain" (Key Derivation Function chain), this ratchet is used for every message. It takes the output of the Diffie-Hellman ratchet and derives new keys for each message, ensuring that each message has a unique encryption key.

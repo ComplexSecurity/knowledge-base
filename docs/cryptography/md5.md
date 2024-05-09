@@ -10,4 +10,4 @@ MD5 has been found to have significant vulnerabilities, which have led to its de
 2. **Cryptographic Weakness**: MD5 is no longer considered a secure cryptographic hash function due to advances in cryptanalysis techniques. It is vulnerable to various attacks, including collision attacks and pre-image attacks.
 3. **Non-Security Use Cases**: While MD5 is unsuitable for cryptographic security, it is still used in non-security-critical applications, such as checksums for data integrity checking or generating unique identifiers for non-cryptographic purposes.
 
-As a result of its security weaknesses, MD5 has been replaced by more secure cryptographic hash functions, such as [[SHA-256]] (part of the SHA-2 family) and SHA-3. These newer hash functions provide better security guarantees and are recommended for use in security-sensitive applications.
+As a result of its security weaknesses, MD5 has been replaced by more secure cryptographic hash functions, such as [SHA-256](../cryptography/sha256.md) (part of the SHA-2 family) and SHA-3. These newer hash functions provide better security guarantees and are recommended for use in security-sensitive applications.

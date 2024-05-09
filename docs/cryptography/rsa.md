@@ -1,6 +1,6 @@
 RSA (Rivest-Shamir-Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. Named after its inventors, Ron Rivest, Adi Shamir, and Leonard Adleman, who first publicly described it in 1977, RSA has become one of the most important algorithms in asymmetric encryption.
 
-The Rivest-Shamir-Adleman (RSA) encryption algorithm is an asymmetric encryption algorithm that is widely used in many products and services. [[Asymmetric Encryption]] uses a key pair that is mathematically linked to encrypt and decrypt data. 
+The Rivest-Shamir-Adleman (RSA) encryption algorithm is an asymmetric encryption algorithm that is widely used in many products and services. [Asymmetric Encryption](../cryptography/asym.md) uses a key pair that is mathematically linked to encrypt and decrypt data. 
 
 A private and public key are created, with the public key being accessible to anyone and the private key being a secret known only by the key pair creator. With RSA, either the private or public key can encrypt the data, while the other key decrypts it. This is one of the reasons RSA is the most used asymmetric encryption algorithm.
 

@@ -6,8 +6,8 @@ Each party selects a private key, which is a secret number. Each then computes t
 
 After receiving the other party’s public key, each party raises it to the power of their own private key and again takes the modulus of p. This operation results in both parties arriving at the same number, which becomes the shared secret key.
 
-The security of the Diffie-Hellman key exchange lies in the difficulty of the [[Discrete Logarithm Problem]]. While it's computationally easy to raise g to a power and take a modulus p, it's hard to do the inverse — that is, to start with g^x mod p and then find x.
+The security of the Diffie-Hellman key exchange lies in the difficulty of the [Discrete Logarithm Problem](../cryptography/dlp.md). While it's computationally easy to raise g to a power and take a modulus p, it's hard to do the inverse — that is, to start with g^x mod p and then find x.
 
-It’s widely used in various protocols for secure key exchange, like in [[SSL-TLS|SSL/TLS]] for establishing secure web connections. When used in protocols like [[TLS]], Diffie-Hellman can provide [[Perfect Forward Secrecy]], meaning that even if a long-term private key is compromised, session keys cannot be deduced.
+It’s widely used in various protocols for secure key exchange, like in [SSL/TLS](../cryptography/ssltls.md) for establishing secure web connections. When used in protocols like [TLS](../cryptography/tls.md), Diffie-Hellman can provide [[Perfect Forward Secrecy]], meaning that even if a long-term private key is compromised, session keys cannot be deduced.
 
-Without additional authentication measures, Diffie-Hellman is vulnerable to [[Man-in-the-Middle (MitM) attack|man-in-the-middle attacks]], where an attacker intercepts and replaces public keys. The security of Diffie-Hellman depends on using sufficiently large primes and unique private keys.
+Without additional authentication measures, Diffie-Hellman is vulnerable to [man-in-the-middle attacks](../security/mitm.md), where an attacker intercepts and replaces public keys. The security of Diffie-Hellman depends on using sufficiently large primes and unique private keys.

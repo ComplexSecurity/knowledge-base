@@ -1,4 +1,4 @@
-AES (Advanced Encryption Standard) is a [[Symmetric Encryption]] algorithm widely used across the globe to secure data. It was established as an encryption standard by the U.S. National Institute of Standards and Technology (NIST) in 2001. AES is used in various software and hardware products to encrypt sensitive data.
+AES (Advanced Encryption Standard) is a [Symmetric Encryption](../cryptography/symmetric.md) algorithm widely used across the globe to secure data. It was established as an encryption standard by the U.S. National Institute of Standards and Technology (NIST) in 2001. AES is used in various software and hardware products to encrypt sensitive data.
 
 AES is a symmetric key algorithm, meaning the same key is used for both encrypting and decrypting the data. This contrasts with asymmetric key algorithms, where different keys are used for encryption and decryption.
 
@@ -10,8 +10,8 @@ Depending on the key size, AES applies multiple rounds of encryption to the data
 
 AES uses a combination of substitution and permutation in its rounds. Data is substituted and shuffled systematically, making it extremely secure against known cryptographic attacks.
 
-AES is used worldwide in various applications, including SSL/TLS for securing internet connections, [[Virtual Private Network|VPNs]], file encryption, and securing wireless networks (like in [[WPA2]] and [[WPA3]]).
+AES is used worldwide in various applications, including SSL/TLS for securing internet connections, [[Virtual Private Network|VPNs]], file encryption, and securing wireless networks (like in [WPA2](../protocols/wpa2.md) and [WPA3](../protocols/wpa3.md)).
 
 AES is considered very secure and is used by governments, financial institutions, and other entities to protect sensitive information. It is believed to be resistant to all known practical cryptanalytic attacks when implemented correctly.
 
-AES is efficient in both software and hardware, which makes it suitable for a wide range of devices, from high-powered servers to low-resource [[IoT]] devices.
+AES is efficient in both software and hardware, which makes it suitable for a wide range of devices, from high-powered servers to low-resource [IoT](../terms/iot.md) devices.

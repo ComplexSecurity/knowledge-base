@@ -1,4 +1,4 @@
-SHA-3 (Secure Hash Algorithm 3) is the latest member of the Secure Hash Algorithm family of standards, released by the National Institute of Standards and Technology (NIST) in 2015. SHA-3 was developed as a part of a public competition to create a new hash algorithm that would be more resistant to the types of attacks that had started to threaten its predecessors like [[SHA-1]] and SHA-2.
+SHA-3 (Secure Hash Algorithm 3) is the latest member of the Secure Hash Algorithm family of standards, released by the National Institute of Standards and Technology (NIST) in 2015. SHA-3 was developed as a part of a public competition to create a new hash algorithm that would be more resistant to the types of attacks that had started to threaten its predecessors like [SHA-1](../cryptography/sha1.md) and SHA-2.
 
 SHA-3 can produce hash values of different lengths – 224, 256, 384, or 512 bits, making it versatile for various security requirements. It offers strong resistance against known types of cryptographic attacks, including the ones that have started to affect SHA-1 and SHA-2 (like collision attacks).
 

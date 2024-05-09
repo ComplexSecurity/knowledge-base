@@ -3,7 +3,7 @@ OFB, or Output Feedback mode, is a mode of operation for block ciphers. It effec
 OFB mode starts with an IV, which must be unique for each encryption operation with the same key. The IV is typically the size of the block cipher's block size.
 
 - The IV is encrypted with the block cipher.
-- The output of this encryption (not the plaintext) is then [[XOR]]ed with the plaintext to produce the ciphertext.
+- The output of this encryption (not the plaintext) is then [XOR](../cryptography/xor.md)ed with the plaintext to produce the ciphertext.
 - For the next block, this encrypted output (not the ciphertext) is encrypted again with the block cipher, and the output of this is XORed with the next segment of plaintext to produce the next segment of ciphertext.
 - This process continues for the entire length of the plaintext.
 

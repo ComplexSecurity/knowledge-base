@@ -1,6 +1,6 @@
-TLS, or Transport Layer Security, is a cryptographic protocol designed to provide secure communication over a computer network. It is the successor to Secure Sockets Layer ([[SSL]]), although the term "SSL" is still commonly used to refer to both SSL and TLS. TLS ensures privacy between communicating applications and their users on the internet, preventing eavesdropping, tampering, or message forgery.
+TLS, or Transport Layer Security, is a cryptographic protocol designed to provide secure communication over a computer network. It is the successor to Secure Sockets Layer ([SSL](../web/ssl.md)), although the term "SSL" is still commonly used to refer to both SSL and TLS. TLS ensures privacy between communicating applications and their users on the internet, preventing eavesdropping, tampering, or message forgery.
 
-TLS operates between the transport (e.g., [[Transmission Control Protocol|TCP]]) and application layers (e.g., [[HTTP Protocol|HTTP]] for web browsers). The protocol works through a process that involves the following steps:
+TLS operates between the transport (e.g., [TCP](../networking/tcp.md)) and application layers (e.g., [HTTP](../web/http.md) for web browsers). The protocol works through a process that involves the following steps:
 
 **Handshake**:
 
@@ -26,4 +26,4 @@ There have been several versions of TLS since its inception:
 
 TLS ensures that data exchanged between the client and server is not readable by others. It protects data from being altered or tampered with during transmission. TLS facilitates the authentication of servers (and optionally clients), ensuring that users are communicating with legitimate entities.
 
-Used in [[HTTPS Protocol|HTTPS]], the secure version of HTTP, for secure web browsing. Used in protocols like [[Simple Mail Transfer Protocol Secure (SMTPS)|SMTPS]], [[Post Office Protocol Secure|POP3S]], and [[Internet Message Access Protocol Secure (IMAPS)|IMAPS]] for secure email communication. Utilized in protocols like [[File Transfer Protocol Secure|FTPS]]  for secure file transfers.
+Used in [HTTPS](../web/https.md), the secure version of HTTP, for secure web browsing. Used in protocols like [SMTPS](../protocols/smtps.md), [POP3S](../protocols/pops.md), and [IMAPS](../protocols/imaps.md) for secure email communication. Utilized in protocols like [FTPS](../protocols/ftps.md)  for secure file transfers.

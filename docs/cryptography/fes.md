@@ -1,6 +1,6 @@
 A Feistel network is a design model used in the construction of block ciphers. This structure is known for its simplicity and effectiveness in encrypting data.
 
-The Feistel network is a [[Symmetric Encryption|symmetric structure]], which means that the same steps and keys can be used for both encryption and decryption, with only a minor modification (reversing the key schedule). This symmetry simplifies the design of the cipher.
+The Feistel network is a [symmetric structure](../cryptography/symmetric.md), which means that the same steps and keys can be used for both encryption and decryption, with only a minor modification (reversing the key schedule). This symmetry simplifies the design of the cipher.
 
 In a Feistel cipher, each data block is divided into two equal-sized halves. The operation of the cipher proceeds through multiple rounds, each of which processes these halves.
 
@@ -10,6 +10,6 @@ After each round, the two halves of the block are swapped. This means that the h
 
 A key schedule is used to generate a series of round keys from the main key. These round keys are used in each round of the Feistel cipher. A crucial feature of the Feistel network is its reversibility, which ensures that decryption is possible. The decryption process is essentially the same as the encryption process, just using the round keys in the reverse order.
 
-Some well-known block ciphers based on the Feistel structure include the [[Data Encryption Standard (DES)]], [[Triple DES (3DES)]], and the [[Blowfish]] algorithm.
+Some well-known block ciphers based on the Feistel structure include the [Data Encryption Standard (DES)](../cryptography/des.md), [Triple DES (3DES)](../cryptography/3des.md), and the [Blowfish](../cryptography/blowfish.md) algorithm.
 
 The security of a Feistel cipher depends on the specifics of the round function, the number of rounds, and the complexity of the key schedule. Properly designed Feistel ciphers are considered secure and effective for many cryptographic applications.

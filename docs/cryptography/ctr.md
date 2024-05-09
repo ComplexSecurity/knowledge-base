@@ -14,6 +14,6 @@ CTR mode allows random access to the encrypted data blocks. You can decrypt any 
 
 The security of CTR mode heavily depends on never using the same counter value with the same key. The unique counter and key combination ensures that the keystream is unpredictable.
 
-CTR mode is widely used in various cryptographic protocols and applications, including AES-GCM ([[Galois Counter Mode (GCM)|Galois Counter Mode]]), which is a variant of CTR.
+CTR mode is widely used in various cryptographic protocols and applications, including AES-GCM ([Galois Counter Mode](../cryptography/gcm.md)), which is a variant of CTR.
 
 The simplicity of CTR mode and its ability to precompute keystream blocks make it efficient for various implementations. The nonce part of the counter must be generated in a secure manner to prevent vulnerabilities. Using a predictable nonce can severely compromise the security of the encryption.

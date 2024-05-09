@@ -4,10 +4,10 @@ The process begins with the generation of a pair of keys. The public key, as the
 
 When someone wants to send a secure message, they encrypt it using the recipient's public key. This encrypted data can only be decrypted by the corresponding private key. Upon receiving the encrypted message, the recipient uses their private key to decrypt it. Since the private key is not shared, only the intended recipient can decrypt the message.
 
-The strength of asymmetric encryption lies in the difficulty of deriving the private key from the public key. This is usually based on complex mathematical problems, such as the factoring of large numbers in [[RSA (Rivest-Shamir-Adleman)]] encryption.
+The strength of asymmetric encryption lies in the difficulty of deriving the private key from the public key. This is usually based on complex mathematical problems, such as the factoring of large numbers in [RSA (Rivest-Shamir-Adleman)](../cryptography/rsa.md) encryption.
 
 Asymmetric encryption is widely used for secure data transmission over the internet. It’s fundamental for technologies like SSL/TLS in securing online communications, as well as in digital signatures which verify the authenticity and integrity of data.
 
-The key advantage of asymmetric encryption is the security it provides in open networks like the internet, where exchanging secret keys (as required in [[symmetric encryption]]) is not always safe or practical. 
+The key advantage of asymmetric encryption is the security it provides in open networks like the internet, where exchanging secret keys (as required in [symmetric encryption](../cryptography/symmetric.md)) is not always safe or practical. 
 
 However, it's generally slower than symmetric encryption due to its computational complexity, which is why in practice, often a combination of both methods is used (e.g., using asymmetric encryption to exchange a symmetric key safely).
