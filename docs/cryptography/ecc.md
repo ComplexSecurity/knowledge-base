@@ -1,4 +1,4 @@
-ECC (Elliptic Curve Cryptography) is a method of public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC provides the same level of cryptographic strength as other public-key cryptographic systems (like [[RSA (Rivest-Shamir-Adleman)|RSA]]) but uses smaller key sizes, leading to faster computations, lower power consumption, and reduced storage and bandwidth requirements.
+ECC (Elliptic Curve Cryptography) is a method of public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC provides the same level of cryptographic strength as other public-key cryptographic systems (like [RSA](../cryptography/rsa.md)) but uses smaller key sizes, leading to faster computations, lower power consumption, and reduced storage and bandwidth requirements.
 
 ECC is built upon the mathematics of elliptic curves, which are curves defined by a specific type of cubic equation in two variables. The properties of these curves provide the foundation for cryptographic techniques.
 
@@ -6,11 +6,11 @@ One of the major advantages of ECC is that it can achieve the same level of secu
 
 Due to smaller key sizes, ECC operations can be performed more quickly than equivalent RSA operations. This efficiency makes ECC particularly attractive for use in mobile devices or environments where computing resources are limited.
 
-ECC provides strong security mechanisms. The difficulty of solving the Elliptic Curve Discrete Logarithm Problem (ECDLP) is what provides security in ECC. ECC is widely used in various security protocols and standards, such as [[SSL-TLS|TLS/SSL]] for secure web browsing, [[Virtual Private Network|VPNs]], and encryption standards like [[PGP (Pretty Good Privacy)|PGP]] and GPG for secure communications.
+ECC provides strong security mechanisms. The difficulty of solving the Elliptic Curve Discrete Logarithm Problem (ECDLP) is what provides security in ECC. ECC is widely used in various security protocols and standards, such as [TLS/SSL](../cryptography/ssltls.md) for secure web browsing, [VPNs](../security/vpns.md), and encryption standards like [PGP](../cryptography/pgp.md) and GPG for secure communications.
 
-ECC is used in digital signature algorithms like the [[Elliptic Curve Digital Signature Algorithm (ECDSA)]]. ECDSA is a variant of the [[Digital Signature Algorithm (DSA)]] which uses elliptic curve cryptography.
+ECC is used in digital signature algorithms like the [Elliptic Curve Digital Signature Algorithm (ECDSA)](../cryptography/ecdsa.md). ECDSA is a variant of the [Digital Signature Algorithm (DSA)](../cryptography/dsa.md) which uses elliptic curve cryptography.
 
-ECC can be used in key agreement protocols, like [[Elliptic Curve Diffie-Hellman (ECDH)]], allowing two parties to establish a shared secret over an insecure channel.
+ECC can be used in key agreement protocols, like [Elliptic Curve Diffie-Hellman (ECDH)](../cryptography/ecdh.md), allowing two parties to establish a shared secret over an insecure channel.
 
 While still a developing field, ECC is considered to be more resistant to attacks by quantum computers compared to RSA, although quantum-resistant algorithms are still an area of active research.
 

@@ -6,8 +6,8 @@ The problem can be stated as follows: Given a prime number $p$, a generator $g$ 
 
 The "discrete" part of the name comes from the fact that the problem deals with discrete rather than continuous values. The security of many cryptographic systems relies on the difficulty of solving the DLP. In practice, the values of $g$, $y$, and $p$ are known, but $x$ is kept secret. The infeasibility of solving for $x$ in a reasonable amount of time is what makes the cryptographic system secure.
 
-DLP is particularly important in public key cryptographic systems like [[Diffie-Hellman]] key exchange and the [[ElGamal]] encryption system. These systems allow secure communication over an insecure channel without the need to share a secret key in advance.
+DLP is particularly important in public key cryptographic systems like [Diffie-Hellman](../cryptography/dh.md) key exchange and the [ElGamal](../cryptography/egl.md) encryption system. These systems allow secure communication over an insecure channel without the need to share a secret key in advance.
 
-A variant of the DLP, known as the [[Elliptic Curve Discrete Logarithm Problem (ECDLP)]], is used in elliptic curve cryptography. ECDLP is similar to the traditional DLP but is defined over elliptic curves rather than the multiplicative group of integers modulo $p$.
+A variant of the DLP, known as the [Elliptic Curve Discrete Logarithm Problem (ECDLP)](../cryptography/ecdlp.md), is used in elliptic curve cryptography. ECDLP is similar to the traditional DLP but is defined over elliptic curves rather than the multiplicative group of integers modulo $p$.
 
 The difficulty of the DLP increases significantly with the size of $p$$. For small values, it is relatively easy to solve, but for large values (hundreds of digits), no efficient general solution method is known. This asymmetry – easy to perform, hard to reverse – is a cornerstone of cryptographic systems based on the DLP, providing a way to create secure keys and encrypt data.

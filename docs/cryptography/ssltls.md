@@ -2,15 +2,15 @@ SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic 
 
 SSL/TLS protocols encrypt data transmitted over the network, protecting it from eavesdropping and tampering. This encryption ensures that any data sent between the user and the server is unreadable to anyone else.
 
-SSL/TLS provides authentication of the server (and optionally the client). When you visit a website with SSL/TLS, you can be sure you're connecting to the intended server and not an impostor (e.g., in a [[Man-in-the-Middle (MitM) attack|man-in-the-middle attack]]).
+SSL/TLS provides authentication of the server (and optionally the client). When you visit a website with SSL/TLS, you can be sure you're connecting to the intended server and not an impostor (e.g., in a [man-in-the-middle attack](../security/mitm.md)).
 
 SSL/TLS includes a handshake process that establishes the secure connection before any data is transferred. During the handshake, the server (and optionally the client) is authenticated, encryption algorithms are agreed upon, and cryptographic keys are exchanged.
 
-SSL/TLS uses digital certificates to authenticate the server (and optionally the client). These certificates are issued by trusted entities called [[Certificate Authorities (CAs)]].
+SSL/TLS uses digital certificates to authenticate the server (and optionally the client). These certificates are issued by trusted entities called [Certificate Authorities (CAs)](../web/cas.md).
 
 SSL had several versions (SSL 1.0, 2.0, and 3.0), but due to security vulnerabilities, it was superseded by TLS. TLS has multiple versions (1.0, 1.1, 1.2, and 1.3), with TLS 1.3 being the latest and most secure.
 
-When SSL/TLS is used for securing web traffic, the protocol is [[HTTP Protocol|HTTP]] over SSL/TLS, known as [[HTTPS Protocol|HTTPS]]. In a web browser, HTTPS is indicated by a padlock icon in the URL bar.
+When SSL/TLS is used for securing web traffic, the protocol is [HTTP](../web/http.md) over SSL/TLS, known as [HTTPS](../web/https.md). In a web browser, HTTPS is indicated by a padlock icon in the URL bar.
 
 In addition to encryption, SSL/TLS ensures the integrity of data. This means that data cannot be tampered with during transmission without detection. 
 

@@ -6,9 +6,9 @@ It was initially favored for its speed and efficiency in generating hashes. It's
 
 It is used to ensure data integrity by generating a hash of the data and then verifying the hash at the receiving end. Utilized in digital signature algorithms to ensure the authenticity of digital documents.
 
-It is also employed in [[SSL-TLS|SSL/TLS]] [[SSL certificates|certificates]] for securing websites (though this use has been phased out). It was also used to verify the integrity of software packages by comparing the hash of the downloaded file with a published hash.
+It is also employed in [SSL/TLS](../cryptography/ssltls.md) [certificates](../web/sslcerts.md) for securing websites (though this use has been phased out). It was also used to verify the integrity of software packages by comparing the hash of the downloaded file with a published hash.
 
-Over time, vulnerabilities in SHA-1 have been discovered, including the potential for collision attacks (where two different inputs produce the same hash). These vulnerabilities compromise its security effectiveness. Due to these vulnerabilities, SHA-1 has been increasingly phased out in favor of more secure algorithms like [[SHA-256]] and [[SHA-3]].
+Over time, vulnerabilities in SHA-1 have been discovered, including the potential for collision attacks (where two different inputs produce the same hash). These vulnerabilities compromise its security effectiveness. Due to these vulnerabilities, SHA-1 has been increasingly phased out in favor of more secure algorithms like [SHA-256](../cryptography/sha256.md) and [SHA-3](../cryptography/sha3.md).
 
 An example of a SHA-1 hash of the string "Hello, world!" might look like this:
 

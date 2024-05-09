@@ -1,4 +1,4 @@
-ElGamal is a cryptographic algorithm used for both encryption and digital signatures. It's based on the [[Diffie-Hellman]] key exchange and the [[Discrete Logarithm Problem]], making it part of the family of public key cryptographic systems. ElGamal was introduced by Taher Elgamal in 1985 and remains relevant due to its security properties and its basis in mathematical problems for which no efficient solving algorithm is known.
+ElGamal is a cryptographic algorithm used for both encryption and digital signatures. It's based on the [Diffie-Hellman](../cryptography/dh.md) key exchange and the [Discrete Logarithm Problem](../cryptography/dlp.md), making it part of the family of public key cryptographic systems. ElGamal was introduced by Taher Elgamal in 1985 and remains relevant due to its security properties and its basis in mathematical problems for which no efficient solving algorithm is known.
 
 The ElGamal encryption system is an asymmetric key encryption algorithm for public-key cryptography which is based on the Diffie-Hellman key exchange.
 

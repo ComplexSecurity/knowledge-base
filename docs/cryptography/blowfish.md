@@ -1,4 +1,4 @@
-Blowfish is a [[Symmetric Encryption|symmetric-key block cipher algorithm]] designed in 1993 by Bruce Schneier as a fast, free alternative to existing encryption algorithms. It has been widely used for its efficiency and effectiveness in securing data.
+Blowfish is a [symmetric-key block cipher algorithm](../cryptography/symmetric.md) designed in 1993 by Bruce Schneier as a fast, free alternative to existing encryption algorithms. It has been widely used for its efficiency and effectiveness in securing data.
 
 Blowfish is a block cipher, meaning it encrypts data in fixed-size blocks. It has a 64-bit block size, which was common at the time of its development.
 
@@ -14,6 +14,6 @@ While Blowfish is considered secure, its small block size (64 bits) makes it pot
 
 Blowfish has been employed in a wide array of applications, including software encryption, secure file transfer protocols, password hashing schemes, and e-commerce platforms.
 
-Bruce Schneier designed [[Twofish]], an advanced and more complex successor to Blowfish, as a candidate for the [[Advanced Encryption Standard (AES)]]. Twofish has a larger block size and additional security features.
+Bruce Schneier designed [Twofish](../cryptography/twofish.md), an advanced and more complex successor to Blowfish, as a candidate for the [Advanced Encryption Standard (AES)](../cryptography/aes.md). Twofish has a larger block size and additional security features.
 
 While Blowfish was widely acclaimed and used, it has largely been superseded by newer algorithms like AES and Twofish, especially for new applications requiring high-security encryption.

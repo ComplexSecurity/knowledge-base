@@ -1,4 +1,4 @@
-The Digital Signature Algorithm (DSA) is a Federal Information Processing Standard for digital signatures. It was developed by the National Institute of Standards and Technology (NIST) in the early 1990s for use in their Digital Signature Standard (DSS). DSA is based on [[Asymmetric Encryption|asymmetric cryptographic principles]] and is used for digital signing and verification, not for encryption.
+The Digital Signature Algorithm (DSA) is a Federal Information Processing Standard for digital signatures. It was developed by the National Institute of Standards and Technology (NIST) in the early 1990s for use in their Digital Signature Standard (DSS). DSA is based on [asymmetric cryptographic principles](../cryptography/asym.md) and is used for digital signing and verification, not for encryption.
 
 DSA is an asymmetric algorithm, meaning it uses a pair of keys: a private key for signing and a public key for verification. The private key must be kept secret, while the public key can be openly distributed.
 
@@ -8,4 +8,4 @@ Unlike some other asymmetric algorithms like RSA, DSA cannot be used for encrypt
 
 The length of the keys used in DSA affects the security of the signature. Longer keys provide higher security. NIST has guidelines on the recommended key lengths for various security levels.
 
-DSA was one of the first digital signature schemes widely adopted and used. It has been implemented in various cryptographic software and protocols. There are variants of DSA, such as the [[Elliptic Curve Digital Signature Algorithm (ECDSA)]], which uses elliptic curve cryptography to provide the same functionality but with shorter keys and improved efficiency.
+DSA was one of the first digital signature schemes widely adopted and used. It has been implemented in various cryptographic software and protocols. There are variants of DSA, such as the [Elliptic Curve Digital Signature Algorithm (ECDSA)](../cryptography/ecdsa.md), which uses elliptic curve cryptography to provide the same functionality but with shorter keys and improved efficiency.

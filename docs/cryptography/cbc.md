@@ -1,4 +1,4 @@
-Cipher Block Chaining (CBC) is a mode of operation used in block cipher encryption algorithms. In CBC mode, each block of plaintext is XORed (exclusive or) with the previous ciphertext block before being encrypted. This method of encryption provides enhanced security compared to the basic [[Electronic Codebook (ECB)]] mode.
+Cipher Block Chaining (CBC) is a mode of operation used in block cipher encryption algorithms. In CBC mode, each block of plaintext is XORed (exclusive or) with the previous ciphertext block before being encrypted. This method of encryption provides enhanced security compared to the basic [Electronic Codebook (ECB)](../cryptography/ebc.md) mode.
 
 In CBC mode, the encryption of each block of plaintext depends on the previous ciphertext block. This creates a chain of dependency among all the blocks, hence the name "**Cipher Block Chaining**."
 
@@ -8,7 +8,7 @@ Before a plaintext block is encrypted, it is XORed with the preceding ciphertext
 
 CBC mode provides more security than ECB mode because it obscures patterns in the plaintext. In ECB mode, identical plaintext blocks result in identical ciphertext blocks, which can reveal patterns and weaken security.
 
-CBC mode has been widely used in various encryption protocols, including [[SSL-TLS]] for secure web communications and in standards like [[PGP (Pretty Good Privacy)]] for email encryption.
+CBC mode has been widely used in various encryption protocols, including [SSL-TLS](../cryptography/ssltls.md) for secure web communications and in standards like [PGP (Pretty Good Privacy)](../cryptography/pgp.md) for email encryption.
 
 Since block ciphers require input blocks of a fixed size, plaintext often needs to be padded to the appropriate block length before encryption in CBC mode. Standard padding schemes must be used to ensure proper encryption and decryption.
 

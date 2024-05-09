@@ -1,4 +1,4 @@
-X3DH, which stands for Extended Triple [[Diffie-Hellman]], is a key agreement protocol designed to establish a shared secret between two parties. It's part of the [[Signal Protocol]], developed by Open Whisper Systems and used in encrypted messaging services like Signal, WhatsApp, and Facebook Messenger.
+X3DH, which stands for Extended Triple [Diffie-Hellman](../cryptography/dh.md), is a key agreement protocol designed to establish a shared secret between two parties. It's part of the [Signal Protocol](../protocols/signal.md), developed by Open Whisper Systems and used in encrypted messaging services like Signal, WhatsApp, and Facebook Messenger.
 
 X3DH is specifically designed to facilitate secure and private communication in an asynchronous environment, such as modern messaging systems where both parties might not be online simultaneously.
 

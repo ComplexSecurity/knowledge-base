@@ -1,9 +1,9 @@
-CFB, or Cipher Feedback mode, is a mode of operation used with block ciphers to turn them into a stream cipher. It allows a block cipher like [[Advanced Encryption Standard (AES)|AES (Advanced Encryption Standard)]] to encrypt data of arbitrary length, and not just data that fits into a block. CFB mode is used in various cryptographic applications for secure data transmission and storage.
+CFB, or Cipher Feedback mode, is a mode of operation used with block ciphers to turn them into a stream cipher. It allows a block cipher like [AES (Advanced Encryption Standard)](../cryptography/aes.md) to encrypt data of arbitrary length, and not just data that fits into a block. CFB mode is used in various cryptographic applications for secure data transmission and storage.
 
 CFB mode begins with an IV, which should be a unique value for each encryption operation to ensure security. The IV is usually the size of the block cipher's block size.
 
 - The IV is encrypted with the block cipher.
-- The output of this encryption is then XORed ([[XOR|exclusive OR]]) with a segment of the plaintext to produce the ciphertext segment.
+- The output of this encryption is then XORed ([exclusive OR](../cryptography/xor.md)) with a segment of the plaintext to produce the ciphertext segment.
 - For the next block, a segment of the previously generated ciphertext is used (rather than the IV) and encrypted with the block cipher. This output is again XORed with the next segment of plaintext to produce the next segment of ciphertext.
 - This process continues until all plaintext is encrypted.
 

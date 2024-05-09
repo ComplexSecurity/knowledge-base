@@ -10,6 +10,6 @@ XOR is often used in encryption algorithms. One simple form is XOR cipher, where
 - Example: `plaintext XOR key = ciphertext`, and then `ciphertext XOR key = plaintext`.
 - This is effective when the key is random, used only once (one-time pad), and is as long as the plaintext.
 
-In software, XOR is used to [[Obfuscation (KB)|obfuscate]] code or data to hide its purpose or content from users or analysis tools. This can protect software from reverse engineering. XOR is a fundamental operation in many cryptographic hash functions, contributing to their ability to create a unique hash value from input data.
+In software, XOR is used to [obfuscate](../security/obfuscation.md) code or data to hide its purpose or content from users or analysis tools. This can protect software from reverse engineering. XOR is a fundamental operation in many cryptographic hash functions, contributing to their ability to create a unique hash value from input data.
 
 XOR is used in some algorithms for generating pseudo-random numbers, which are important in various cryptographic applications.
