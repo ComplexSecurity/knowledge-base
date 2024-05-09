@@ -1,6 +1,6 @@
-Impacket's `smbclient` is a tool within the [[Impacket]] suite that acts similarly to Microsoft's command-line SMB client. It's used for interacting with [[Server Message Block|SMB]]/[[CIFS]] shares on Windows and other systems that support the SMB/CIFS protocol. With Impacket's `smbclient`, you can list shares, upload, download, delete files, and create or remove directories on the SMB server.
+Impacket's `smbclient` is a tool within the [Impacket]() suite that acts similarly to Microsoft's command-line SMB client. It's used for interacting with [SMB]()/[CIFS]() shares on Windows and other systems that support the SMB/CIFS protocol. With Impacket's `smbclient`, you can list shares, upload, download, delete files, and create or remove directories on the SMB server.
 
-You can enumerate shares available on the SMB server. You can also upload, download, delete files, and create or delete directories on the SMB server. Some versions allow for executing commands on the server. Finally, it supports [[NTLM]] authentication, making it useful for testing and exploiting Windows networks.
+You can enumerate shares available on the SMB server. You can also upload, download, delete files, and create or delete directories on the SMB server. Some versions allow for executing commands on the server. Finally, it supports [NTLM]() authentication, making it useful for testing and exploiting Windows networks.
 
 A basic example of how to use Impacket's `smbclient` to list shares on a remote SMB server. This example assumes you have Impacket installed and are running its scripts from the command line:
 

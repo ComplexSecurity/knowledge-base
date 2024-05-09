@@ -1,3 +1,3 @@
 tcpdump is a widely-used command-line network packet analyzer or sniffer program that captures network packets transmitted over a network and displays their contents in a detailed format. It's available on most Unix-like operating systems.
 
-It can capture all types of packets on network interfaces, including [[Transmission Control Protocol|TCP]], [[User Datagram Protocol|UDP]], [[ICMP|ICMP]], and others.
+It can capture all types of packets on network interfaces, including [TCP](), [UDP](), [ICMP](), and others.

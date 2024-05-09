@@ -1,4 +1,4 @@
-"XSS Strike" is a tool specifically designed for detecting and exploiting [[Cross-Site Scripting|XSS]] vulnerabilities in web applications.
+"XSS Strike" is a tool specifically designed for detecting and exploiting [XSS]() vulnerabilities in web applications.
 
 XSS, which stands for Cross-Site Scripting, is a common security vulnerability that allows attackers to inject malicious scripts into webpages viewed by other users. XSS Strike is used in the field of web application security, particularly in penetration testing and vulnerability assessments, to identify and demonstrate the presence of XSS vulnerabilities.
 

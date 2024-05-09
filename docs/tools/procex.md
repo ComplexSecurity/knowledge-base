@@ -1,6 +1,6 @@
-Process Explorer is a free advanced task manager and system monitoring utility for Windows, developed by [[Sysinternals Suite|Sysinternals]], which is now part of Microsoft. It provides detailed information about running processes and system performance, offering more functionality and insights than the standard Task Manager included with Windows.
+Process Explorer is a free advanced task manager and system monitoring utility for Windows, developed by [Sysinternals](), which is now part of Microsoft. It provides detailed information about running processes and system performance, offering more functionality and insights than the standard Task Manager included with Windows.
 
-Process Explorer shows comprehensive details about each process, including its parent-child hierarchy, memory usage, handles, threads, and loaded [[DLLs]]. It provides real-time information about CPU, memory, disk, and network usage, both system-wide and for individual processes.
+Process Explorer shows comprehensive details about each process, including its parent-child hierarchy, memory usage, handles, threads, and loaded [DLLs](). It provides real-time information about CPU, memory, disk, and network usage, both system-wide and for individual processes.
 
 The utility can show which user account is running each process and the executable path of the process, which is helpful in identifying unknown or suspicious processes. Users can search for specific handles or DLLs being used by processes. This is particularly useful for debugging and for identifying resource or file locks.
 

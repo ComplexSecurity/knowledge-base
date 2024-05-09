@@ -1,4 +1,4 @@
-cURL is a command line tool for transferring data to or from a server using protocols like [[HTTP Protocol|HTTP]] and [[HTTPS Protocol|HTTPS]]. It's widely used in pentesting and can be useful for debugging, testing, and automating tasks that involve the web, file transfers, and website interactions.
+cURL is a command line tool for transferring data to or from a server using protocols like [HTTP](../web/http.md) and [HTTPS](../web/https.md). It's widely used in pentesting and can be useful for debugging, testing, and automating tasks that involve the web, file transfers, and website interactions.
 
 It allows you to include sending headers, uploading/downloading files, proxy support, and user authentication.
 

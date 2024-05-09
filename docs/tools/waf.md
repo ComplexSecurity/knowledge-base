@@ -1,4 +1,4 @@
-IdentYwaf is an open-source tool designed for identifying [[Web Application Firewall (WAF)|web application firewalls (WAFs)]]. A web application firewall is a security solution that monitors and potentially blocks HTTP traffic to and from a web application to protect it from malicious attacks such as [[SQL injection]], [[cross-site scripting]] (XSS), [[Local File Inclusion|file inclusion]], and others.
+IdentYwaf is an open-source tool designed for identifying [web application firewalls (WAFs)](). A web application firewall is a security solution that monitors and potentially blocks HTTP traffic to and from a web application to protect it from malicious attacks such as [SQL injection](), [cross-site scripting]() (XSS), [file inclusion](), and others.
 
 IdentYwaf is used to identify the type of WAF or protection used by a web server. This is crucial for cybersecurity professionals and ethical hackers who need to understand the security environment they are working with, whether for penetration testing or for assessing the security of a web application.
 

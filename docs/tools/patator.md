@@ -1,6 +1,6 @@
 Patator is a versatile, multi-purpose, and extensible brute-force tool designed for performing penetration testing and security assessments. It is commonly used by security professionals and penetration testers to automate password-cracking and authentication-testing tasks. Patator supports a wide range of protocols, services, and attack methods.
 
-Patator supports a variety of network protocols and services, including [[Secure Shell|SSH]], [[File Transfer Protocol|FTP]], [[Telnet|Telnet]], [[HTTP Protocol|HTTP]], [[Remote Desktop Protocol|RDP]], [[Virtual Network Computing|VNC]], [[Internet Message Access Protocol|IMAP]], [[Server Message Block|SMB]], and more. It can perform multiple types of attacks, including [[Dictionary Attacks|dictionary attacks]], [[Brute Force Attack|brute-force attacks]], and [[Hybrid Attacks|hybrid attacks]] (combining dictionary and brute-force methods).
+Patator supports a variety of network protocols and services, including [SSH](), [FTP](), [Telnet](), [HTTP](), [RDP](), [VNC](), [IMAP](), [SMB](), and more. It can perform multiple types of attacks, including [dictionary attacks](), [brute-force attacks](), and [hybrid attacks]() (combining dictionary and brute-force methods).
 
 Patator can perform multiple login attempts simultaneously, making it efficient for password-cracking tasks. Users can customize attack parameters, such as usernames, passwords, target hosts, and ports. Patator's modular design allows for the addition of new protocols and services through external modules.
 

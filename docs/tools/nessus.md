@@ -6,7 +6,7 @@ Nessus scans for a wide range of vulnerabilities in network devices, operating s
 
 Nessus can audit systems against various compliance standards to ensure that security configurations align with best practices and regulatory requirements.
 
-When it comes to web applications, Nessus can be used to scan web apps for common vulnerabilities like [[SQL injection]], [[Cross-Site Scripting]], [[Cross-Site Request Forgery]], and other vulnerabilities.
+When it comes to web applications, Nessus can be used to scan web apps for common vulnerabilities like [SQL injection](), [Cross-Site Scripting](), [Cross-Site Request Forgery](), and other vulnerabilities.
 
 It can also check the configuration of SSL/TLS on web servers to identify issues like weak ciphers, expired certificates and other SSL/TLS related vulnerabilities.
 

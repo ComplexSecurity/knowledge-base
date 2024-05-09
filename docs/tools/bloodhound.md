@@ -1,8 +1,8 @@
-BloodHound is a powerful tool used in cybersecurity, particularly in the fields of penetration testing and red teaming. Developed to reveal the hidden and often unintended relationships within an [[Active Directory]] (AD) environment, BloodHound uses graph theory to uncover various paths an attacker could take to gain escalated privileges within an AD domain.
+BloodHound is a powerful tool used in cybersecurity, particularly in the fields of penetration testing and red teaming. Developed to reveal the hidden and often unintended relationships within an [Active Directory](../activedirectory/activedirectory.md) (AD) environment, BloodHound uses graph theory to uncover various paths an attacker could take to gain escalated privileges within an AD domain.
 
 BloodHound graphically represents the relationships and trust permissions in an AD environment, illustrating potential attack paths to high-value targets like domain administrators or critical servers.
 
-It can identify complex chains of relationships that could be exploited for [[privilege escalation]], such as which users have admin rights to which machines, and how these can be leveraged to compromise other accounts or machines. BloodHound queries AD to gather information about users, groups, and other objects, including their permissions and relationships.
+It can identify complex chains of relationships that could be exploited for [privilege escalation](../security/privesc.md), such as which users have admin rights to which machines, and how these can be leveraged to compromise other accounts or machines. BloodHound queries AD to gather information about users, groups, and other objects, including their permissions and relationships.
 
 BloodHound can pinpoint users who have more access rights than they should, helping to minimize the risk by reconfiguring these permissions. By revealing indirect relationships and unintended trust permissions, BloodHound helps organizations identify and fix security weaknesses in their AD setup.
 

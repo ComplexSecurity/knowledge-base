@@ -1,4 +1,4 @@
-TCPView is a Windows program that is part of the [[Sysinternals suite]], now owned by Microsoft. This utility provides a more informative and user-friendly view of the [[Transmission Control Protocol|TCP]] and [[User Datagram Protocol|UDP]] endpoints on your system than the standard netstat command that comes with Windows. TCPView displays a list of all active TCP and UDP endpoints, along with the details of the owning processes.
+TCPView is a Windows program that is part of the [Sysinternals suite](), now owned by Microsoft. This utility provides a more informative and user-friendly view of the [TCP]() and [UDP]() endpoints on your system than the standard netstat command that comes with Windows. TCPView displays a list of all active TCP and UDP endpoints, along with the details of the owning processes.
 
 TCPView shows both local and remote addresses and the state of TCP connections. For each endpoint, it displays the full name of the process that opened the port. The utility updates the list of TCP and UDP endpoints in real-time, making it easier to monitor network activity as it happens.
 

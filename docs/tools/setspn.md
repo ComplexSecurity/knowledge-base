@@ -1,4 +1,4 @@
-`SetSPN` is a command-line tool provided by Microsoft that is used to manage [[Service Principal Names (SPN)]] for Windows services in an [[Active Directory]] environment. SPNs are used in [[Kerberos authentication]] to uniquely identify a service instance on a network. The `SetSPN` tool allows administrators to view, modify, and delete SPNs associated with Active Directory service accounts.
+`SetSPN` is a command-line tool provided by Microsoft that is used to manage [Service Principal Names (SPN)]() for Windows services in an [Active Directory]() environment. SPNs are used in [Kerberos authentication]() to uniquely identify a service instance on a network. The `SetSPN` tool allows administrators to view, modify, and delete SPNs associated with Active Directory service accounts.
 
 `SetSPN` can list the SPNs registered to a specific service account in Active Directory. This is important for ensuring that services are correctly configured for Kerberos authentication. Administrators use `SetSPN` to add new SPNs to a service account. This is necessary when new services are deployed or when services are changed.
 

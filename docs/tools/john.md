@@ -1,4 +1,4 @@
-John the Ripper is a widely used open-source [[password cracking]] tool. It's designed to detect weak passwords by trying to crack hashed passwords recovered from a system's shadow file or obtained from other sources. John the Ripper uses a variety of techniques, including [[Brute Force Attack|brute force]] and [[dictionary attacks]], to guess passwords.
+John the Ripper is a widely used open-source [password cracking](../security/crack.md) tool. It's designed to detect weak passwords by trying to crack hashed passwords recovered from a system's shadow file or obtained from other sources. John the Ripper uses a variety of techniques, including [brute force](../security/brute.md) and [dictionary attacks](../security/dict.md), to guess passwords.
 
 It typically operates on password hashes. When you enter a password into a system, that password is usually not stored directly; instead, it's processed through a cryptographic hash function, and the resulting hash is stored. John the Ripper first tries a dictionary attack, where it runs through a list of common passwords (from a wordlist) and their precomputed hash values.
 

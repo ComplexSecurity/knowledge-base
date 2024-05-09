@@ -1,4 +1,4 @@
-"Username Anarchy" is a tool designed for generating username lists for use in penetration testing, particularly in situations where usernames need to be guessed, such as during [[Brute Force Attack|brute-force]] login attempts. The tool generates usernames based on a set of rules and patterns that mimic common username conventions in various organizations and systems.
+"Username Anarchy" is a tool designed for generating username lists for use in penetration testing, particularly in situations where usernames need to be guessed, such as during [brute-force](../security/brute.md) login attempts. The tool generates usernames based on a set of rules and patterns that mimic common username conventions in various organizations and systems.
 
 Given a list of full names, Username Anarchy can generate potential usernames by applying common username schemas, like using the first letter of the first name combined with the last name (e.g., `jdoe` for John Doe). It can create variations by including initials, numbers, or common separators (like dots or underscores).
 

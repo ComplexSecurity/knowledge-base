@@ -1,4 +1,4 @@
-Windows PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language built on the [[DotNet Framework|.NET Framework]]. PowerShell extends the capabilities of the traditional [[Windows Command Line (CMD)|Command Prompt]] and provides a more powerful and flexible toolset for managing and automating Windows systems.
+Windows PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language built on the [.NET Framework](). PowerShell extends the capabilities of the traditional [Command Prompt]() and provides a more powerful and flexible toolset for managing and automating Windows systems.
 
 Unlike the traditional batch scripts of Command Prompt, PowerShell uses a more advanced scripting language that is object-based, not text-based. This allows for more complex and powerful scripts.
 

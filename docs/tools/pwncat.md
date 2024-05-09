@@ -1,4 +1,4 @@
-pwncat is a [[Command and Control (C2)|command and control]] framework which turns a basic [[reverse shell]] or [[bind shell]] into a fully-featured exploitation platform. After initial connection, the framework will probe the remote system to identify useful binaries natively available on the target system. It will then attempt to start a pseudoterminal on the remote host and provide you with raw terminal access.
+pwncat is a [command and control]() framework which turns a basic [reverse shell]() or [bind shell]() into a fully-featured exploitation platform. After initial connection, the framework will probe the remote system to identify useful binaries natively available on the target system. It will then attempt to start a pseudoterminal on the remote host and provide you with raw terminal access.
 
 On top of raw terminal access, pwncat can programmatically interact with the remote host alongside your terminal access. pwncat provides you with a local shell interface which can utilize your connection for enumeration, file upload/download, automatic persistence installation and even automated privilege escalation.
 

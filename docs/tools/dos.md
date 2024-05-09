@@ -1,4 +1,4 @@
-Invoke-DOSfuscation is a [[Windows PowerShell|PowerShell]] v2.0+ compatible framework designed for cmd.exe command obfuscation. It is intended to counter attackers who use obfuscation techniques to evade detection systems that rely heavily on command line argument values.
+Invoke-DOSfuscation is a [PowerShell](../tools/ps.md) v2.0+ compatible framework designed for cmd.exe command obfuscation. It is intended to counter attackers who use obfuscation techniques to evade detection systems that rely heavily on command line argument values.
 
 The framework enables defenders to generate thousands of uniquely obfuscated sample commands to test and improve their detection capabilities against such techniques.
 

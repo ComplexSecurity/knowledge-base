@@ -1,4 +1,4 @@
-The "between" tamper script in [[SQLmap]] is a part of SQLmap's suite of tamper scripts, which are used to modify SQL queries in order to bypass [[Web Application Firewall (WAF)|web application firewalls (WAFs)]] or other security measures that might block malicious [[SQL injection]].
+The "between" tamper script in [SQLmap](../tools/sqlmap.md) is a part of SQLmap's suite of tamper scripts, which are used to modify SQL queries in order to bypass [web application firewalls (WAFs)](../security/waf.md) or other security measures that might block malicious [SQL injection](../security/sqli.md).
 
 The "between" tamper script modifies the numeric payloads by changing the comparison operator in the SQL query. Instead of a direct comparison (like `id = 1`), it uses the `BETWEEN` operator to make the condition true. 
 

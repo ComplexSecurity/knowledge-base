@@ -6,4 +6,4 @@ The Command Line uses specific syntax for commands. Common commands include `dir
 
 Users can write batch files (.bat or .cmd files), which are scripts of multiple commands that run sequentially. Batch files are used for automating repetitive tasks. The Command Line is a powerful tool for system administration. It provides commands for managing system resources, configuring network settings, performing diagnostics, and troubleshooting.
 
-In addition to the traditional Command Prompt, Windows also offers [[Windows PowerShell|PowerShell]], a more powerful command-line shell and scripting language. PowerShell extends the capabilities of the Command Line with more complex operations and scripting.
+In addition to the traditional Command Prompt, Windows also offers [PowerShell](../tools/ps.md), a more powerful command-line shell and scripting language. PowerShell extends the capabilities of the Command Line with more complex operations and scripting.

@@ -1,4 +1,4 @@
-Aircrack-ng is a network software suite consisting of a detector, packet sniffer, [[Wired Equivalent Privacy (WEP)|WEP]] and [[WPA (Wi-Fi Protected Access)|WPA]]/[[WPA2]]-PSK cracker, and analysis tool for 802.11 [[Wireless LANs (WLANs)|wireless LANs]]. It works with any wireless network interface controller whose driver supports raw monitoring mode and can sniff 802.11a, 802.11b, and 802.11g traffic.
+Aircrack-ng is a network software suite consisting of a detector, packet sniffer, [WEP](../protocols/wep.md) and [WPA](../protocols/wpa.md)/[WPA2](../protocols/wpa2.md)-PSK cracker, and analysis tool for 802.11 [wireless LANs](). It works with any wireless network interface controller whose driver supports raw monitoring mode and can sniff 802.11a, 802.11b, and 802.11g traffic.
 
 The primary use of Aircrack-ng is to crack WEP and WPA/WPA2-PSK keys. It implements standard FMS attacks along with some optimizations like KoreK attacks, as well as the PTW attack to make its attacks more potent.
 

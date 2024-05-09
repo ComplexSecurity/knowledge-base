@@ -1,4 +1,4 @@
-Impacket's `GetADUsers` is a script from the [[Impacket]] suite, a collection of [[Python]] classes for working with network protocols. `GetADUsers` is designed to interact with [[Active Directory]] (AD) environments. It enables the enumeration of user accounts and their attributes from a [[Domain Controller]].
+Impacket's `GetADUsers` is a script from the [Impacket](../tools/impacket.md) suite, a collection of [Python](../programming/python.md) classes for working with network protocols. `GetADUsers` is designed to interact with [Active Directory](../activedirectory/activedirectory.md) (AD) environments. It enables the enumeration of user accounts and their attributes from a [Domain Controller](../activedirectory/dc.md).
 
 `GetADUsers` can enumerate user accounts in an Active Directory domain, gathering information about each account. The script can retrieve various attributes for each user account, such as the username, description, last logon time, password last set time, and whether the user is required to change their password at the next logon.
 

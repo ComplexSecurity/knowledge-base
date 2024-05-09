@@ -1,4 +1,4 @@
-Ffuf is a fuzzer written in the Go programming language. It is an open source [[Web Fuzzing]] tool, intended for discovering elements and content within web applications, or web servers. 
+Ffuf is a fuzzer written in the Go programming language. It is an open source [Web Fuzzing](../web/fuzzing.md) tool, intended for discovering elements and content within web applications, or web servers. 
 
 Often when you visit a website you will be presented with the content that the owner of the website wants to serve you with, this could be hosted at a page such as index.php. 
 

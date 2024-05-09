@@ -6,4 +6,4 @@ In the context of a web penetration test (pentest) or passive infrastructure ide
 
 It can be used to review historical versions of a target organization's website, allowing them to identify past configurations, content, design changes, and any potential security issues that may have existed in the past.
 
-It also may reveal [[subdomains]] associated with the target that are no longer visible on the main site. It may also provide information about the tech and [[Web Development Frameworks|web frameworks]] used by the target site at different points in time.
+It also may reveal [subdomains]() associated with the target that are no longer visible on the main site. It may also provide information about the tech and [web frameworks]() used by the target site at different points in time.

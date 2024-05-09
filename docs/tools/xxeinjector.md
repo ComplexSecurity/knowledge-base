@@ -1,4 +1,4 @@
-XXEInjector is a tool designed for penetration testers and security researchers to exploit [[XML External Entities (XXE)|XML External Entity (XXE)]] vulnerabilities in web applications. XXE vulnerabilities occur when an [[Extensible Markup Language|XML]] parser processes XML input containing a reference to an external entity, leading to unauthorized access to server data, [[Denial of Service (DoS) Attacks|denial of service]], or [[server-side request forgery]].
+XXEInjector is a tool designed for penetration testers and security researchers to exploit [XML External Entity (XXE)]() vulnerabilities in web applications. XXE vulnerabilities occur when an [XML]() parser processes XML input containing a reference to an external entity, leading to unauthorized access to server data, [denial of service](), or [server-side request forgery]().
 
 XXEInjector automates the process of exploiting XXE vulnerabilities. It can be used to test whether a web application is vulnerable to XXE attacks and to what extent. The tool supports different types of XXE attacks, including retrieving files, performing SSRF (Server-Side Request Forgery) attacks, listing directories, and more.
 
