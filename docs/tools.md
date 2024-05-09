@@ -1,5 +1,5 @@
 # Tools
 
-For information about various protocols including things like SSH, FTP, IMAP, SMB and many more.
+For information about various tools used in cyber security including common tools like Burp Suite, Nmap, Gobuster, and Aircrack-ng.
 
 <img src="../assets/images/hackcat.gif" width="800">
