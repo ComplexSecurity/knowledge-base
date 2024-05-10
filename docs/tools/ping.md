@@ -1,6 +1,6 @@
-The "ping" command is a widely used network administration utility that tests the reachability of a host on an [Internet Protocol (IP)]() network. It also measures the round-trip time for messages sent from the originating host to a destination computer and back.
+The "ping" command is a widely used network administration utility that tests the reachability of a host on an [Internet Protocol (IP)](../protocols/ip.md) network. It also measures the round-trip time for messages sent from the originating host to a destination computer and back.
 
-The ping command sends [Internet Control Message Protocol (ICMP)]() echo request packets to the target host and listens for ICMP echo response replies. This process helps determine whether the target host is reachable across an IP network.
+The ping command sends [Internet Control Message Protocol (ICMP)](../networking/icmp.md) echo request packets to the target host and listens for ICMP echo response replies. This process helps determine whether the target host is reachable across an IP network.
 
 Ping measures the time it takes for a packet to go from the source to the destination and back. This measurement is typically presented in milliseconds and is a key indicator of the latency or delay between the two hosts.
 
@@ -10,12 +10,12 @@ Ping reports errors and packet loss. If packets are lost or an error occurs (lik
 
 While primarily a diagnostic tool, ping can also give a basic sense of network performance. High response times indicate potential problems with the network speed or stability.
 
-Some systems and networks block ICMP traffic (hence, the ping command) for security reasons, as ICMP can be used for malicious purposes like network reconnaissance and [Denial-of-Service (DoS)]() attacks.
+Some systems and networks block ICMP traffic (hence, the ping command) for security reasons, as ICMP can be used for malicious purposes like network reconnaissance and [Denial-of-Service (DoS)](../security/dos.md) attacks.
 
 Ping does not give detailed information about the nature of network issues; it only indicates whether a host is reachable.
 
 !!! danger
-    If a ping command does not receive a response, it does not necessarily mean that the host or the entire network is down. [Firewall](), network policies, or the host configuration might be set to ignore or block ICMP requests.
+    If a ping command does not receive a response, it does not necessarily mean that the host or the entire network is down. [Firewall](../security/firewall.md), network policies, or the host configuration might be set to ignore or block ICMP requests.
 
 Hackers and pentesters use ping to identify which hosts on a network are online. By sending ICMP echo requests to different IPs on a network, they can map out which addresses are active. The response times and patterns can give insights into the network's topology and efficiency.
 

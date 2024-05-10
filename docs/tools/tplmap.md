@@ -1,6 +1,6 @@
-Tplmap is a penetration testing tool designed for automating the identification and exploitation of [Server-Side Template Injection (SSTI)]() vulnerabilities in web applications. SSTI vulnerabilities occur when user input is directly embedded into server-side templates without proper validation or sanitization, allowing attackers to inject and execute arbitrary code on the server.
+Tplmap is a penetration testing tool designed for automating the identification and exploitation of [Server-Side Template Injection (SSTI)](../security/ssti.md) vulnerabilities in web applications. SSTI vulnerabilities occur when user input is directly embedded into server-side templates without proper validation or sanitization, allowing attackers to inject and execute arbitrary code on the server.
 
-Tplmap is designed to be template engine agnostic, meaning it can identify and exploit SSTI vulnerabilities in various template engines used by web applications. It supports popular template engines such as [Jinja2](), [Mako](), [Smarty](), and more.
+Tplmap is designed to be template engine agnostic, meaning it can identify and exploit SSTI vulnerabilities in various template engines used by web applications. It supports popular template engines such as [Jinja2](../web/jinja2.md), [Mako](../web/mako.md), [Smarty](../web/smarty.md), and more.
 
 The tool automates the process of detecting SSTI vulnerabilities by analyzing how user-supplied input is processed within the server-side templates. It aims to identify injection points where payloads can be injected for exploitation. 
 

@@ -2,7 +2,7 @@
 
 `rsync` only transfers the changes or differences within files, rather than copying entire files. This differential transfer reduces the amount of data sent over the network, making it very efficient, especially for updating large files with small changes. It can be used to copy files both locally (on the same machine) and remotely (between different machines over a network).
 
-`rsync` compresses data during transfer and can be used with [SSH]() for secure, encrypted data transfers. It can preserve various file attributes during transfer, such as timestamps, ownership, and permissions. The utility can delete files in the destination directory that are no longer present in the source directory, useful for maintaining exact mirrors.
+`rsync` compresses data during transfer and can be used with [SSH](../protocols/ssh.md) for secure, encrypted data transfers. It can preserve various file attributes during transfer, such as timestamps, ownership, and permissions. The utility can delete files in the destination directory that are no longer present in the source directory, useful for maintaining exact mirrors.
 
 `rsync` is commonly used for performing backups by copying files to external drives, network shares, or remote servers. It can mirror data from one server to another, ensuring that both locations have identical sets of files. For copying large sets of files or updating large files that have small changes.
 

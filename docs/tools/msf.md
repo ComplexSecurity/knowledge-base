@@ -4,7 +4,7 @@ Metasploit simplifies the process of writing new exploits, payloads, and other c
 
 Components of Metasploit:
 - **Exploits**: Code that takes advantage of a security flaw in a software application.
-- **Payloads**: Code that runs after an exploit successfully compromises a system. This can include things like [reverse shells]() or code to gather system information.
+- **Payloads**: Code that runs after an exploit successfully compromises a system. This can include things like [reverse shells](../security/revshell.md) or code to gather system information.
 - **Auxiliary Functions**: Additional tools and utilities, such as scanners, fuzzers, and other modules that can be used for tasks like reconnaissance and service identification.
 - **Encoders and Nops**: Used to obfuscate payloads and maintain payload sizes, respectively.
 

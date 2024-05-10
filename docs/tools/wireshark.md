@@ -1,4 +1,4 @@
-Wireshark is a network protocol analyzer, or an application that captures [packets]() from a network connection, such as from your computer to your home office or the internet.
+Wireshark is a network protocol analyzer, or an application that captures [packets](../networking/packet.md) from a network connection, such as from your computer to your home office or the internet.
 
 Wireshark has many uses, including troubleshooting networks that have performance issues. Cybersecurity professionals often use Wireshark to trace connections, view the contents of suspect network transactions and identify bursts of network traffic.
 

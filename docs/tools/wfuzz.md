@@ -1,8 +1,8 @@
-Wfuzz is a flexible tool for [brute forcing]() internet resources. It's widely used in penetration testing and ethical hacking to discover hidden resources on web servers. Unlike many other tools, Wfuzz is known for its versatility and ability to be tailored for different tasks.
+Wfuzz is a flexible tool for [brute forcing](../security/brute.md) internet resources. It's widely used in penetration testing and ethical hacking to discover hidden resources on web servers. Unlike many other tools, Wfuzz is known for its versatility and ability to be tailored for different tasks.
 
-Wfuzz can be used to brute force various web elements, including [URLs](), parameters, forms, [headers](), and [cookies](). It also allows for the injection of payloads at multiple points, making it possible to test input vectors in GET and POST requests, cookies, headers, file uploads, and more.
+Wfuzz can be used to brute force various web elements, including [URLs](../web/url.md), parameters, forms, [headers](../web/headers.md), and [cookies](../web/cookies.md). It also allows for the injection of payloads at multiple points, making it possible to test input vectors in GET and POST requests, cookies, headers, file uploads, and more.
 
-Wfuzz allows testers to identify resources based on the server's response (like [HTTP response codes](), response length, or response time). This makes it easier to identify valid resources even when there's no clear indication in the server's response text.
+Wfuzz allows testers to identify resources based on the server's response (like [HTTP response codes](../web/respcodes.md), response length, or response time). This makes it easier to identify valid resources even when there's no clear indication in the server's response text.
 
 A simple example may be:
 

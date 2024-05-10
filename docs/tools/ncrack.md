@@ -1,10 +1,10 @@
-Ncrack is a high-speed network authentication cracking tool. It is designed to efficiently guess passwords or perform [brute-force]() and [dictionary attacks]() against various network protocols and services. Ncrack is particularly useful for testing the security of networked systems by identifying weak or easily guessable passwords.
+Ncrack is a high-speed network authentication cracking tool. It is designed to efficiently guess passwords or perform [brute-force](../security/brute.md) and [dictionary attacks](../security/dict.md) against various network protocols and services. Ncrack is particularly useful for testing the security of networked systems by identifying weak or easily guessable passwords.
 
-Ncrack supports a wide range of network protocols and services, including [SSH](), [RDP (Remote Desktop Protocol)](), [FTP](), [Telnet](), [HTTP(S)](), [VNC](), [SNMP](), and more. Ncrack is highly parallelized, allowing it to make multiple connection attempts simultaneously. This speed and efficiency make it effective for large-scale password-cracking tasks.
+Ncrack supports a wide range of network protocols and services, including [SSH](../protocols/ssh.md), [RDP (Remote Desktop Protocol)](../protocols/rdp.md), [FTP](../protocols/ftp.md), [Telnet](../protocols/telnet.md), [HTTP(S)](../web/http.md), [VNC](../protocols/vnc.md), [SNMP](../protocols/snmp.md), and more. Ncrack is highly parallelized, allowing it to make multiple connection attempts simultaneously. This speed and efficiency make it effective for large-scale password-cracking tasks.
 
 Ncrack can also be used to perform user enumeration attacks, where it attempts to identify valid usernames on a target system before launching a password-cracking attack. Ncrack supports both dictionary-based attacks (using a list of known passwords) and brute-force attacks (trying every possible combination).
 
-It can target authentication methods like password-based, public key, and keyboard-interactive authentication. Ncrack can be integrated with other security assessment tools and frameworks, such as [Nmap]() and [Metasploit](), to enhance network penetration testing.
+It can target authentication methods like password-based, public key, and keyboard-interactive authentication. Ncrack can be integrated with other security assessment tools and frameworks, such as [Nmap](../tools/nmap.md) and [Metasploit](../tools/msf.md), to enhance network penetration testing.
 
 An example may be:
 

@@ -4,7 +4,7 @@ Netcraft also provides services related to anti-phishing, anti-malware, and inte
 
 In the context of passive infrastructure identification, Netcraft's services and tools can be used to gather information about internet infrastructure, websites, hosting providers, and the technologies used on the web.
 
-Netcraft maintains a database of web server software and versions in use on the Internet. By querying it, you can identify the web server software (e.g. [Apache](), [Nginx](), [Microsoft IIS]()) running on a website.
+Netcraft maintains a database of web server software and versions in use on the Internet. By querying it, you can identify the web server software (e.g. [Apache](../web/apache.md), [Nginx](../web/nginx.md), [Microsoft IIS](../web/iis.md)) running on a website.
 
-It can also identify the hosting provider or data centre where a website is hosted. Netcraft provides tools to analyze [[SSL certificates]] used by websites which can help identify CAs, certificate expiration dates and whether a website uses secure encryption protocols.
+It can also identify the hosting provider or data centre where a website is hosted. Netcraft provides tools to analyze [SSL certificates](../web/sslcerts.md) used by websites which can help identify CAs, certificate expiration dates and whether a website uses secure encryption protocols.
 

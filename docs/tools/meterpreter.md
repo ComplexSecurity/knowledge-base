@@ -1,4 +1,4 @@
-Meterpreter is a highly advanced, dynamic, and extensible payload used within the [Metasploit Framework](), a popular tool for penetration testing and exploit development. Meterpreter operates as an in-memory-only payload, providing extensive control over a compromised system without needing to write any data to the disk. 
+Meterpreter is a highly advanced, dynamic, and extensible payload used within the [Metasploit Framework](../tools/msf.md), a popular tool for penetration testing and exploit development. Meterpreter operates as an in-memory-only payload, providing extensive control over a compromised system without needing to write any data to the disk. 
 
 This makes it stealthier compared to traditional payloads.
 
@@ -10,7 +10,7 @@ Once a Meterpreter session is established (typically after exploiting a vulnerab
 
 Meterpreter provides a wide range of features, including file system manipulation, capturing screenshots and keystrokes, pivoting to other networks, port forwarding, and recording audio and video.
 
-Its ability to operate in-memory, coupled with features like [SSL/TLS]() encrypted communications, helps in evading detection by security defenses.
+Its ability to operate in-memory, coupled with features like [SSL/TLS](../cryptography/ssltls.md) encrypted communications, helps in evading detection by security defenses.
 
 Meterpreter excels in post-exploitation, allowing testers to explore and exploit a compromised system's environment further. This includes privilege escalation, dumping system information, and accessing the system's registry.
 

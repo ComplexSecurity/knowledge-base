@@ -1,4 +1,4 @@
-Proxychains is a tool used in Unix-like systems to redirect the network traffic of applications through proxy servers. It allows users to mask their actual [IP address]() and route their internet traffic through one or several [proxy]() servers. 
+Proxychains is a tool used in Unix-like systems to redirect the network traffic of applications through proxy servers. It allows users to mask their actual [IP address](../networking/ipa.md) and route their internet traffic through one or several [proxy](../terms/proxy.md) servers. 
 
 This tool is commonly used in penetration testing (pentesting) for various purposes.
 
